@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Quiz</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#6C63FF">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Page Title -->
+    <h1 id="page-title">Target Vocabulary</h1>
+
+    <!-- Mute Button -->
+    <button id="mute-toggle" style="position: fixed; top: 20px; right: 20px; background: none; border: none; cursor: pointer;">
+        <img src="mute.png" alt="Mute" class="icon-btn" id="mute-icon">
+    </button>
+    
+
+    <button id="home-button" onclick="returnToSubjects()" style="position: fixed; top: 20px; left: 20px; background: none; border: none; cursor: pointer;">
+        <img src="home.png" alt="Home" class="icon-btn">
+    </button>
+    
+
+    <!-- Subject Select -->
+    <div id="subject-select">
+        <button class="subject-button" onclick="loadSubject('ngsl')">NGSL</button>
+        <button class="subject-button" onclick="loadSubject('essential')">Essential</button>
+        <button class="subject-button" onclick="loadSubject('destination')">Destination</button>
+    </div>
+
+    <div id="mode-select" style="display: none; margin-top: 20px; text-align: center;">
+        <h2>Select Quiz Type</h2>
+        <button class="mode-button" data-mode="multiple" onclick="chooseMode('multiple')">Multiple Choice</button>
+        <button class="mode-button" data-mode="matching" onclick="chooseMode('matching')">Matching</button>
+    </div>
+    
+    <div id="level-select" style="display: none; margin-top: 20px; text-align: center;">
+        <h2 id="level-title">Choose a Level</h2>
+        <div id="levels"></div>
+        
+    </div>
+    
+    <!-- MULTIPLE CHOICE QUIZ -->
+    <div id="quiz" style="display: none;">
+        <div id="timer-container">
+            <div id="timer-bar"></div>
+        </div>
+        <div id="question-container">
+            <div id="question-number"></div>
+            <div id="question-text"></div>
+        </div>
+        <div id="options"></div>
+    </div>
+
+    <!-- MATCHING QUIZ -->
+    <div id="matching-quiz" style="display: none;">
+        <div id="slider-container">
+            <div id="slider-track">
+                <!-- JS will dynamically insert .set-group here -->
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div id="nav-buttons" style="margin-top: 20px; text-align: center;">
+            <button id="prev-btn" onclick="prevSet()">⬅️ Previous</button>
+            <button id="next-btn" onclick="nextSet()">Next ➡️</button>
+            <button id="submit-matching" onclick="submitMatching()" style="display: none;">✅ Submit</button>
+        </div>
+        
+    </div>
+
+    <!-- Result Container -->
+    <div id="result"></div>
+
+    <!-- Sound Effects -->
+    <audio id="correct-sound" src="correct.mp3"></audio>
+    <audio id="wrong-sound" src="wrong.mp3"></audio>
+    <audio id="tick-sound" src="tick.mp3" loop></audio>
+    <audio id="levelup-sound" src="levelup.mp3"></audio>
+
+    <!-- Theme Toggle -->
+    <div id="theme-toggle" class="toggle-switch">
+        <div class="toggle-thumb"></div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="script.js"></script>
+
+</body>
+</html>
