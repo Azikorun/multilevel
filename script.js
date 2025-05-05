@@ -423,13 +423,24 @@ function handleDrop(e, slot) {
     const data = e.dataTransfer.getData("text");
     const fromSlot = e.dataTransfer.getData("from-slot");
 
-    // If coming from another slot: clear previous slot
+    // ✅ 1. If the slot already has an answer, put it back to the pool
+    const existingAnswer = slot.innerText.trim();
+    if (existingAnswer !== '' && existingAnswer !== data) {
+        const answersRow = slot.closest('.set-group').querySelector('.answers-row');
+        const draggable = document.createElement('div');
+        draggable.className = 'match-draggable';
+        draggable.draggable = true;
+        draggable.innerText = existingAnswer;
+        draggable.ondragstart = (e) => {
+            e.dataTransfer.setData("text", existingAnswer);
+        };
+        answersRow.appendChild(draggable);
+    }
+
     if (fromSlot !== '') {
         const prevSlot = document.querySelector(`.answer-slot[data-index='${fromSlot}']`);
         if (prevSlot) prevSlot.innerText = '';
     }
-
-    // If coming from the pool: remove from pool
     if (!fromSlot) {
         const poolAnswers = document.querySelectorAll('.match-draggable');
         poolAnswers.forEach(answer => {
@@ -438,9 +449,9 @@ function handleDrop(e, slot) {
             }
         });
     }
-
     slot.innerText = data;
 }
+
 
 function submitMatching() {
     const slots = document.querySelectorAll('.answer-slot');
