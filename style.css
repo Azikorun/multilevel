@@ -196,41 +196,32 @@ h1, h2 {
 
 #slider-container {
     width: 100%;
-    max-width: 800px;
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
-}
-
-#slider-track {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  #slider-track {
     display: flex;
-    transition: transform 0.4s ease-in-out;
-    will-change: transform;
-}
-
-.set-group {
-    flex: 0 0 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    box-sizing: border-box;
     width: 100%;
-    border: 1px solid #ccc;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: #fafafa;
-    margin-bottom: 30px;
-}
-
+    transition: transform 0.5s ease;
+  }
+  
+  .set-group {
+    min-width: 100%;
+    scroll-snap-align: start;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
 .match-row {
     display: flex;
-    justify-content: center;  /* ✅ center the row horizontally */
+    flex-wrap: wrap; 
+    justify-content: center;  
     width: 100%;
     max-width: 700px;
     gap: 15px; 
-    margin: 0 auto 25px auto; /* ✅ center the row vertically */
+    margin: 0 auto 25px auto; 
 }
 
 .answers-row {
@@ -241,10 +232,13 @@ h1, h2 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    padding: 0 10px;
 }
 
 .question-box {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
+    min-width: 150px;
     min-height: 50px;
     padding: 20px;
     border: 2px solid #ccc;
@@ -268,7 +262,9 @@ h1, h2 {
 }
 
 .answer-slot {
-    width: 180px;
+    width: 100%;
+    max-width: 180px;
+    min-width: 120px;
     min-height: 60px;
     padding: 10px;
     border: 2px dashed #999;
