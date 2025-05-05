@@ -295,10 +295,7 @@ function showMatchingQuizSets() {
         setWrapper.className = 'set-group';
         setWrapper.dataset.setIndex = setIndex;
 
-        const setTitle = document.createElement('h3');
-        setTitle.innerText = `Set ${setIndex + 1}`;
-        setWrapper.appendChild(setTitle);
-
+        
         const setQuestions = questionsList.slice(
             setIndex * questionsPerSet,
             (setIndex + 1) * questionsPerSet
@@ -320,7 +317,8 @@ function showMatchingQuizSets() {
             answerSlot.className = 'answer-slot';
             answerSlot.dataset.correct = q.RightAnswer;
             answerSlot.dataset.index = (setIndex * questionsPerSet) + i;
-
+            
+            
             // Accept drop
             answerSlot.ondragover = (e) => {
                 e.preventDefault();
@@ -345,6 +343,9 @@ function showMatchingQuizSets() {
             row.appendChild(answerSlot);
             setWrapper.appendChild(row);
         });
+        const setTitle = document.createElement('h3');
+        setTitle.innerText = `Set ${setIndex + 1}`;
+        setWrapper.appendChild(setTitle);
 
         // Create the answer pool for this set
         const answersRow = document.createElement('div');
@@ -363,6 +364,7 @@ function showMatchingQuizSets() {
 
         setWrapper.appendChild(answersRow);
         qCol.appendChild(setWrapper);
+        
     }
 
     // Show the first slide
@@ -437,10 +439,13 @@ function handleDrop(e, slot) {
         answersRow.appendChild(draggable);
     }
 
+    // ✅ 2. If coming from another slot: clear previous slot
     if (fromSlot !== '') {
         const prevSlot = document.querySelector(`.answer-slot[data-index='${fromSlot}']`);
         if (prevSlot) prevSlot.innerText = '';
     }
+
+    // ✅ 3. If coming from the pool: remove from pool
     if (!fromSlot) {
         const poolAnswers = document.querySelectorAll('.match-draggable');
         poolAnswers.forEach(answer => {
@@ -449,9 +454,10 @@ function handleDrop(e, slot) {
             }
         });
     }
+
+    // ✅ 4. Drop the new data into this slot
     slot.innerText = data;
 }
-
 
 function submitMatching() {
     const slots = document.querySelectorAll('.answer-slot');
