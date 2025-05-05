@@ -196,9 +196,7 @@ h1, h2 {
 
 #slider-container {
     width: 100%;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
+    overflow: hidden;  /* 🚨 disable native scrolling */
 }
 
 #slider-container::-webkit-scrollbar {
@@ -217,9 +215,9 @@ h1, h2 {
 }
 
 .set-group {
-    min-width: 95%;
+    min-width: 100%;
     scroll-snap-align: start;
-    padding: 10px 10px 10px 10px; /* LESS top, MORE bottom */
+    padding: 10px; 
     box-sizing: border-box;
 }
 
@@ -330,6 +328,14 @@ h1, h2 {
 
 .match-draggable:active {
     cursor: grabbing;
+}
+.set-group h3 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #555;
+    text-align: center;   /* ✅ centers the text */
+    width: 100%;          /* optional: ensures full width */
 }
 
 /* ================================
