@@ -21,6 +21,7 @@ h1, h2 {
     margin-bottom: 20px;
     text-shadow: none;
 }
+
 #mute-toggle,
 #home-button {
     z-index: 999;
@@ -584,8 +585,8 @@ body.dark-mode #timer-bar {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 60px;
-    height: 30px;
+    width: 50px;
+    height: 20px;
     background-color: #ccc;
     border-radius: 30px;
     cursor: pointer;
