@@ -160,9 +160,9 @@ function showQuestion() {
     const optionsDiv = document.getElementById('options');
     optionsDiv.innerHTML = '';
 
-    // Always 5 options: 1 right + 4 wrong
     let wrongs = shuffleArray(q.options).slice(0, 4);
-    let options = [...wrongs, q.RightAnswer].sort(() => Math.random() - 0.5);
+    let allOptions = [...wrongs, q.RightAnswer];
+    let options = shuffleArray(allOptions);
 
     options.forEach(option => {
         const btn = document.createElement('button');
@@ -295,7 +295,10 @@ function showMatchingQuizSets() {
         setWrapper.className = 'set-group';
         setWrapper.dataset.setIndex = setIndex;
 
-        
+        const setTitle = document.createElement('h3');
+        setTitle.innerText = `Set ${setIndex + 1}`;
+        setWrapper.appendChild(setTitle);
+
         const setQuestions = questionsList.slice(
             setIndex * questionsPerSet,
             (setIndex + 1) * questionsPerSet
@@ -343,16 +346,13 @@ function showMatchingQuizSets() {
             row.appendChild(answerSlot);
             setWrapper.appendChild(row);
         });
-        const setTitle = document.createElement('h3');
-        setTitle.innerText = `Set ${setIndex + 1}`;
-        setWrapper.appendChild(setTitle);
-
+        
         // Create the answer pool for this set
         const answersRow = document.createElement('div');
         answersRow.className = 'answers-row';
-        const answers = setQuestions.map(q => q.RightAnswer);
-        shuffleArray(answers).forEach((a) => {
-            const draggable = document.createElement('div');
+        const answers = shuffleArray(setQuestions.map(q => q.RightAnswer));
+        answers.forEach((a) => {
+        const draggable = document.createElement('div');
             draggable.className = 'match-draggable';
             draggable.draggable = true;
             draggable.innerText = a;
@@ -488,11 +488,11 @@ function submitMatching() {
         <button id="return-button" onclick="returnToLevels()">
             <img src="menu.png" alt="Level" class="icon-btn">
         </button>
-        <button id="retry-button" onclick="retryLevel()">
+                <button id="retry-button" onclick="startLevel('${currentLevel}')">
             <img src="retry.png" alt="Retry" class="icon-btn">
         </button>
         ${percentage >= 90 ? `
-            <button id="next-button" onclick="goToNextLevel()">
+            <button id="next-button" onclick="startLevel('${getNextLevelName()}')">
                 <img src="next.png" alt="Next" class="icon-btn">
             </button>` : ''}
     </div>
@@ -515,8 +515,14 @@ function unlockNextLevel() {
 }
 
 function shuffleArray(array) {
-    return array.sort(() => Math.random() - 0.5);
+    let arr = array.slice();  // make a copy
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
 }
+
 
 function returnToLevels() {
     document.getElementById('result').style.display = 'none';
