@@ -21,6 +21,10 @@ h1, h2 {
     margin-bottom: 20px;
     text-shadow: none;
 }
+#mute-toggle,
+#home-button {
+    z-index: 999;
+}
 
 /* ================================
    LEVEL SELECT SCREEN
