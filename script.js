@@ -108,6 +108,7 @@ function returnToSubjects() {
     document.getElementById('level-select').style.display = 'none';
     document.getElementById('quiz').style.display = 'none';
     document.getElementById('matching-quiz').style.display = 'none';
+    document.getElementById('typing-quiz').style.display = 'none';
     document.getElementById('result').style.display = 'none';
     document.getElementById('nav-buttons').style.display = 'none';
 
@@ -139,6 +140,9 @@ function startLevel(levelName) {
         score = 0;
         currentSetIndex = 0;
         showMatchingQuizSets();
+    } else if (quizMode === 'typing') {
+        score = 0;
+        showTypingQuiz();
     }
 }
 
@@ -542,6 +546,7 @@ function submitMatching() {
     }
 }
 
+
 /* ============================
    UTILITIES
 ============================ */
@@ -565,6 +570,7 @@ function returnToLevels() {
     document.getElementById('result').style.display = 'none';
     document.getElementById('quiz').style.display = 'none';
     document.getElementById('matching-quiz').style.display = 'none';
+    document.getElementById('typing-quiz').style.display = 'none';
     document.getElementById('level-select').style.display = 'block';
     document.getElementById('page-title').innerText = `Choose a Level (${currentSubject.toUpperCase()})`;
     showLevels();
@@ -622,4 +628,106 @@ function loadMuteSetting() {
 function getNextLevelName() {
     const currentLevelNum = parseInt(currentLevel.replace(/[^0-9]/g, ''));
     return currentLevel.replace(currentLevelNum, currentLevelNum + 1);
+}
+function showTypingQuiz() {
+    const container = document.getElementById('typing-questions');
+    container.innerHTML = '';
+    document.getElementById('typing-quiz').style.display = 'block';
+    document.getElementById('submit-typing').disabled = false;
+
+    questionsList.forEach((q, index) => {
+        const firstLetter = q.RightAnswer.trim()[0];
+        const totalLength = q.RightAnswer.length;
+
+        // Create row wrapper
+        const row = document.createElement('div');
+        row.className = 'typing-row-horizontal';
+
+        // Question side
+        const questionWrapper = document.createElement('div');
+        questionWrapper.className = 'typing-question-wrapper';
+
+        const number = document.createElement('div');
+        number.className = 'question-number';
+        number.innerText = `${index + 1}.`;
+
+        const questionBox = document.createElement('div');
+        questionBox.className = 'typing-question-box';
+        questionBox.innerText = q.Question;
+
+        questionWrapper.appendChild(number);
+        questionWrapper.appendChild(questionBox);
+
+        // Input field
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.className = 'typing-input';
+        input.maxLength = totalLength;
+        input.placeholder = firstLetter + ' _'.repeat(totalLength - 1);
+        input.dataset.answer = q.RightAnswer.toLowerCase();
+
+        input.addEventListener('input', () => {
+            input.value = input.value.toLowerCase();
+        });
+
+        // Combine into row
+        row.appendChild(questionWrapper);
+        row.appendChild(input);
+        container.appendChild(row);
+    });
+}
+
+function submitTyping() {
+    const inputs = document.querySelectorAll('.typing-input');
+    let totalCorrect = 0;
+
+    inputs.forEach(input => {
+        const userAnswer = input.value.trim().toLowerCase();
+        const correctAnswer = input.dataset.answer;
+
+        if (userAnswer === correctAnswer) {
+            input.classList.add('correct');
+            totalCorrect++;
+        } else {
+            input.classList.add('wrong');
+        
+            // 👇 Create and show the correct answer
+            const correctDiv = document.createElement('div');
+            correctDiv.className = 'correct-answer-hint';
+            correctDiv.innerText = `${correctAnswer}`;
+            input.parentNode.appendChild(correctDiv);
+        }
+        
+        input.disabled = true;
+    });
+
+    const percentage = Math.round((totalCorrect / inputs.length) * 100);
+    let resultHTML = `<h2>Your Score: ${percentage}%</h2>`;
+
+    if (percentage >= 90) {
+        if (!isMuted) levelupSound.play();
+        resultHTML += `<p>Excellent! Next level unlocked.</p>`;
+        unlockNextLevel();
+    } else {
+        resultHTML += `<p>Keep practicing!</p>`;
+    }
+
+    resultHTML += `
+        <div class="result-buttons">
+            <button id="return-button" onclick="returnToLevels()">
+                <img src="menu.png" alt="Level" class="icon-btn">
+            </button>
+            <button id="retry-button" onclick="startLevel('${currentLevel}')">
+                <img src="retry.png" alt="Retry" class="icon-btn">
+            </button>
+            ${percentage >= 90 ? `
+                <button id="next-button" onclick="startLevel('${getNextLevelName()}')">
+                    <img src="next.png" alt="Next" class="icon-btn">
+                </button>` : ''}
+        </div>
+    `;
+
+    document.getElementById('result').innerHTML = resultHTML;
+    document.getElementById('result').style.display = 'block';
+    document.getElementById('submit-typing').disabled = true;
 }
