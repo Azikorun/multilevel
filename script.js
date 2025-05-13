@@ -481,13 +481,28 @@ function handleDrop(e, slot) {
 function submitMatching() {
     const slots = document.querySelectorAll('.answer-slot');
     let totalCorrect = 0;
+
     slots.forEach(slot => {
         if (slot.innerText === slot.dataset.correct) {
             slot.classList.add('correct');
             totalCorrect++;
         } else {
             slot.classList.add('wrong');
-        }        
+        }
+
+        // 🔒 Lock the answer slot
+        slot.ondrop = null;
+        slot.ondragover = null;
+        slot.ondragleave = null;
+        slot.ondragstart = null;
+        slot.draggable = false;
+        slot.style.pointerEvents = 'none';
+    });
+
+    // 🔒 Disable all answer pool items
+    document.querySelectorAll('.match-draggable').forEach(el => {
+        el.draggable = false;
+        el.style.cursor = 'default';
     });
 
     const percentage = Math.round((totalCorrect / (totalSets * questionsPerSet)) * 100);
@@ -501,29 +516,31 @@ function submitMatching() {
         resultHTML += `<p>Keep practicing!</p>`;
     }
 
-    // ✅ Add buttons: Return, Retry, and Next (if passed)
     resultHTML += `
-    <div class="result-buttons">
-        <button id="return-button" onclick="returnToLevels()">
-            <img src="menu.png" alt="Level" class="icon-btn">
-        </button>
-                <button id="retry-button" onclick="startLevel('${currentLevel}')">
-            <img src="retry.png" alt="Retry" class="icon-btn">
-        </button>
-        ${percentage >= 90 ? `
-            <button id="next-button" onclick="startLevel('${getNextLevelName()}')">
-                <img src="next.png" alt="Next" class="icon-btn">
-            </button>` : ''}
-    </div>
-`;
-
+        <div class="result-buttons">
+            <button id="return-button" onclick="returnToLevels()">
+                <img src="menu.png" alt="Level" class="icon-btn">
+            </button>
+            <button id="retry-button" onclick="startLevel('${currentLevel}')">
+                <img src="retry.png" alt="Retry" class="icon-btn">
+            </button>
+            ${percentage >= 90 ? `
+                <button id="next-button" onclick="startLevel('${getNextLevelName()}')">
+                    <img src="next.png" alt="Next" class="icon-btn">
+                </button>` : ''}
+        </div>
+    `;
 
     document.getElementById('result').innerHTML = resultHTML;
     document.getElementById('result').style.display = 'block';
-    document.getElementById('submit-matching').style.display = 'none';
-    //document.getElementById('matching-quiz').style.display = 'none';
-}
 
+    // 🔒 Disable or hide the submit button
+    const submitBtn = document.getElementById('submit-matching');
+    if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.style.display = 'none';
+    }
+}
 
 /* ============================
    UTILITIES
