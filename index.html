@@ -15,12 +15,12 @@
     <h1 id="page-title">Target Vocabulary</h1>
 
     <!-- Mute Button -->
-    <button id="mute-toggle" style="position: fixed; top: 10px; right: 20px; background: none; border: none; cursor: pointer;">
+    <button id="mute-toggle" style="position: fixed; top: 20px; right: 20px; background: none; border: none; cursor: pointer;">
         <img src="mute.png" alt="Mute" class="icon-btn" id="mute-icon">
     </button>
     
 
-    <button id="home-button" onclick="returnToSubjects()" style="position: fixed; top: 10px; left: 20px; background: none; border: none; cursor: pointer;">
+    <button id="home-button" onclick="returnToSubjects()" style="position: fixed; top: 20px; left: 20px; background: none; border: none; cursor: pointer;">
         <img src="home.png" alt="Home" class="icon-btn">
     </button>
     
@@ -36,6 +36,8 @@
         <h2>Select Quiz Type</h2>
         <button class="mode-button" data-mode="multiple" onclick="chooseMode('multiple')">Multiple Choice</button>
         <button class="mode-button" data-mode="matching" onclick="chooseMode('matching')">Matching</button>
+        <button class="mode-button" data-mode="typing" onclick="chooseMode('typing')">Typing</button>
+
     </div>
     
     <div id="level-select" style="display: none; margin-top: 20px; text-align: center;">
@@ -70,9 +72,13 @@
             <button id="next-btn" onclick="nextSet()">Next ➡️</button>
             <button id="submit-matching" onclick="submitMatching()" style="display: none;">✅ Submit</button>
         </div>
-        
     </div>
 
+    <!-- TYPING QUIZ -->
+    <div id="typing-quiz" style="display: none;">
+        <div id="typing-questions"></div>
+        <button id="submit-typing" class="typing-submit-btn" onclick="submitTyping()">✅ Submit</button>
+    </div>
     <!-- Result Container -->
     <div id="result"></div>
 
