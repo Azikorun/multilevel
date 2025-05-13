@@ -89,12 +89,30 @@ function showLevels() {
 }
 
 function returnToSubjects() {
+    // Stop timer if running (for multiple choice)
+    clearInterval(timer);
+    tickSound.pause();
+    tickSound.currentTime = 0;
+
+    // Reset global states
+    index = 0;
+    correct = 0;
+    score = 0;
+    questionsList = [];
+    currentLevel = '';
+    currentSlide = 0;
+
+    // Hide all quiz sections
     document.getElementById('subject-select').style.display = '';
     document.getElementById('mode-select').style.display = 'none';
     document.getElementById('level-select').style.display = 'none';
     document.getElementById('quiz').style.display = 'none';
     document.getElementById('matching-quiz').style.display = 'none';
     document.getElementById('result').style.display = 'none';
+    document.getElementById('nav-buttons').style.display = 'none';
+
+    // Reset title
+    document.getElementById('page-title').style.display = '';
     document.getElementById('page-title').innerText = `Target Vocabulary`;
 }
 
@@ -371,6 +389,7 @@ function showMatchingQuizSets() {
     showSlide(0);
     setupSwipe();
     updateNavButtons();
+    document.getElementById('nav-buttons').style.display = 'block';
 }
 
 function setupSwipe() {
@@ -464,11 +483,11 @@ function submitMatching() {
     let totalCorrect = 0;
     slots.forEach(slot => {
         if (slot.innerText === slot.dataset.correct) {
-            slot.style.backgroundColor = "#28a745";
+            slot.classList.add('correct');
             totalCorrect++;
         } else {
-            slot.style.backgroundColor = "#dc3545";
-        }
+            slot.classList.add('wrong');
+        }        
     });
 
     const percentage = Math.round((totalCorrect / (totalSets * questionsPerSet)) * 100);
@@ -501,7 +520,8 @@ function submitMatching() {
 
     document.getElementById('result').innerHTML = resultHTML;
     document.getElementById('result').style.display = 'block';
-    document.getElementById('matching-quiz').style.display = 'none';
+    document.getElementById('submit-matching').style.display = 'none';
+    //document.getElementById('matching-quiz').style.display = 'none';
 }
 
 
@@ -582,3 +602,7 @@ function loadMuteSetting() {
     }
 }
 
+function getNextLevelName() {
+    const currentLevelNum = parseInt(currentLevel.replace(/[^0-9]/g, ''));
+    return currentLevel.replace(currentLevelNum, currentLevelNum + 1);
+}
