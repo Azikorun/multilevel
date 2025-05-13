@@ -478,7 +478,192 @@ button:hover .icon-btn {
     transform: scale(1.1);
     box-shadow: 0 0 10px #bbb;
 }
+/* ================================
+   TYPING QUIZ LAYOUT & STYLES
+================================ */
 
+/* Main layout row for each question + input */
+/* ================================
+   TYPING QUIZ LAYOUT
+================================ */
+
+.typing-row-horizontal {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    flex-wrap: nowrap;
+}
+
+.typing-question-wrapper {
+    display: flex;
+    align-items: center; /* ensures vertical centering */
+    gap: 10px;
+}
+.question-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    min-width: 30px;
+    text-align: right; /* Align the number to the right */
+    display: flex;
+    align-items: center; /* Vertically center with the question box */
+    justify-content: flex-end;
+}
+body.dark-mode .question-number {
+    color: #fff;
+}
+
+.typing-question-box {
+    width: 300px;
+    height: 70px;
+    background: linear-gradient(145deg, #ffffff, #f9f9f9);
+    color: #333;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 5px #ccc, 0 0 10px #eee, inset 0 0 5px #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    box-sizing: border-box;
+}
+
+.typing-input {
+    width: 300px;
+    height: 70px;
+    font-size: 24px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    background: linear-gradient(145deg, #ffffff, #f2f2f2);
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* Dark mode adjustments */
+body.dark-mode .typing-question-box {
+    background: linear-gradient(145deg, #0a0a0a, #1a1a1a);
+    color: white;
+    border: 2px solid #555;
+    box-shadow: 0 0 10px #ffffff33, inset 0 0 5px #000000;
+}
+
+body.dark-mode .typing-input {
+    background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
+    color: white;
+    border: 2px solid #555;
+}
+
+/* 🔹 Dark Mode Adjustments */
+body.dark-mode .typing-question-box {
+    background: linear-gradient(145deg, #0a0a0a, #1a1a1a);
+    color: white;
+    border: 2px solid #555;
+    box-shadow: 0 0 10px #ffffff33, inset 0 0 5px #000000;
+}
+
+body.dark-mode .typing-input {
+    background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
+    color: white;
+    border: 2px solid #555;
+}
+
+.typing-input.correct {
+    border-color: #28a745;
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.typing-input.wrong {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* ================================
+   SUBMIT BUTTON
+================================ */
+
+.typing-submit-btn {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 40px;
+    background: linear-gradient(145deg, #6c63ff, #5a54cc);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, transform 0.2s ease;
+}
+
+.typing-submit-btn:hover {
+    background: linear-gradient(145deg, #5a54cc, #4a44bb);
+    transform: scale(1.05);
+}
+
+.typing-submit-btn:disabled {
+    background: #cccccc;
+    color: #888;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+body.dark-mode .typing-submit-btn {
+    background: linear-gradient(145deg, #8880ff, #5a54cc);
+    color: #fff;
+}
+
+body.dark-mode .typing-submit-btn:disabled {
+    background: #444;
+    color: #aaa;
+    opacity: 0.6;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.correct-answer-hint {
+    font-size: 24px;
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 20px;   /* Top spacing only */
+    text-align: left;
+}
+
+
+
+body.dark-mode .correct-answer-hint {
+    color: #67eaa6;
+}
+
+/* ================================
+   RESPONSIVE (Mobile)
+================================ */
+
+@media (max-width: 600px) {
+    .typing-row-horizontal {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .typing-question-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .typing-question-box,
+    .typing-input {
+        width: 100%;
+        max-width: 100%;
+    }
+}
 
 /* ================================
    DARK MODE
