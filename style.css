@@ -140,13 +140,13 @@ h1, h2 {
 }
 
 .correct {
-    background-color: #28a745 !important;
+    background-color: #ffffff !important;
     color: #28a745 !important;
     border-color: #28a745 !important;
 }
 
 .wrong {
-    background-color: #dc3545 !important;
+    background-color: #ffffff !important;
     color: #dc3545 !important;
     border-color: #dc3545 !important;
 }
@@ -298,7 +298,7 @@ h1, h2 {
     transition: background 0.3s ease;
     box-shadow: 0 0 5px #ccc;
 }
-
+    
 .answer-slot.drag-over {
     background-color: #e0e0ff;
     border-color: #6c63ff;
@@ -551,6 +551,18 @@ body.dark-mode #timer-container {
 body.dark-mode #timer-bar {
     background-color: #f7f9f7;
     box-shadow: 0 0 20px #f7f9f7, 0 0 40px #f7f9f7, 0 0 60px #f7f9f7;
+}
+
+body.dark-mode .correct {
+    background-color: #ffffff !important;
+    color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+body.dark-mode .wrong {
+    background-color: #ffffff!important;
+    color: #dc3545 !important;
+    border-color: #dc3545 !important;
 }
 
 /* ================================
