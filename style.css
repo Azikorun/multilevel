@@ -27,6 +27,48 @@ h1, h2 {
     z-index: 999;
 }
 
+#diamond-bar {
+  position: fixed;
+  top: 20px;
+  right: 80px;
+  height: 30px;
+  background-color: #636275;
+  color: white;
+  padding: 0 0 0 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: visible;
+}
+
+/* Number inside the bar */
+.diamond-text {
+  padding-right: 0px;
+}
+
+.diamond-icon-wrapper {
+  position: relative;
+  left: 20px; 
+  font-size: 40px;
+  line-height: 1;
+}
+
+/* Optional dark mode styling */
+body.dark-mode #diamond-bar {
+  background-color: #444;
+  color: #fff;
+}
+
+/* Dark mode support */
+body.dark-mode #diamond-bar {
+  background-color: #444;
+  color: #fff;
+}
+
 /* ================================
    LEVEL SELECT SCREEN
 ================================== */
@@ -646,24 +688,42 @@ body.dark-mode .correct-answer-hint {
 /* ================================
    RESPONSIVE (Mobile)
 ================================ */
-
 @media (max-width: 600px) {
-    .typing-row-horizontal {
-        flex-direction: column;
-        align-items: stretch;
-    }
+  .typing-row-horizontal {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
 
-    .typing-question-wrapper {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  .typing-question-wrapper {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+  }
 
-    .typing-question-box,
-    .typing-input {
-        width: 100%;
-        max-width: 100%;
-    }
+  .question-number {
+    font-size: 16px;
+    min-width: auto;
+    flex-shrink: 0;
+  }
+
+  .typing-question-box {
+    flex: 1;
+    font-size: 16px;
+    padding: 10px 12px;
+    height: auto;
+  }
+
+  .typing-input {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 12px;
+    height: auto;
+  }
 }
+
 
 /* ================================
    DARK MODE
