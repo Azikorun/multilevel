@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     applySavedTheme();
     setupMuteToggle();
     loadMuteSetting();
+    updateDiamondDisplay();
 });
 
 // Load subject dynamically
@@ -263,25 +264,28 @@ function finishQuiz() {
     let nextLevelButton = ''; // Prepare the next button separately
 
     if (percentage >= 90) {
-        if (!isMuted) levelupSound.play();
-        resultHTML += `<p>Great job! Next level unlocked.</p>`;
-        unlockNextLevel();
+    if (!isMuted) levelupSound.play();
+    resultHTML += `<p>Great job! Next level unlocked.</p>`;
+    unlockNextLevel();
 
-        // ✅ Build the next level name dynamically
-        const currentLevelNum = parseInt(currentLevel.replace(/[^0-9]/g, ''));
-        const nextLevelName = currentLevel.replace(currentLevelNum, currentLevelNum + 1);
+    const currentLevelNum = parseInt(currentLevel.replace(/[^0-9]/g, ''));
+    const nextLevelName = currentLevel.replace(currentLevelNum, currentLevelNum + 1);
 
-        if (questions[nextLevelName]) {
-            nextLevelButton = `
-                <button id="next-button" onclick="startLevel('${nextLevelName}')">
-                    <img src="next.png" alt="Next">
-                </button>
-            `;
-        }
-        
-    } else {
-        resultHTML += `<p>Keep practicing!</p>`;
+    if (questions[nextLevelName]) {
+        nextLevelButton = `
+            <button id="next-button" onclick="startLevel('${nextLevelName}')">
+                <img src="next.png" alt="Next">
+            </button>
+        `;
     }
+} else {
+    resultHTML += `<p>Keep practicing!</p>`;
+}
+
+// 💎 Award diamonds and show them
+const diamonds = awardDiamonds(percentage);
+resultHTML += `<p>You earned 💎 ${diamonds} diamond${diamonds !== 1 ? 's' : ''}!</p>`;
+updateDiamondDisplay();
 
     // ✅ Output in correct order: Back - Retry - Next (even if Next is empty)
     resultHTML += `
@@ -514,11 +518,16 @@ function submitMatching() {
 
     if (percentage >= 90) {
         if (!isMuted) levelupSound.play();
-        resultHTML += `<p>Great job! Next level unlocked.</p>`;
+        resultHTML += `<p>Excellent! Next level unlocked.</p>`;
         unlockNextLevel();
     } else {
         resultHTML += `<p>Keep practicing!</p>`;
     }
+
+    // 💎 Add this line
+    const diamonds = awardDiamonds(percentage);
+    resultHTML += `<p>You earned 💎 ${diamonds} diamond${diamonds !== 1 ? 's' : ''}!</p>`;
+    updateDiamondDisplay();
 
     resultHTML += `
         <div class="result-buttons">
@@ -663,7 +672,17 @@ function showTypingQuiz() {
         input.type = 'text';
         input.className = 'typing-input';
         input.maxLength = totalLength;
-        input.placeholder = firstLetter + ' _'.repeat(totalLength - 1);
+        let hint = '';
+        const trimmedAnswer = q.RightAnswer.trim();
+
+        for (let i = 0; i < trimmedAnswer.length; i++) {
+            if (i === 0) {
+                hint += trimmedAnswer[i];
+            } else {
+                hint += trimmedAnswer[i] === ' ' ? '   ' : ' _';
+            }
+        }
+        input.placeholder = hint;
         input.dataset.answer = q.RightAnswer.toLowerCase();
 
         input.addEventListener('input', () => {
@@ -712,6 +731,11 @@ function submitTyping() {
         resultHTML += `<p>Keep practicing!</p>`;
     }
 
+    // 💎 Add this line
+    const diamonds = awardDiamonds(percentage);
+    resultHTML += `<p>You earned 💎 ${diamonds} diamond${diamonds !== 1 ? 's' : ''}!</p>`;
+    updateDiamondDisplay();
+
     resultHTML += `
         <div class="result-buttons">
             <button id="return-button" onclick="returnToLevels()">
@@ -730,4 +754,27 @@ function submitTyping() {
     document.getElementById('result').innerHTML = resultHTML;
     document.getElementById('result').style.display = 'block';
     document.getElementById('submit-typing').disabled = true;
+}
+function awardDiamonds(score) {
+    let diamondsEarned = 0;
+
+    if (score >= 90) {
+        diamondsEarned = 3;
+    } else if (score >= 75) {
+        diamondsEarned = 2;
+    } else if (score >= 50) {
+        diamondsEarned = 1;
+    }
+
+    const current = parseInt(localStorage.getItem('diamonds') || '0');
+    localStorage.setItem('diamonds', current + diamondsEarned);
+
+    return diamondsEarned;
+}
+function updateDiamondDisplay() {
+    const count = localStorage.getItem('diamonds') || '0';
+    const display = document.getElementById('diamond-count');
+    if (display) {
+        display.innerText = count;
+    }
 }
