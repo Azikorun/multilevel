@@ -362,7 +362,7 @@ const destinationQuestions = {
         },
         {
             "Question": "o‘rtasida",
-            "RightAnswer": "in the middle (of)",
+            "RightAnswer": "in the middle",
             "options": [
                 "for fun",
                 "for a long time",
@@ -371,9 +371,9 @@ const destinationQuestions = {
         },
         {
             "Question": "vaqtida",
-            "RightAnswer": "in time (for)",
+            "RightAnswer": "in time",
             "options": [
-                "in the middle (of)",
+                "in the middle",
                 "for fun",
                 "for a long time"
             ]
@@ -382,8 +382,8 @@ const destinationQuestions = {
             "Question": "sahnada",
             "RightAnswer": "on stage",
             "options": [
-                "in time (for)",
-                "in the middle (of)",
+                "in time",
+                "in the middle",
                 "for fun"
             ]
         },
@@ -1096,8 +1096,8 @@ const destinationQuestions = {
             "RightAnswer": "by heart",
             "options": [
                 "on stage",
-                "in time (for)",
-                "in the middle (of)"
+                "in time",
+                "in the middle"
             ]
         },
         {
@@ -1106,7 +1106,7 @@ const destinationQuestions = {
             "options": [
                 "by heart",
                 "on stage",
-                "in time (for)"
+                "in time"
             ]
         },
         {
@@ -1129,7 +1129,7 @@ const destinationQuestions = {
         },
         {
             "Question": "foydasiga",
-            "RightAnswer": "in favour (of)",
+            "RightAnswer": "in favour",
             "options": [
                 "in fact",
                 "in conclusion",
@@ -1140,7 +1140,7 @@ const destinationQuestions = {
             "Question": "umuman olganda",
             "RightAnswer": "in general",
             "options": [
-                "in favour (of)",
+                "in favour",
                 "in fact",
                 "in conclusion"
             ]
@@ -1743,7 +1743,7 @@ const destinationQuestions = {
         },
         {
             "Question": "mashinadan/binodan chiqmoq",
-            "RightAnswer": "get out (of)",
+            "RightAnswer": "get out",
             "options": [
                 "get on(to)",
                 "get off",
@@ -1754,7 +1754,7 @@ const destinationQuestions = {
             "Question": "ketmoq (biror joydan)",
             "RightAnswer": "go away",
             "options": [
-                "get out (of)",
+                "get out",
                 "get on(to)",
                 "get off"
             ]
@@ -1764,7 +1764,7 @@ const destinationQuestions = {
             "RightAnswer": "go back (to)",
             "options": [
                 "go away",
-                "get out (of)",
+                "get out",
                 "get on(to)"
             ]
         },
@@ -1774,7 +1774,7 @@ const destinationQuestions = {
             "options": [
                 "go back (to)",
                 "go away",
-                "get out (of)"
+                "get out"
             ]
         },
         {
@@ -1791,7 +1791,7 @@ const destinationQuestions = {
             "RightAnswer": "on board",
             "options": [
                 "in general",
-                "in favour (of)",
+                "in favour",
                 "in fact"
             ]
         },
@@ -1801,7 +1801,7 @@ const destinationQuestions = {
             "options": [
                 "on board",
                 "in general",
-                "in favour (of)"
+                "in favour"
             ]
         },
         {
@@ -2815,7 +2815,7 @@ const destinationQuestions = {
             ]
         },
         {
-            "Question": "kimnidir ... uchun hurmat qilmoq",
+            "Question": "kimnidir uchun hurmat qilmoq",
             "RightAnswer": "admire sb for",
             "options": [
                 "wait for",
@@ -2860,7 +2860,7 @@ const destinationQuestions = {
             ]
         },
         {
-            "Question": "(kim bilandir) ... haqida bahs",
+            "Question": "(kim bilandir) haqida bahs",
             "RightAnswer": "an argument (with sb) about",
             "options": [
                 "a question about",
@@ -3187,7 +3187,7 @@ const destinationQuestions = {
         },
         {
             "Question": "(nimadir uchun) pul yig‘moq",
-            "RightAnswer": "save up (for)",
+            "RightAnswer": "save up",
             "options": [
                 "pay back",
                 "hurry up",
@@ -3198,7 +3198,7 @@ const destinationQuestions = {
             "Question": "qaytarib joyiga qo‘ymoq",
             "RightAnswer": "take back",
             "options": [
-                "save up (for)",
+                "save up",
                 "pay back",
                 "hurry up"
             ]
@@ -3208,7 +3208,7 @@ const destinationQuestions = {
             "RightAnswer": "take down",
             "options": [
                 "take back",
-                "save up (for)",
+                "save up",
                 "pay back"
             ]
         },
@@ -3259,7 +3259,7 @@ const destinationQuestions = {
         },
         {
             "Question": "yaxshi/yomon holatda",
-            "RightAnswer": "in good/bad condition",
+            "RightAnswer": "in good condition",
             "options": [
                 "in debt",
                 "in cash",
@@ -3295,7 +3295,7 @@ const destinationQuestions = {
         },
         {
             "Question": "taqqoslamoq",
-            "RightAnswer": "compare sth to/with",
+            "RightAnswer": "compare sth to",
             "options": [
                 "add",
                 "select",
@@ -3315,7 +3315,7 @@ const destinationQuestions = {
             "Question": "qaror qilmoq",
             "RightAnswer": "decide on",
             "options": [
-                "compare sth to/with",
+                "compare sth to",
                 "add",
                 "select"
             ]
@@ -3352,7 +3352,7 @@ const destinationQuestions = {
             "RightAnswer": "judge",
             "options": [
                 "decide on",
-                "compare sth to/with",
+                "compare sth to",
                 "add"
             ]
         },
@@ -3371,7 +3371,7 @@ const destinationQuestions = {
             "options": [
                 "judge",
                 "decide on",
-                "compare sth to/with"
+                "compare sth to"
             ]
         },
         {
@@ -3475,7 +3475,7 @@ const destinationQuestions = {
         },
         {
             "Question": "noto‘g‘ri fikrda bo‘lmoq",
-            "RightAnswer": "wrong about/with",
+            "RightAnswer": "wrong about",
             "options": [
                 "proud of",
                 "married to",
@@ -3832,7 +3832,7 @@ const destinationQuestions = {
             "options": [
                 "take down",
                 "take back",
-                "save up (for)"
+                "save up"
             ]
         },
         {
@@ -3902,7 +3902,7 @@ const destinationQuestions = {
             "Question": "nihoyat",
             "RightAnswer": "at last",
             "options": [
-                "in good/bad condition",
+                "in good condition",
                 "in debt",
                 "in cash"
             ]
@@ -3912,7 +3912,7 @@ const destinationQuestions = {
             "RightAnswer": "by chance",
             "options": [
                 "at last",
-                "in good/bad condition",
+                "in good condition",
                 "in debt"
             ]
         },
@@ -3922,7 +3922,7 @@ const destinationQuestions = {
             "options": [
                 "by chance",
                 "at last",
-                "in good/bad condition"
+                "in good condition"
             ]
         },
         {
@@ -4181,7 +4181,7 @@ const destinationQuestions = {
             "Question": "farqli",
             "RightAnswer": "different from/to",
             "options": [
-                "wrong about/with",
+                "wrong about",
                 "proud of",
                 "married to"
             ]
@@ -4191,7 +4191,7 @@ const destinationQuestions = {
             "RightAnswer": "full of",
             "options": [
                 "different from/to",
-                "wrong about/with",
+                "wrong about",
                 "proud of"
             ]
         },
@@ -4206,7 +4206,7 @@ const destinationQuestions = {
         },
         {
             "Question": "...ga ulamoq",
-            "RightAnswer": "connect sth to/with",
+            "RightAnswer": "connect sth to",
             "options": [
                 "begin sth with",
                 "spend sth on",
@@ -4217,7 +4217,7 @@ const destinationQuestions = {
             "Question": "...dan uzmoq",
             "RightAnswer": "disconnect sth from",
             "options": [
-                "connect sth to/with",
+                "connect sth to",
                 "begin sth with",
                 "spend sth on"
             ]
@@ -4227,7 +4227,7 @@ const destinationQuestions = {
             "RightAnswer": "fill sth with",
             "options": [
                 "disconnect sth from",
-                "connect sth to/with",
+                "connect sth to",
                 "begin sth with"
             ]
         },
@@ -4237,7 +4237,7 @@ const destinationQuestions = {
             "options": [
                 "fill sth with",
                 "disconnect sth from",
-                "connect sth to/with"
+                "connect sth to"
             ]
         },
         {
@@ -5017,7 +5017,7 @@ const destinationQuestions = {
             ]
         },
         {
-            "Question": "kimdandir ... haqida aytmoq",
+            "Question": "kimdandir haqida aytmoq",
             "RightAnswer": "tell sb about",
             "options": [
                 "talk (to sb) about",
@@ -5035,7 +5035,7 @@ const destinationQuestions = {
             ]
         },
         {
-            "Question": "kimdandir ... haqida yozmoq",
+            "Question": "kimdandir haqida yozmoq",
             "RightAnswer": "write (to sb) about",
             "options": [
                 "translate (from sth) into",
@@ -5053,7 +5053,7 @@ const destinationQuestions = {
             ]
         },
         {
-            "Question": "(kimdandir) ... haqidagi xat",
+            "Question": "(kimdandir) haqidagi xat",
             "RightAnswer": "a letter (from sb) about",
             "options": [
                 "information about",
@@ -5681,7 +5681,7 @@ const destinationQuestions = {
             "options": [
                 "full of",
                 "different from/to",
-                "wrong about/with"
+                "wrong about"
             ]
         },
         {
@@ -5703,7 +5703,7 @@ const destinationQuestions = {
             ]
         },
         {
-            "Question": "kimnidir ... uchun ayblamoq",
+            "Question": "kimnidir uchun ayblamoq",
             "RightAnswer": "blame sb for",
             "options": [
                 "accuse sb of",
@@ -5766,7 +5766,7 @@ const destinationQuestions = {
             ]
         },
         {
-            "Question": "...ni ... bilan bo‘lishmoq",
+            "Question": "...ni bilan bo‘lishmoq",
             "RightAnswer": "share sth with",
             "options": [
                 "punish sb for",
@@ -6138,7 +6138,7 @@ const destinationQuestions = {
         },
         {
             "Question": "mas’ul (biror narsa uchun)",
-            "RightAnswer": "in charge (of)",
+            "RightAnswer": "in charge",
             "options": [
                 "at the moment",
                 "in your teens",
@@ -6149,7 +6149,7 @@ const destinationQuestions = {
             "Question": "xizmat safarida",
             "RightAnswer": "on business",
             "options": [
-                "in charge (of)",
+                "in charge",
                 "at the moment",
                 "in your teens"
             ]
@@ -6159,7 +6159,7 @@ const destinationQuestions = {
             "RightAnswer": "on strike",
             "options": [
                 "on business",
-                "in charge (of)",
+                "in charge",
                 "at the moment"
             ]
         },
@@ -6169,7 +6169,7 @@ const destinationQuestions = {
             "options": [
                 "on strike",
                 "on business",
-                "in charge (of)"
+                "in charge"
             ]
         },
         {
@@ -6887,7 +6887,7 @@ const destinationQuestions = {
         },
         {
             "Question": "solishtirganda",
-            "RightAnswer": "in comparison to/with",
+            "RightAnswer": "in comparison to",
             "options": [
                 "in addition (to)",
                 "at risk",
@@ -6898,7 +6898,7 @@ const destinationQuestions = {
             "Question": "formda (tana holati)",
             "RightAnswer": "in shape",
             "options": [
-                "in comparison to/with",
+                "in comparison to",
                 "in addition (to)",
                 "at risk"
             ]
@@ -6908,7 +6908,7 @@ const destinationQuestions = {
             "RightAnswer": "on a diet",
             "options": [
                 "in shape",
-                "in comparison to/with",
+                "in comparison to",
                 "in addition (to)"
             ]
         },
@@ -7157,7 +7157,7 @@ const destinationQuestions = {
         },
         {
             "Question": "qoplangan",
-            "RightAnswer": "covered in/with",
+            "RightAnswer": "covered in",
             "options": [
                 "allergic to",
                 "addicted to",
@@ -7168,7 +7168,7 @@ const destinationQuestions = {
             "Question": "mamnun",
             "RightAnswer": "pleased with",
             "options": [
-                "covered in/with",
+                "covered in",
                 "allergic to",
                 "addicted to"
             ]
@@ -7210,7 +7210,7 @@ const destinationQuestions = {
             ]
         },
         {
-            "Question": "...ni ... bilan birlashtirmoq",
+            "Question": "...ni bilan birlashtirmoq",
             "RightAnswer": "combine sth with",
             "options": [
                 "smell of",
@@ -7591,18 +7591,18 @@ const destinationQuestions = {
         },
         {
             "Question": "orqasida",
-            "RightAnswer": "at the back (of)",
+            "RightAnswer": "at the back",
             "options": [
                 "on a diet",
                 "in shape",
-                "in comparison to/with"
+                "in comparison to"
             ]
         },
         {
             "Question": "oxirida",
-            "RightAnswer": "at the end (of)",
+            "RightAnswer": "at the end",
             "options": [
-                "at the back (of)",
+                "at the back",
                 "on a diet",
                 "in shape"
             ]
@@ -7611,35 +7611,35 @@ const destinationQuestions = {
             "Question": "modada",
             "RightAnswer": "in fashion/style",
             "options": [
-                "at the end (of)",
-                "at the back (of)",
+                "at the end",
+                "at the back",
                 "on a diet"
             ]
         },
         {
             "Question": "oldida",
-            "RightAnswer": "in front (of)",
+            "RightAnswer": "in front",
             "options": [
                 "in fashion/style",
-                "at the end (of)",
-                "at the back (of)"
+                "at the end",
+                "at the back"
             ]
         },
         {
             "Question": "burchagida",
-            "RightAnswer": "in the corner (of)",
+            "RightAnswer": "in the corner",
             "options": [
-                "in front (of)",
+                "in front",
                 "in fashion/style",
-                "at the end (of)"
+                "at the end"
             ]
         },
         {
             "Question": "modadan chiqqan",
             "RightAnswer": "out of fashion/style",
             "options": [
-                "in the corner (of)",
-                "in front (of)",
+                "in the corner",
+                "in front",
                 "in fashion/style"
             ]
         },
@@ -7882,7 +7882,7 @@ const destinationQuestions = {
             "RightAnswer": "amazed at/by",
             "options": [
                 "pleased with",
-                "covered in/with",
+                "covered in",
                 "allergic to"
             ]
         },
@@ -7892,7 +7892,7 @@ const destinationQuestions = {
             "options": [
                 "amazed at/by",
                 "pleased with",
-                "covered in/with"
+                "covered in"
             ]
         },
         {
@@ -8334,24 +8334,24 @@ const destinationQuestions = {
             "RightAnswer": "at most",
             "options": [
                 "out of fashion/style",
-                "in the corner (of)",
-                "in front (of)"
+                "in the corner",
+                "in front"
             ]
         },
         {
             "Question": "tepasida/pastida",
-            "RightAnswer": "at the top/bottom (of)",
+            "RightAnswer": "at the top/bottom",
             "options": [
                 "at most",
                 "out of fashion/style",
-                "in the corner (of)"
+                "in the corner"
             ]
         },
         {
             "Question": "boshida",
             "RightAnswer": "in the beginning",
             "options": [
-                "at the top/bottom (of)",
+                "at the top/bottom",
                 "at most",
                 "out of fashion/style"
             ]
@@ -8361,7 +8361,7 @@ const destinationQuestions = {
             "RightAnswer": "in the distance",
             "options": [
                 "in the beginning",
-                "at the top/bottom (of)",
+                "at the top/bottom",
                 "at most"
             ]
         },
@@ -8371,12 +8371,12 @@ const destinationQuestions = {
             "options": [
                 "in the distance",
                 "in the beginning",
-                "at the top/bottom (of)"
+                "at the top/bottom"
             ]
         },
         {
             "Question": "tepasida",
-            "RightAnswer": "on top (of)",
+            "RightAnswer": "on top",
             "options": [
                 "in total",
                 "in the distance",
@@ -9073,7 +9073,7 @@ const destinationQuestions = {
             "Question": "avval",
             "RightAnswer": "at first",
             "options": [
-                "on top (of)",
+                "on top",
                 "in total",
                 "in the distance"
             ]
@@ -9083,7 +9083,7 @@ const destinationQuestions = {
             "RightAnswer": "at least",
             "options": [
                 "at first",
-                "on top (of)",
+                "on top",
                 "in total"
             ]
         },
@@ -9093,7 +9093,7 @@ const destinationQuestions = {
             "options": [
                 "at least",
                 "at first",
-                "on top (of)"
+                "on top"
             ]
         },
         {
@@ -9242,7 +9242,7 @@ const destinationQuestions = {
         },
         {
             "Question": "his-tuyg‘ular",
-            "RightAnswer": "feeling(s)",
+            "RightAnswer": "feeling",
             "options": [
                 "excitement",
                 "energy",
@@ -9271,7 +9271,7 @@ const destinationQuestions = {
             "Question": "baxt",
             "RightAnswer": "happiness",
             "options": [
-                "feeling(s)",
+                "feeling",
                 "excitement",
                 "energy"
             ]
@@ -9290,7 +9290,7 @@ const destinationQuestions = {
             "RightAnswer": "hatred",
             "options": [
                 "happiness",
-                "feeling(s)",
+                "feeling",
                 "excitement"
             ]
         },
@@ -9300,7 +9300,7 @@ const destinationQuestions = {
             "options": [
                 "hatred",
                 "happiness",
-                "feeling(s)"
+                "feeling"
             ]
         },
         {
@@ -9368,7 +9368,7 @@ const destinationQuestions = {
         },
         {
             "Question": "...dan xursand",
-            "RightAnswer": "happy about/with",
+            "RightAnswer": "happy about",
             "options": [
                 "scared of",
                 "embarrassed about",
@@ -9379,7 +9379,7 @@ const destinationQuestions = {
             "Question": "asabi qitiqlangan",
             "RightAnswer": "nervous about",
             "options": [
-                "happy about/with",
+                "happy about",
                 "scared of",
                 "embarrassed about"
             ]
@@ -9389,7 +9389,7 @@ const destinationQuestions = {
             "RightAnswer": "sorry about/for",
             "options": [
                 "nervous about",
-                "happy about/with",
+                "happy about",
                 "scared of"
             ]
         },
@@ -9399,7 +9399,7 @@ const destinationQuestions = {
             "options": [
                 "sorry about/for",
                 "nervous about",
-                "happy about/with"
+                "happy about"
             ]
         },
         {
@@ -9739,7 +9739,7 @@ const destinationQuestions = {
         },
         {
             "Question": "tugamoq",
-            "RightAnswer": "run out (of)",
+            "RightAnswer": "run out",
             "options": [
                 "put back",
                 "pick up",
@@ -9750,7 +9750,7 @@ const destinationQuestions = {
             "Question": "bo‘lib bermoq",
             "RightAnswer": "share out",
             "options": [
-                "run out (of)",
+                "run out",
                 "put back",
                 "pick up"
             ]
@@ -9760,7 +9760,7 @@ const destinationQuestions = {
             "RightAnswer": "sort out",
             "options": [
                 "share out",
-                "run out (of)",
+                "run out",
                 "put back"
             ]
         },
@@ -9770,7 +9770,7 @@ const destinationQuestions = {
             "options": [
                 "sort out",
                 "share out",
-                "run out (of)"
+                "run out"
             ]
         },
         {
@@ -9802,7 +9802,7 @@ const destinationQuestions = {
         },
         {
             "Question": "xavf ostida",
-            "RightAnswer": "in danger (of)",
+            "RightAnswer": "in danger",
             "options": [
                 "in a mess",
                 "by accident/mistake",
@@ -9813,7 +9813,7 @@ const destinationQuestions = {
             "Question": "mening fikrimcha",
             "RightAnswer": "in my view",
             "options": [
-                "in danger (of)",
+                "in danger",
                 "in a mess",
                 "by accident/mistake"
             ]
@@ -9823,7 +9823,7 @@ const destinationQuestions = {
             "RightAnswer": "in trouble",
             "options": [
                 "in my view",
-                "in danger (of)",
+                "in danger",
                 "in a mess"
             ]
         },
@@ -9833,7 +9833,7 @@ const destinationQuestions = {
             "options": [
                 "in trouble",
                 "in my view",
-                "in danger (of)"
+                "in danger"
             ]
         },
         {
@@ -10098,7 +10098,7 @@ const destinationQuestions = {
             ]
         },
         {
-            "Question": "... bilan ... haqida kelishmoq",
+            "Question": "... bilan haqida kelishmoq",
             "RightAnswer": "agree (with sb) about",
             "options": [
                 "advise against",
@@ -10216,7 +10216,7 @@ const destinationQuestions = {
 { Question: "yetib bormoq", RightAnswer: "reach", options: ["arrive", "lead", "keep"]},
 { Question: "vatandosh", RightAnswer: "native", options: ["place of work", "job advert", "job offer"]},
 { Question: "uy", RightAnswer: "home", options: ["period", "season", "guide"]},
-{ Question: "yetib olmoq", RightAnswer: "catch up with", options: ["work as", "train to do", "specialise in sth..."]},
+{ Question: "yetib olmoq", RightAnswer: "catch up with", options: ["work as", "train to do", "specialise in st"]},
 { Question: "ro‘yxatdan o‘tmoq (mehmonxona/aeroportda)", RightAnswer: "check in", options: ["catch up with", "work as", "train to do"]},
 { Question: "chiqib ketmoq; tekshirmoq", RightAnswer: "check out", options: ["check in", "catch up with", "work as"]},
 { Question: "tushirib qo‘ymoq; uxlab qolmoq", RightAnswer: "drop off", options: ["check out", "check in", "catch up with"]},
@@ -10238,21 +10238,21 @@ const destinationQuestions = {
 { Question: "tomon harakatlanmoq", RightAnswer: "advance to", options: ["do sth by accident", "be (involved) in an accident", "have an accident"]},
 { Question: "to‘g‘ridan-to‘g‘ri oldinga yurmoq", RightAnswer: "go straight ahead", options: ["advance to", "do sth by accident", "be (involved) in an accident"]},
 { Question: "boshlamoq, davom ettirmoq", RightAnswer: "go ahead", options: ["go straight ahead", "advance to", "do sth by accident"]},
-{ Question: "kimdandir oldinda bo‘lmoq", RightAnswer: "be ahead of ...", options: ["go ahead", "go straight ahead", "advance to"]},
+{ Question: "kimdandir oldinda bo‘lmoq", RightAnswer: "be ahead", options: ["go ahead", "go straight ahead", "advance to"]},
 { Question: "yo‘nalishning o‘zgarishi", RightAnswer: "a change of direction", options: ["reason why", "be sb’s view that", "works"]},
 { Question: "...ning yo‘nalishida", RightAnswer: "in the direction of sth", options: ["in advance", "make redundant", "turn down"]},
 { Question: "shu tomonga", RightAnswer: "in this direction", options: ["in the direction of sth", "in advance", "make redundant"]},
 { Question: "birdan (aniq bilmasdan)", RightAnswer: "off the top of your head", options: ["in your interest to do", "last but not least", "enough is enough"]},
- { Question: "tomon yo‘l olmoq", RightAnswer: "head for", options: ["be ahead of ...", "go ahead", "go straight ahead"]},
+ { Question: "tomon yo‘l olmoq", RightAnswer: "head for", options: ["be ahead", "go ahead", "go straight ahead"]},
 { Question: "boshdan oyoq sevib qolmoq", RightAnswer: "head over heels (in love)", options: ["off the top of your head", "in your interest to do", "last but not least"]},
-{ Question: "ta’tilga chiqmoq", RightAnswer: "go on holiday", options: ["head for", "be ahead of ...", "go ahead"]},
-{ Question: "ta’til qilmoq", RightAnswer: "take a holiday", options: ["go on holiday", "head for", "be ahead of ..."]},
+{ Question: "ta’tilga chiqmoq", RightAnswer: "go on holiday", options: ["head for", "be ahead", "go ahead"]},
+{ Question: "ta’til qilmoq", RightAnswer: "take a holiday", options: ["go on holiday", "head for", "be ahead"]},
 { Question: "davlat bayrami", RightAnswer: "bank holiday", options: ["a change of direction", "reason why", "be sb’s view that"]},
 { Question: "chapga burilmoq", RightAnswer: "turn left", options: ["take a holiday", "go on holiday", "head for"]},
 { Question: "chap tomonda", RightAnswer: "on the left", options: ["in this direction", "in the direction of sth", "in advance"]},
 { Question: "chap tomonda", RightAnswer: "on the left-hand side", options: ["on the left", "in this direction", "in the direction of sth"]},
 { Question: "chap burchakda", RightAnswer: "in the left-hand corner", options: ["on the left-hand side", "on the left", "in this direction"]},
-{ Question: "chap qo‘l bilan ishlovchi ", RightAnswer: "left-handed", options: ["necessary (for sb) to do", "workable", "irresponsible"]},
+{ Question: "chap qo‘l bilan ishlovchi ", RightAnswer: "left-handed", options: ["necessary to do", "workable", "irresponsible"]},
 { Question: "marshrutni rejalashtirmoq", RightAnswer: "plan a route", options: ["turn left", "take a holiday", "go on holiday"]},
 { Question: "yo‘l tutmoq", RightAnswer: "take a route", options: ["plan a route", "turn left", "take a holiday"]},
 { Question: "diqqatga sazovor joylarni ko‘rmoq", RightAnswer: "see the sights", options: ["take a route", "plan a route", "turn left"]},
@@ -10266,34 +10266,34 @@ const destinationQuestions = {
 { Question: "xizmat safari", RightAnswer: "business trip", options: ["tour guide", "speed limit", "a burst of speed"]},
 { Question: "maktab safari", RightAnswer: "school trip", options: ["business trip", "tour guide", "speed limit"]},
 { Question: "sayohatga chiqmoq", RightAnswer: "go on a trip", options: ["tour a place", "take a tour around somewhere", "go sightseeing"]},
-{ Question: "(joyga) sayohat qilmoq", RightAnswer: "take a trip (to a place)", options: ["go on a trip", "tour a place", "take a tour around somewhere"]},
-{ Question: "yo‘lni topmoq", RightAnswer: "find your way", options: ["take a trip (to a place)", "go on a trip", "tour a place"]},
+{ Question: "sayohat qilmoq", RightAnswer: "take a trip", options: ["go on a trip", "tour a place", "take a tour around somewhere"]},
+{ Question: "yo‘lni topmoq", RightAnswer: "find your way", options: ["take a trip", "go on a trip", "tour a place"]},
 { Question: "bir tomondan", RightAnswer: "in a way", options: ["at high speed", "in the left-hand corner", "on the left-hand side"]},
 { Question: "yo‘lda", RightAnswer: "on the way", options: ["in a way", "at high speed", "in the left-hand corner"]},
-{ Question: "oxirigacha yetib bormoq", RightAnswer: "go all the way", options: ["find your way", "take a trip (to a place)", "go on a trip"]},
-{ Question: "qo‘rqmoq", RightAnswer: "afraid of ...", options: ["rise", "raise", "work"]},
-{ Question: "qilishdan qo‘rqmoq", RightAnswer: "afraid to do", options: ["afraid of ...", "rise", "raise"]},
-{ Question: "ko‘rinmoq", RightAnswer: "appear to be", options: ["afraid to do", "afraid of ...", "rise"]},
-{ Question: "uyushtirmoq", RightAnswer: "arrange sth", options: ["appear to be", "afraid to do", "afraid of ..."]},
+{ Question: "oxirigacha yetib bormoq", RightAnswer: "go all the way", options: ["find your way", "take a trip", "go on a trip"]},
+{ Question: "qo‘rqmoq", RightAnswer: "afraid", options: ["rise", "raise", "work"]},
+{ Question: "qilishdan qo‘rqmoq", RightAnswer: "afraid to do", options: ["afraid", "rise", "raise"]},
+{ Question: "ko‘rinmoq", RightAnswer: "appear to be", options: ["afraid to do", "afraid", "rise"]},
+{ Question: "uyushtirmoq", RightAnswer: "arrange sth", options: ["appear to be", "afraid to do", "afraid"]},
 { Question: "kimdir uchun tayyorlamoq", RightAnswer: "arrange for sb to do", options: ["arrange sth", "appear to be", "afraid to do"]},
-{ Question: "yetib bormoq", RightAnswer: "arrive in/at ", options: ["arrange for sb to do", "arrange sth", "appear to be"]},
-{ Question: "davom ettirmoq", RightAnswer: "continue sth...", options: ["arrive in/at ", "arrange for sb to do", "arrange sth"]},
-{ Question: "qilishni davom ettirmoq", RightAnswer: "continue to do", options: ["continue sth...", "arrive in/at ", "arrange for sb to do"]},
-{ Question: "... bilan davom ettirmoq", RightAnswer: "continue with sth", options: ["continue to do", "continue sth...", "arrive in/at "]},
-{ Question: "farq qilmoq", RightAnswer: "differ from ...", options: ["continue with sth", "continue to do", "continue sth..."]},
-{ Question: "orzu qilmoq", RightAnswer: "dream about ...", options: ["differ from ...", "continue with sth", "continue to do"]},
-{ Question: "taklif qilmoq", RightAnswer: "invite sb to do", options: ["dream about ...", "differ from ...", "continue with sth"]},
-{ Question: "qiziqmoq", RightAnswer: "keen to do", options: ["invite sb to do", "dream about ...", "differ from ..."]},
-{ Question: "...ga qiziqmoq", RightAnswer: "keen on ...", options: ["keen to do", "invite sb to do", "dream about ..."]},
-{ Question: "yashamoq", RightAnswer: "live in/at ", options: ["keen on ...", "keen to do", "invite sb to do"]},
-{ Question: "... bilan kun kechirmoq", RightAnswer: "live on sth", options: ["live in/at ", "keen on ...", "keen to do"]},
-{ Question: "...dan afsuslanmoq", RightAnswer: "regret  doing", options: ["live on sth", "live in/at ", "keen on ..."]},
-{ Question: "nimadir uchun afsuslanmoq", RightAnswer: "regret sth", options: ["regret  doing", "live on sth", "live in/at "]},
+{ Question: "yetib bormoq", RightAnswer: "arrive in", options: ["arrange for sb to do", "arrange sth", "appear to be"]},
+{ Question: "davom ettirmoq", RightAnswer: "continue st", options: ["arrive in ", "arrange for sb to do", "arrange sth"]},
+{ Question: "qilishni davom ettirmoq", RightAnswer: "continue to do", options: ["continue st", "arrive in ", "arrange for sb to do"]},
+{ Question: "... bilan davom ettirmoq", RightAnswer: "continue with sth", options: ["continue to do", "continue st", "arrive in "]},
+{ Question: "farq qilmoq", RightAnswer: "differ from", options: ["continue with sth", "continue to do", "continue st"]},
+{ Question: "orzu qilmoq", RightAnswer: "dream about", options: ["differ from", "continue with sth", "continue to do"]},
+{ Question: "taklif qilmoq", RightAnswer: "invite sb to do", options: ["dream about", "differ from", "continue with sth"]},
+{ Question: "qiziqmoq", RightAnswer: "keen to do", options: ["invite sb to do", "dream about", "differ from"]},
+{ Question: "...ga qiziqmoq", RightAnswer: "keen on", options: ["keen to do", "invite sb to do", "dream about"]},
+{ Question: "yashamoq", RightAnswer: "live in ", options: ["keen on", "keen to do", "invite sb to do"]},
+{ Question: "... bilan kun kechirmoq", RightAnswer: "live on sth", options: ["live in ", "keen on", "keen to do"]},
+{ Question: "...dan afsuslanmoq", RightAnswer: "regret  doing", options: ["live on sth", "live in ", "keen on"]},
+{ Question: "nimadir uchun afsuslanmoq", RightAnswer: "regret sth", options: ["regret  doing", "live on sth", "live in "]},
 { Question: "aytishga afsuslanmoq", RightAnswer: "regret to tell/inform", options: ["regret sth", "regret  doing", "live on sth"]},
-{ Question: "o‘ylamoq", RightAnswer: "think of/about ...", options: ["regret to tell/inform", "regret sth", "regret  doing"]},
-{ Question: "... haqida yozmoq", RightAnswer: "write about ...", options: ["think of/about ...", "regret to tell/inform", "regret sth"]},
-{ Question: "...ga yozmoq", RightAnswer: "write (sth) to", options: ["write about ...", "think of/about ...", "regret to tell/inform"]},
-{ Question: "yozib qo‘ymoq", RightAnswer: "write sth down", options: ["write (sth) to", "write about ...", "think of/about ..."]},
+{ Question: "o‘ylamoq", RightAnswer: "think of/about", options: ["regret to tell/inform", "regret sth", "regret  doing"]},
+{ Question: "... haqida yozmoq", RightAnswer: "write about", options: ["think of/about", "regret to tell/inform", "regret sth"]},
+{ Question: "...ga yozmoq", RightAnswer: "write to", options: ["write about", "think of/about", "regret to tell/inform"]},
+{ Question: "yozib qo‘ymoq", RightAnswer: "write sth down", options: ["write to", "write about", "think of/about"]},
 { Question: "uyushtirmoq", RightAnswer: "arrange", options: ["reach", "arrive", "lead"]},
 { Question: "qayta uyushtirmoq", RightAnswer: "rearrange", options: ["arrange", "reach", "arrive"]},
 { Question: "kelishuv", RightAnswer: "arrangement", options: ["home", "period", "season"]},
@@ -10302,7 +10302,7 @@ const destinationQuestions = {
 { Question: "keng", RightAnswer: "broad", options: ["natural", "false", "artificial"]},
 { Question: "kengaytirmoq", RightAnswer: "broaden", options: ["arrive", "rearrange", "arrange"]},
 { Question: "madaniyat", RightAnswer: "culture", options: ["arrival", "arrangement", "home"]},
-{ Question: "madaniy", RightAnswer: "culturally", options: ["hard at work", "experienced in/at sth...", "short of money"]},
+{ Question: "madaniy", RightAnswer: "culturally", options: ["hard at work", "experienced in st", "short of money"]},
 { Question: "madaniyatli", RightAnswer: "cultured", options: ["broad", "natural", "false"]},
 { Question: "farq qilmoq", RightAnswer: "differ", options: ["broaden", "arrive", "rearrange"]},
 { Question: "farqli", RightAnswer: "different", options: ["cultured", "broad", "natural"]},
@@ -10311,7 +10311,7 @@ const destinationQuestions = {
 { Question: "bilvosita", RightAnswer: "indirect", options: ["different", "cultured", "broad"]},
 { Question: "yo‘nalish", RightAnswer: "direction", options: ["difference", "culture", "arrival"]},
 { Question: "direktor", RightAnswer: "director", options: ["direction", "difference", "culture"]},
-{ Question: "to‘g‘ridan-to‘g‘ri", RightAnswer: "directly", options: ["culturally", "hard at work", "experienced in/at sth..."]},
+{ Question: "to‘g‘ridan-to‘g‘ri", RightAnswer: "directly", options: ["culturally", "hard at work", "experienced in st"]},
 { Question: "uzoq", RightAnswer: "distant", options: ["indirect", "different", "cultured"]},
 { Question: "uzoqdan", RightAnswer: "distantly", options: ["directly", "culturally", "hard at work"]},
 { Question: "masofa", RightAnswer: "distance", options: ["director", "direction", "difference"]},
@@ -10383,34 +10383,34 @@ const destinationQuestions = {
 { Question: "boshlamoq (hobbi, sport); vaqtni egallamoq", RightAnswer: "take up", options: ["take to", "put up with", "put off"]},
 { Question: "imkoniyatdan to‘liq foydalanmoq", RightAnswer: "make the best of sth", options: ["go all the way", "find your way", "take a trip (to a place)"]},
 { Question: "qo‘ldan kelgancha harakat qilmoq", RightAnswer: "do your best", options: ["make the best of sth", "go all the way", "find your way"]},
-{ Question: "biror narsada eng yaxshisi", RightAnswer: "the best at sth...", options: ["school trip", "business trip", "tour guide"]},
+{ Question: "biror narsada eng yaxshisi", RightAnswer: "the best at st", options: ["school trip", "business trip", "tour guide"]},
 { Question: "imkoniyatga ega bo‘lmoq", RightAnswer: "have a chance to do", options: ["do your best", "make the best of sth", "go all the way"]},
 { Question: "qilish imkoniyatiga ega bo‘lmoq", RightAnswer: "have a chance of doing", options: ["have a chance to do", "do your best", "make the best of sth"]},
-{ Question: "oz imkoniyat", RightAnswer: "little chance of", options: ["the best at sth...", "school trip", "business trip"]},
-{ Question: "imkoniyatlari", RightAnswer: "the chances of", options: ["little chance of", "the best at sth...", "school trip"]},
+{ Question: "oz imkoniyat", RightAnswer: "little chance of", options: ["the best at st", "school trip", "business trip"]},
+{ Question: "imkoniyatlari", RightAnswer: "the chances of", options: ["little chance of", "the best at st", "school trip"]},
 { Question: "xavf ostiga qo‘yib urinib ko‘rmoq", RightAnswer: "take a chance (on sth)", options: ["have a chance of doing", "have a chance to do", "do your best"]},
-{ Question: "hayotdagi eng katta imkoniyat", RightAnswer: "chance of a lifetime", options: ["the chances of", "little chance of", "the best at sth..."]},
+{ Question: "hayotdagi eng katta imkoniyat", RightAnswer: "chance of a lifetime", options: ["the chances of", "little chance of", "the best at st"]},
 { Question: "navbat", RightAnswer: "your go", options: ["chance of a lifetime", "the chances of", "little chance of"]},
 { Question: "urinib ko‘rmoq", RightAnswer: "have a go", options: ["take a chance (on sth)", "have a chance of doing", "have a chance to do"]},
 { Question: "balandlikda", RightAnswer: "in height", options: ["on the way", "in a way", "at high speed"]},
 { Question: "balandlikdan qo‘rqadigan ", RightAnswer: "afraid of heights", options: ["left-handed", "necessary (for sb) to do", "workable"]},
 { Question: "...ning balandligi", RightAnswer: "height of sth", options: ["your go", "chance of a lifetime", "the chances of"]},
-{ Question: "nimagadir qiziqib ketgan ", RightAnswer: "mad about ...", options: ["afraid of heights", "left-handed", "necessary (for sb) to do"]},
+{ Question: "nimagadir qiziqib ketgan ", RightAnswer: "mad about", options: ["afraid of heights", "left-handed", "necessary (for sb) to do"]},
 { Question: "jinni bo‘lib qolmoq", RightAnswer: "become mad", options: ["have a go", "take a chance (on sth)", "have a chance of doing"]},
-{ Question: "(narsadan/qilishdan) zavqlanmoq", RightAnswer: "take pleasure in sth...", options: ["become mad", "have a go", "take a chance (on sth)"]},
-{ Question: "zavq olmoq", RightAnswer: "get pleasure from sth...", options: ["take pleasure in sth...", "become mad", "have a go"]},
-{ Question: "orasida mashhur ", RightAnswer: "popular with/among", options: ["mad about ...", "afraid of heights", "left-handed"]},
+{ Question: "(narsadan/qilishdan) zavqlanmoq", RightAnswer: "take pleasure in st", options: ["become mad", "have a go", "take a chance (on sth)"]},
+{ Question: "zavq olmoq", RightAnswer: "get pleasure from st", options: ["take pleasure in st", "become mad", "have a go"]},
+{ Question: "orasida mashhur ", RightAnswer: "popular with/among", options: ["mad about", "afraid of heights", "left-handed"]},
 { Question: "qarama-qarshi tomon", RightAnswer: " the opposite side", options: ["in height", "on the way", "in a way"]},
 { Question: "uzoq tomonda", RightAnswer: " the far side", options: [" the opposite side", "in height", "on the way"]},
-{ Question: "kimningdir tarafini olmoq", RightAnswer: "side with sb", options: ["get pleasure from sth...", "take pleasure in sth...", "become mad"]},
+{ Question: "kimningdir tarafini olmoq", RightAnswer: "side with sb", options: ["get pleasure from st", "take pleasure in st", "become mad"]},
 { Question: "g‘olib/mag‘lub tomon(da)", RightAnswer: "on the winning/losing side", options: [" the far side", " the opposite side", "in height"]},
-{ Question: "qobiliyatga ega bo‘lmoq", RightAnswer: "have a talent", options: ["side with sb", "get pleasure from sth...", "take pleasure in sth..."]},
+{ Question: "qobiliyatga ega bo‘lmoq", RightAnswer: "have a talent", options: ["side with sb", "get pleasure from st", "take pleasure in st"]},
 { Question: "qobiliyat tanlovi", RightAnswer: "talent contest", options: ["height of sth", "your go", "chance of a lifetime"]},
 { Question: "vaqtida", RightAnswer: "on time", options: ["on the winning/losing side", " the far side", " the opposite side"]},
 { Question: "ayni vaqtida", RightAnswer: " in time", options: ["on time", "on the winning/losing side", " the far side"]},
 { Question: "butun vaqt davomida", RightAnswer: "the whole time", options: ["talent contest", "height of sth", "your go"]},
 { Question: "vaqti keldi", RightAnswer: "high time", options: ["head over heels (in love)", "off the top of your head", "in your interest to do"]},
-{ Question: "shoshilmasdan qilmoq", RightAnswer: "take your time (doing)", options: ["have a talent", "side with sb", "get pleasure from sth..."]},
+{ Question: "shoshilmasdan qilmoq", RightAnswer: "take your time (doing)", options: ["have a talent", "side with sb", "get pleasure from st"]},
 { Question: "qilish uchun vaqt sarflamoq", RightAnswer: "take time to do", options: ["take your time (doing)", "have a talent", "side with sb"]},
 { Question: "(narsa) vaqtni oladi", RightAnswer: "sth takes up time", options: ["take time to do", "take your time (doing)", "have a talent"]},
 { Question: "vaqtni (biror ishga) sarflash", RightAnswer: "spend time doing", options: ["sth takes up time", "take time to do", "take your time (doing)"]},
@@ -10429,33 +10429,33 @@ const destinationQuestions = {
 { Question: "almashinib qilmoq", RightAnswer: "take turns", options: ["turn sth over", "turn around", "tell the time"]},
 { Question: "navbati bilan qilmoq", RightAnswer: "take it in turns", options: ["take turns", "turn sth over", "turn around"]},
 { Question: "sizning navbatingiz", RightAnswer: "your turn", options: ["spare time", "the whole time", "talent contest"]},
-{ Question: "bilan bellashmoq", RightAnswer: "compete against/with sb", options: ["write sth down", "write (sth) to", "write about ..."]},
-{ Question: "...da raqobat qilmoq", RightAnswer: "compete for/in sth", options: ["compete against/with sb", "write sth down", "write (sth) to"]},
-{ Question: "diqqatini jamlamoq", RightAnswer: "concentrate on sth...", options: ["compete for/in sth", "compete against/with sb", "write sth down"]},
-{ Question: "qilish qiyin", RightAnswer: "difficult to do", options: ["concentrate on sth...", "compete for/in sth", "compete against/with sb"]},
-{ Question: "qiyin deb bilmoq", RightAnswer: "find sth difficult", options: ["difficult to do", "concentrate on sth...", "compete for/in sth"]},
-{ Question: "qilish qiyin deb topmoq", RightAnswer: "find it difficult to do", options: ["find sth difficult", "difficult to do", "concentrate on sth..."]},
-{ Question: "...ga mehr qo‘ygan", RightAnswer: "fond of ...", options: ["find it difficult to do", "find sth difficult", "difficult to do"]},
-{ Question: "qilishga erkin", RightAnswer: "free to do", options: ["fond of ...", "find it difficult to do", "find sth difficult"]},
-{ Question: "...dan ozod", RightAnswer: "free from/of sth", options: ["free to do", "fond of ...", "find it difficult to do"]},
-{ Question: "...uchun bo‘sh", RightAnswer: "free for sth", options: ["free from/of sth", "free to do", "fond of ..."]},
-{ Question: "qiziqmoq", RightAnswer: "interested in sth...", options: ["free for sth", "free from/of sth", "free to do"]},
-{ Question: "o‘z ichiga olmoq", RightAnswer: "involve sth...", options: ["interested in sth...", "free for sth", "free from/of sth"]},
-{ Question: "ishtirok etayotgan", RightAnswer: "involved in sth...", options: ["involve sth...", "interested in sth...", "free for sth"]},
-{ Question: "eshitmoq", RightAnswer: "listen to ...", options: ["involved in sth...", "involve sth...", "interested in sth..."]},
-{ Question: "yaxshi ko‘rmoq", RightAnswer: "love ...", options: ["listen to ...", "involved in sth...", "involve sth..."]},
-{ Question: "qilishni yaxshi ko‘rmoq", RightAnswer: "love to do", options: ["love ...", "listen to ...", "involved in sth..."]},
-{ Question: "qilmoqchi bo‘lmoq", RightAnswer: "mean to do", options: ["love to do", "love ...", "listen to ..."]},
-{ Question: "degani", RightAnswer: "mean that", options: ["mean to do", "love to do", "love ..."]},
+{ Question: "bilan bellashmoq", RightAnswer: "compete against sb", options: ["write sth down", "write to", "write about"]},
+{ Question: "...da raqobat qilmoq", RightAnswer: "compete for/in sth", options: ["compete against sb", "write sth down", "write to"]},
+{ Question: "diqqatini jamlamoq", RightAnswer: "concentrate on st", options: ["compete for/in sth", "compete against sb", "write sth down"]},
+{ Question: "qilish qiyin", RightAnswer: "difficult to do", options: ["concentrate on st", "compete for/in sth", "compete against sb"]},
+{ Question: "qiyin deb bilmoq", RightAnswer: "find sth difficult", options: ["difficult to do", "concentrate on st", "compete for/in sth"]},
+{ Question: "qilish qiyin deb topmoq", RightAnswer: "find it difficult to do", options: ["find sth difficult", "difficult to do", "concentrate on st"]},
+{ Question: "...ga mehr qo‘ygan", RightAnswer: "fond", options: ["find it difficult to do", "find sth difficult", "difficult to do"]},
+{ Question: "qilishga erkin", RightAnswer: "free to do", options: ["fond", "find it difficult to do", "find sth difficult"]},
+{ Question: "...dan ozod", RightAnswer: "free from/of sth", options: ["free to do", "fond", "find it difficult to do"]},
+{ Question: "...uchun bo‘sh", RightAnswer: "free for sth", options: ["free from/of sth", "free to do", "fond"]},
+{ Question: "qiziqmoq", RightAnswer: "interested in st", options: ["free for sth", "free from/of sth", "free to do"]},
+{ Question: "o‘z ichiga olmoq", RightAnswer: "involve st", options: ["interested in st", "free for sth", "free from/of sth"]},
+{ Question: "ishtirok etayotgan", RightAnswer: "involved in st", options: ["involve st", "interested in st", "free for sth"]},
+{ Question: "eshitmoq", RightAnswer: "listen to", options: ["involved in st", "involve st", "interested in st"]},
+{ Question: "yaxshi ko‘rmoq", RightAnswer: "love", options: ["listen to", "involved in st", "involve st"]},
+{ Question: "qilishni yaxshi ko‘rmoq", RightAnswer: "love to do", options: ["love", "listen to", "involved in st"]},
+{ Question: "qilmoqchi bo‘lmoq", RightAnswer: "mean to do", options: ["love to do", "love", "listen to"]},
+{ Question: "degani", RightAnswer: "mean that", options: ["mean to do", "love to do", "love"]},
 { Question: "bu degani", RightAnswer: "it/this means that", options: ["mean that", "mean to do", "love to do"]},
-{ Question: "ma’nosida bo‘lmoq", RightAnswer: "mean sth...", options: ["it/this means that", "mean that", "mean to do"]},
-{ Question: "afzal ko‘rmoq", RightAnswer: "prefer to do ", options: ["mean sth...", "it/this means that", "mean that"]},
-{ Question: "...ni afzal ko‘rmoq", RightAnswer: "prefer sth", options: ["prefer to do ", "mean sth...", "it/this means that"]},
-{ Question: "...ni ...ga nisbatan afzal ko‘rmoq", RightAnswer: "prefer ... to ...", options: ["prefer sth", "prefer to do ", "mean sth..."]},
-{ Question: "to‘xtatmoq", RightAnswer: "stop sth...", options: ["prefer ... to ...", "prefer sth", "prefer to do "]},
-{ Question: "qilish uchun to‘xtamoq", RightAnswer: "stop to do", options: ["stop sth...", "prefer ... to ...", "prefer sth"]},
-{ Question: "kimnidir ...dan to‘xtatmoq", RightAnswer: "stop sb from doing", options: ["stop to do", "stop sth...", "prefer ... to ..."]},
-{ Question: "qilishi aniq", RightAnswer: "certain to do", options: ["stop sb from doing", "stop to do", "stop sth..."]},
+{ Question: "ma’nosida bo‘lmoq", RightAnswer: "mean st", options: ["it/this means that", "mean that", "mean to do"]},
+{ Question: "afzal ko‘rmoq", RightAnswer: "prefer to do ", options: ["mean st", "it/this means that", "mean that"]},
+{ Question: "...ni afzal ko‘rmoq", RightAnswer: "prefer sth", options: ["prefer to do ", "mean st", "it/this means that"]},
+{ Question: "...ni ...ga nisbatan afzal ko‘rmoq", RightAnswer: "prefer to", options: ["prefer sth", "prefer to do ", "mean st"]},
+{ Question: "to‘xtatmoq", RightAnswer: "stop st", options: ["prefer to", "prefer sth", "prefer to do "]},
+{ Question: "qilish uchun to‘xtamoq", RightAnswer: "stop to do", options: ["stop st", "prefer to", "prefer sth"]},
+{ Question: "kimnidir ...dan to‘xtatmoq", RightAnswer: "stop sb from doing", options: ["stop to do", "stop st", "prefer to"]},
+{ Question: "qilishi aniq", RightAnswer: "certain to do", options: ["stop sb from doing", "stop to do", "stop st"]},
 { Question: "aniq biladi", RightAnswer: "certain of sth", options: ["certain to do", "stop sb from doing", "stop to do"]},
 { Question: "ishonchi komil bo'lmoq", RightAnswer: "be certain that", options: ["certain of sth", "certain to do", "stop sb from doing"]},
 { Question: "ruxsat bermoq", RightAnswer: "allow", options: ["score", "beat", "win"]},
@@ -10561,43 +10561,43 @@ const destinationQuestions = {
 { Question: "xulosaga kelmoq", RightAnswer: "reach the conclusion", options: ["attempt to do", "make an attempt", "take it in turns"]},
 { Question: "yakunida", RightAnswer: "in conclusion", options: ["at the bottom", "beginning with", "at the beginning"]},
 { Question: "tajriba o‘tkazmoq", RightAnswer: "carry out an experiment", options: ["reach the conclusion", "attempt to do", "make an attempt"]},
-{ Question: "(biror narsa bilan) tajriba qilmoq", RightAnswer: "experiment with sth...", options: ["carry out an experiment", "reach the conclusion", "attempt to do"]},
+{ Question: "(biror narsa bilan) tajriba qilmoq", RightAnswer: "experiment with st", options: ["carry out an experiment", "reach the conclusion", "attempt to do"]},
 { Question: "aslida", RightAnswer: "in fact", options: ["in conclusion", "at the bottom", "beginning with"]},
 { Question: "aslida, rostini aytganda", RightAnswer: "as a matter of fact", options: ["in turn", "for the time being", "high time"]},
 { Question: "gap shundaki", RightAnswer: "the fact is ", options: ["as a matter of fact", "in turn", "for the time being"]},
-{ Question: "haqiqatga yuzlanmoq", RightAnswer: "face the facts", options: ["experiment with sth...", "carry out an experiment", "reach the conclusion"]},
+{ Question: "haqiqatga yuzlanmoq", RightAnswer: "face the facts", options: ["experiment with st", "carry out an experiment", "reach the conclusion"]},
 { Question: "(biror narsa) joriy qilinishi bilan", RightAnswer: "with the introduction of sth", options: ["in fact", "in conclusion", "at the bottom"]},
-{ Question: "tanishtirish", RightAnswer: "an introduction to ...", options: [" the cause of sth", "your turn", "spare time"]},
-{ Question: "telefon qilmoq", RightAnswer: "make a phone call", options: ["face the facts", "experiment with sth...", "carry out an experiment"]},
-{ Question: "suratga tushirmoq", RightAnswer: "take a photo", options: ["make a phone call", "face the facts", "experiment with sth..."]},
+{ Question: "tanishtirish", RightAnswer: "an introduction to", options: [" the cause of sth", "your turn", "spare time"]},
+{ Question: "telefon qilmoq", RightAnswer: "make a phone call", options: ["face the facts", "experiment with st", "carry out an experiment"]},
+{ Question: "suratga tushirmoq", RightAnswer: "take a photo", options: ["make a phone call", "face the facts", "experiment with st"]},
 { Question: "tadqiqot o‘tkazmoq", RightAnswer: "do research", options: ["take a photo", "make a phone call", "face the facts"]},
 { Question: "sabab bo‘lmoq", RightAnswer: "cause sth", options: ["be certain that", "certain of sth", "certain to do"]},
-{ Question: "deb hisoblamoq", RightAnswer: "consider sth...", options: ["cause sth", "be certain that", "certain of sth"]},
-{ Question: "o‘ylamoq (agar)", RightAnswer: "consider if/whether", options: ["consider sth...", "cause sth", "be certain that"]},
-{ Question: "kimnidir ... uchun ko‘rib chiqmoq", RightAnswer: "consider sb for sth", options: ["consider if/whether", "consider sth...", "cause sth"]},
-{ Question: "...ga g‘alati deb hisoblamoq", RightAnswer: "consider it strange, etc (for sb to do)", options: ["consider sb for sth", "consider if/whether", "consider sth..."]},
-{ Question: "muhokama qilmoq", RightAnswer: "discuss sth...", options: ["consider it strange, etc (for sb to do)", "consider sb for sth", "consider if/whether"]},
-{ Question: "tushuntirmoq", RightAnswer: "explain that", options: ["discuss sth...", "consider it strange, etc (for sb to do)", "consider sb for sth"]},
-{ Question: "...ni tushuntirmoq", RightAnswer: "explain sth", options: ["explain that", "discuss sth...", "consider it strange, etc (for sb to do)"]},
-{ Question: "qilishni niyat qilmoq", RightAnswer: "intend to do...", options: ["explain sth", "explain that", "discuss sth..."]},
-{ Question: "bilmoq", RightAnswer: "know (about) sth...", options: ["intend to do...", "explain sth", "explain that"]},
-{ Question: "kimnidir bilmoq", RightAnswer: "know of sb", options: ["know (about) sth...", "intend to do...", "explain sth"]},
-{ Question: "sifatida tanilgan", RightAnswer: "be known as sth", options: ["know of sb", "know (about) sth...", "intend to do..."]},
-{ Question: "qidirmoq", RightAnswer: "look for ...", options: ["be known as sth", "know of sb", "know (about) sth..."]},
-{ Question: "intiqlik bilan kutmoq", RightAnswer: "look forward to sth...", options: ["look for ...", "be known as sth", "know of sb"]},
-{ Question: "uddalamoq", RightAnswer: "manage to do", options: ["look forward to sth...", "look for ...", "be known as sth"]},
-{ Question: "rejalashtirmoq", RightAnswer: "plan sth", options: ["manage to do", "look forward to sth...", "look for ..."]},
-{ Question: "qilishni rejalashtirmoq", RightAnswer: "plan to do", options: ["plan sth", "manage to do", "look forward to sth..."]},
+{ Question: "deb hisoblamoq", RightAnswer: "consider st", options: ["cause sth", "be certain that", "certain of sth"]},
+{ Question: "o‘ylamoq (agar)", RightAnswer: "consider if/whether", options: ["consider st", "cause sth", "be certain that"]},
+{ Question: "kimnidir uchun ko‘rib chiqmoq", RightAnswer: "consider sb for sth", options: ["consider if/whether", "consider st", "cause sth"]},
+{ Question: "...ga g‘alati deb hisoblamoq", RightAnswer: "consider it strange, etc (for sb to do)", options: ["consider sb for sth", "consider if/whether", "consider st"]},
+{ Question: "muhokama qilmoq", RightAnswer: "discuss st", options: ["consider it strange, etc (for sb to do)", "consider sb for sth", "consider if/whether"]},
+{ Question: "tushuntirmoq", RightAnswer: "explain that", options: ["discuss st", "consider it strange, etc (for sb to do)", "consider sb for sth"]},
+{ Question: "...ni tushuntirmoq", RightAnswer: "explain sth", options: ["explain that", "discuss st", "consider it strange, etc (for sb to do)"]},
+{ Question: "qilishni niyat qilmoq", RightAnswer: "intend to d", options: ["explain sth", "explain that", "discuss st"]},
+{ Question: "bilmoq", RightAnswer: "know (about) st", options: ["intend to d", "explain sth", "explain that"]},
+{ Question: "kimnidir bilmoq", RightAnswer: "know of sb", options: ["know (about) st", "intend to d", "explain sth"]},
+{ Question: "sifatida tanilgan", RightAnswer: "be known as sth", options: ["know of sb", "know (about) st", "intend to d"]},
+{ Question: "qidirmoq", RightAnswer: "look for", options: ["be known as sth", "know of sb", "know (about) st"]},
+{ Question: "intiqlik bilan kutmoq", RightAnswer: "look forward to st", options: ["look for", "be known as sth", "know of sb"]},
+{ Question: "uddalamoq", RightAnswer: "manage to do", options: ["look forward to st", "look for", "be known as sth"]},
+{ Question: "rejalashtirmoq", RightAnswer: "plan sth", options: ["manage to do", "look forward to st", "look for"]},
+{ Question: "qilishni rejalashtirmoq", RightAnswer: "plan to do", options: ["plan sth", "manage to do", "look forward to st"]},
 { Question: "mumkin deb topmoq", RightAnswer: "find sth possible", options: ["plan to do", "plan sth", "manage to do"]},
 { Question: "qila olmaydigan deb topmoq", RightAnswer: "find it impossible to do", options: ["find sth possible", "plan to do", "plan sth"]},
 { Question: "qilish mumkin", RightAnswer: "possible (for sb) to do", options: ["find it impossible to do", "find sth possible", "plan to do"]},
-{ Question: "natija", RightAnswer: "result of sth...", options: ["possible (for sb) to do", "find it impossible to do", "find sth possible"]},
-{ Question: "...ga olib kelmoq", RightAnswer: "result in sth", options: ["result of sth...", "possible (for sb) to do", "find it impossible to do"]},
-{ Question: "qilishga olib kelmoq", RightAnswer: "result in", options: ["result in sth", "result of sth...", "possible (for sb) to do"]},
-{ Question: "...dan kelib chiqmoq", RightAnswer: "result from sth...", options: ["result in", "result in sth", "result of sth..."]},
-{ Question: "... natijasida", RightAnswer: "as a result of sth", options: ["result from sth...", "result in", "result in sth"]},
-{ Question: "qiziqmoq", RightAnswer: "wonder about sth...", options: ["as a result of sth", "result from sth...", "result in"]},
-{ Question: "hayron bo‘lmoq", RightAnswer: "wonder if", options: ["wonder about sth...", "as a result of sth", "result from sth..."]},
+{ Question: "natija", RightAnswer: "result of st", options: ["possible (for sb) to do", "find it impossible to do", "find sth possible"]},
+{ Question: "...ga olib kelmoq", RightAnswer: "result in sth", options: ["result of st", "possible (for sb) to do", "find it impossible to do"]},
+{ Question: "qilishga olib kelmoq", RightAnswer: "result in", options: ["result in sth", "result of st", "possible (for sb) to do"]},
+{ Question: "...dan kelib chiqmoq", RightAnswer: "result from st", options: ["result in", "result in sth", "result of st"]},
+{ Question: "... natijasida", RightAnswer: "as a result of sth", options: ["result from st", "result in", "result in sth"]},
+{ Question: "qiziqmoq", RightAnswer: "wonder about st", options: ["as a result of sth", "result from st", "result in"]},
+{ Question: "hayron bo‘lmoq", RightAnswer: "wonder if", options: ["wonder about st", "as a result of sth", "result from st"]},
 { Question: "ko‘rinmoq", RightAnswer: "appear", options: ["occur", "discover", "invent"]},
 { Question: "tashqi ko‘rinish", RightAnswer: "appearance", options: ["reward", "award", "factory"]},
 { Question: "ko‘rinishidan", RightAnswer: "apparently", options: ["distantly", "directly", "culturally"]},
@@ -10651,9 +10651,9 @@ const destinationQuestions = {
 { Question: "sarlavha (matnda)", RightAnswer: "heading", options: ["headline", "wood", "technique"]},
 { Question: "maxsus maqola", RightAnswer: "feature", options: ["heading", "headline", "wood"]},
 { Question: "maqola", RightAnswer: "article", options: ["feature", "heading", "headline"]},
-{ Question: "tok-shou", RightAnswer: "talk show", options: ["an introduction to ...", " the cause of sth", "your turn"]},
-{ Question: "viktorina shousi", RightAnswer: "quiz show", options: ["talk show", "an introduction to ...", " the cause of sth"]},
-{ Question: "o‘yin shousi", RightAnswer: "game show", options: ["quiz show", "talk show", "an introduction to ..."]},
+{ Question: "tok-shou", RightAnswer: "talk show", options: ["an introduction to", " the cause of sth", "your turn"]},
+{ Question: "viktorina shousi", RightAnswer: "quiz show", options: ["talk show", "an introduction to", " the cause of sth"]},
+{ Question: "o‘yin shousi", RightAnswer: "game show", options: ["quiz show", "talk show", "an introduction to"]},
 { Question: "diktor", RightAnswer: "announcer", options: ["article", "feature", "heading"]},
 { Question: "sharhlovchi", RightAnswer: "commentator", options: ["announcer", "article", "feature"]},
 { Question: "ommabop gazeta", RightAnswer: "tabloid", options: ["commentator", "announcer", "article"]},
@@ -10676,7 +10676,7 @@ const destinationQuestions = {
 { Question: "batafsil ko‘rib chiqmoq", RightAnswer: "go into", options: ["flick through", "fill in", "come out"]},
 { Question: "tarqatmoq", RightAnswer: "hand out", options: ["go into", "flick through", "fill in"]},
 { Question: "ma’lumot qidirmoq (lug‘at, kitob)", RightAnswer: "look up", options: ["hand out", "go into", "flick through"]},
-{ Question: "tushunishga harakat qilmoq; o‘zini ... qilib ko‘rsatmoq", RightAnswer: "make out", options: ["look up", "hand out", "go into"]},
+{ Question: "tushunishga harakat qilmoq; o‘zini qilib ko‘rsatmoq", RightAnswer: "make out", options: ["look up", "hand out", "go into"]},
 { Question: "bahona/voqea o‘ylab topmoq", RightAnswer: "make up", options: ["make out", "look up", "hand out"]},
 { Question: "taklif bermoq", RightAnswer: "put forward", options: ["make up", "make out", "look up"]},
 { Question: "aldovga tushmaslik", RightAnswer: "see through", options: ["put forward", "make up", "make out"]},
@@ -10686,57 +10686,57 @@ const destinationQuestions = {
 { Question: "boshqaruvni qo‘lga olmoq", RightAnswer: "take control", options: ["do research", "take a photo", "make a phone call"]},
 { Question: "boshqaruv ostida", RightAnswer: "under control", options: ["in control", "with the introduction of sth", "in fact"]},
 { Question: "kimningdir nazorati ostida", RightAnswer: "under the control of sb", options: ["under control", "in control", "with the introduction of sth"]},
-{ Question: "boshqaruvdan chiqib ketgan ", RightAnswer: "out of control", options: ["popular with/among", "mad about ...", "afraid of heights"]},
-{ Question: "...ga ta’rif bermoq", RightAnswer: "give a description of ...", options: ["take control", "do research", "take a photo"]},
-{ Question: "ta’sir ko‘rsatmoq", RightAnswer: "make a difference", options: ["give a description of ...", "take control", "do research"]},
-{ Question: "farqini aytib bermoq", RightAnswer: "tell the difference (between)", options: ["make a difference", "give a description of ...", "take control"]},
+{ Question: "boshqaruvdan chiqib ketgan ", RightAnswer: "out of control", options: ["popular with/among", "mad about", "afraid of heights"]},
+{ Question: "...ga ta’rif bermoq", RightAnswer: "give a description", options: ["take control", "do research", "take a photo"]},
+{ Question: "ta’sir ko‘rsatmoq", RightAnswer: "make a difference", options: ["give a description", "take control", "do research"]},
+{ Question: "farqini aytib bermoq", RightAnswer: "tell the difference (between)", options: ["make a difference", "give a description", "take control"]},
 { Question: "hech qanday farq yo'q", RightAnswer: "there’s no difference between", options: ["game show", "quiz show", "talk show"]},
-{ Question: "qadrlamaslik", RightAnswer: "take ... for granted", options: ["tell the difference (between)", "make a difference", "give a description of ..."]},
-{ Question: "ta’sir qilmoq", RightAnswer: "influence ...", options: ["take ... for granted", "tell the difference (between)", "make a difference"]},
-{ Question: "ta’siri bo‘lmoq", RightAnswer: "have/be an influence on ...", options: ["there’s no difference between", "game show", "quiz show"]},
+{ Question: "qadrlamaslik", RightAnswer: "take for granted", options: ["tell the difference (between)", "make a difference", "give a description"]},
+{ Question: "ta’sir qilmoq", RightAnswer: "influence", options: ["take for granted", "tell the difference (between)", "make a difference"]},
+{ Question: "ta’siri bo‘lmoq", RightAnswer: "have/be an influence on", options: ["there’s no difference between", "game show", "quiz show"]},
 { Question: "internetda", RightAnswer: "on the Internet", options: ["under the control of sb", "under control", "in control"]},
 { Question: "internet orqali", RightAnswer: "over the Internet", options: ["on the Internet", "under the control of sb", "under control"]},
-{ Question: "internetda sayr qilmoq", RightAnswer: "surf the Internet", options: ["influence ...", "take ... for granted", "tell the difference (between)"]},
+{ Question: "internetda sayr qilmoq", RightAnswer: "surf the Internet", options: ["influence", "take for granted", "tell the difference (between)"]},
 { Question: "yangiliklarda", RightAnswer: "in the news", options: ["over the Internet", "on the Internet", "under the control of sb"]},
 { Question: "yangiliklarda", RightAnswer: "on the news", options: ["in the news", "over the Internet", "on the Internet"]},
-{ Question: "yangilikni eshitmoq", RightAnswer: "hear the news", options: ["surf the Internet", "influence ...", "take ... for granted"]},
-{ Question: "tezkor yangilik", RightAnswer: "newsflash", options: ["have/be an influence on ...", "there’s no difference between", "game show"]},
+{ Question: "yangilikni eshitmoq", RightAnswer: "hear the news", options: ["surf the Internet", "influence", "take for granted"]},
+{ Question: "tezkor yangilik", RightAnswer: "newsflash", options: ["have/be an influence on", "there’s no difference between", "game show"]},
 { Question: "gazeta ", RightAnswer: "newspaper", options: ["newsflash", "bulletin", "channel"]},
-{ Question: "sodir bo‘lmoq", RightAnswer: "take place", options: ["hear the news", "surf the Internet", "influence ..."]},
+{ Question: "sodir bo‘lmoq", RightAnswer: "take place", options: ["hear the news", "surf the Internet", "influence"]},
 { Question: "o‘rniga", RightAnswer: "in place of", options: ["on the news", "in the news", "over the Internet"]},
 { Question: "bir joyda", RightAnswer: "at a place", options: ["in place of", "on the news", "in the news"]},
 { Question: "savol bermoq", RightAnswer: "ask a Question", options: ["take place", "hear the news", "surf the Internet"]},
-{ Question: "so‘roq qilmoq", RightAnswer: "Question ...", options: ["ask a Question", "take place", "hear the news"]},
+{ Question: "so‘roq qilmoq", RightAnswer: "Question", options: ["ask a Question", "take place", "hear the news"]},
 { Question: "muhokamada", RightAnswer: "in Question", options: ["at a place", "in place of", "on the news"]},
-{ Question: "savol belgisi", RightAnswer: "Question mark", options: ["newsflash", "have/be an influence on ...", "there’s no difference between"]},
-{ Question: "fikrga ega bo‘lmoq", RightAnswer: "hold a view", options: ["Question ...", "ask a Question", "take place"]},
+{ Question: "savol belgisi", RightAnswer: "Question mark", options: ["newsflash", "have/be an influence on", "there’s no difference between"]},
+{ Question: "fikrga ega bo‘lmoq", RightAnswer: "hold a view", options: ["Question", "ask a Question", "take place"]},
 { Question: "kimningdir qarashi ", RightAnswer: "be sb’s view that", options: ["works", "worker", "work"]},
 { Question: "mening nazarimda", RightAnswer: "in my view", options: ["in Question", "at a place", "in place of"]},
 { Question: "... sababli", RightAnswer: "in view of", options: ["in my view", "in Question", "at a place"]},
-{ Question: "manzarani tomosha qilmoq", RightAnswer: "see the view", options: ["hold a view", "Question ...", "ask a Question"]},
-{ Question: "nimaningdir manzarasi", RightAnswer: "view of sth", options: ["Question mark", "newsflash", "have/be an influence on ..."]},
-{ Question: "(biror narsa/kishni) kuzatmoq", RightAnswer: "watch ...", options: ["see the view", "hold a view", "Question ..."]},
-{ Question: "ehtiyot bo‘lmoq", RightAnswer: "watch (out) for ...", options: ["watch ...", "see the view", "hold a view"]},
-{ Question: "qorovullik qilmoq", RightAnswer: "keep watch", options: ["watch (out) for ...", "watch ...", "see the view"]},
-{ Question: "kimningdir fikricha", RightAnswer: "according to sb", options: ["wonder if", "wonder about sth...", "as a result of sth"]},
-{ Question: "e’lon qilmoq", RightAnswer: "announce sth", options: ["according to sb", "wonder if", "wonder about sth..."]},
+{ Question: "manzarani tomosha qilmoq", RightAnswer: "see the view", options: ["hold a view", "Question", "ask a Question"]},
+{ Question: "nimaningdir manzarasi", RightAnswer: "view of sth", options: ["Question mark", "newsflash", "have/be an influence on"]},
+{ Question: "(biror narsa/kishni) kuzatmoq", RightAnswer: "watch", options: ["see the view", "hold a view", "Question"]},
+{ Question: "ehtiyot bo‘lmoq", RightAnswer: "watch (out) for", options: ["watch", "see the view", "hold a view"]},
+{ Question: "qorovullik qilmoq", RightAnswer: "keep watch", options: ["watch (out) for", "watch", "see the view"]},
+{ Question: "kimningdir fikricha", RightAnswer: "according to sb", options: ["wonder if", "wonder about st", "as a result of sth"]},
+{ Question: "e’lon qilmoq", RightAnswer: "announce sth", options: ["according to sb", "wonder if", "wonder about st"]},
 { Question: "deb e’lon qilmoq", RightAnswer: "announce that", options: ["announce sth", "according to sb", "wonder if"]},
 { Question: "ishontirmoq", RightAnswer: "believe sth", options: ["announce that", "announce sth", "according to sb"]},
 { Question: "ishontirmoq (nimagadir)", RightAnswer: "believe in sth", options: ["believe sth", "announce that", "announce sth"]},
 { Question: "deb hisoblamoq", RightAnswer: "believe that", options: ["believe in sth", "believe sth", "announce that"]},
-{ Question: "kimnidir ... deb hisoblamoq", RightAnswer: "believe sb to be", options: ["believe that", "believe in sth", "believe sth"]},
+{ Question: "kimnidir deb hisoblamoq", RightAnswer: "believe sb to be", options: ["believe that", "believe in sth", "believe sth"]},
 { Question: "fikr bildirmoq", RightAnswer: "comment on sth", options: ["believe sb to be", "believe that", "believe in sth"]},
 { Question: "fikr bildirmoq", RightAnswer: "make a comment about sth", options: ["comment on sth", "believe sb to be", "believe that"]},
-{ Question: "aralashtirib yubormoq", RightAnswer: "confuse ... with ...", options: ["make a comment about sth", "comment on sth", "believe sb to be"]},
-{ Question: "adashgan", RightAnswer: "confused about/by sth", options: ["confuse ... with ...", "make a comment about sth", "comment on sth"]},
-{ Question: "yozishmoq, mos kelmoq", RightAnswer: "correspond with ...", options: ["confused about/by sth", "confuse ... with ...", "make a comment about sth"]},
-{ Question: "sifatida ta’riflamoq", RightAnswer: "describe ... as", options: ["correspond with ...", "confused about/by sth", "confuse ... with ..."]},
-{ Question: "kimga nimanidir ta’riflab bermoq", RightAnswer: "describe sth to sb", options: ["describe ... as", "correspond with ...", "confused about/by sth"]},
-{ Question: "eshitmoq", RightAnswer: "hear ...", options: ["describe sth to sb", "describe ... as", "correspond with ..."]},
-{ Question: "haqida eshitmoq", RightAnswer: "hear about ...", options: ["hear ...", "describe sth to sb", "describe ... as"]},
-{ Question: "kimdandir xabar olmoq", RightAnswer: "hear from sb", options: ["hear about ...", "hear ...", "describe sth to sb"]},
-{ Question: "kimga ... deb xabar bermoq", RightAnswer: "inform sb that", options: ["hear from sb", "hear about ...", "hear ..."]},
-{ Question: "xabar bermoq", RightAnswer: "inform sb about/of sth", options: ["inform sb that", "hear from sb", "hear about ..."]},
+{ Question: "aralashtirib yubormoq", RightAnswer: "confuse with", options: ["make a comment about sth", "comment on sth", "believe sb to be"]},
+{ Question: "adashgan", RightAnswer: "confused about/by sth", options: ["confuse with", "make a comment about sth", "comment on sth"]},
+{ Question: "yozishmoq, mos kelmoq", RightAnswer: "correspond with", options: ["confused about/by sth", "confuse with", "make a comment about sth"]},
+{ Question: "sifatida ta’riflamoq", RightAnswer: "describe as", options: ["correspond with", "confused about/by sth", "confuse with"]},
+{ Question: "kimga nimanidir ta’riflab bermoq", RightAnswer: "describe sth to sb", options: ["describe as", "correspond with", "confused about/by sth"]},
+{ Question: "eshitmoq", RightAnswer: "hear", options: ["describe sth to sb", "describe as", "correspond with"]},
+{ Question: "haqida eshitmoq", RightAnswer: "hear about", options: ["hear", "describe sth to sb", "describe as"]},
+{ Question: "kimdandir xabar olmoq", RightAnswer: "hear from sb", options: ["hear about", "hear", "describe sth to sb"]},
+{ Question: "kimga deb xabar bermoq", RightAnswer: "inform sb that", options: ["hear from sb", "hear about", "hear"]},
+{ Question: "xabar bermoq", RightAnswer: "inform sb about/of sth", options: ["inform sb that", "hear from sb", "hear about"]},
 { Question: "ehtimoli bor", RightAnswer: "likely to do", options: ["inform sb about/of sth", "inform sb that", "hear from sb"]},
 { Question: "ehtimolki", RightAnswer: "likely that", options: ["likely to do", "inform sb about/of sth", "inform sb that"]},
 { Question: "ko‘ndirmoq", RightAnswer: "persuade sb to do", options: ["likely that", "likely to do", "inform sb about/of sth"]},
@@ -10749,8 +10749,8 @@ const destinationQuestions = {
 { Question: "hayron qolgan", RightAnswer: "surprised at/by sth", options: ["by surprise", "send sth to sb", "send sb sth"]},
 { Question: "aytmoq", RightAnswer: "tell sb sth", options: ["surprised at/by sth", "by surprise", "send sth to sb"]},
 { Question: "deb aytmoq", RightAnswer: "tell sb that", options: ["tell sb sth", "surprised at/by sth", "by surprise"]},
-{ Question: "nimadir haqida aytmoq", RightAnswer: "tell sb about sth...", options: ["tell sb that", "tell sb sth", "surprised at/by sth"]},
-{ Question: "qilmaslikka aytmoq", RightAnswer: "tell sb (not) to do", options: ["tell sb about sth...", "tell sb that", "tell sb sth"]},
+{ Question: "nimadir haqida aytmoq", RightAnswer: "tell sb about st", options: ["tell sb that", "tell sb sth", "surprised at/by sth"]},
+{ Question: "qilmaslikka aytmoq", RightAnswer: "tell sb (not) to do", options: ["tell sb about st", "tell sb that", "tell sb sth"]},
 { Question: "e’lon qilmoq", RightAnswer: "announce", options: ["accept", "agree", "refuse"]},
 { Question: "e’lon", RightAnswer: "announcement", options: ["newspaper", "newsflash", "bulletin"]},
  { Question: "e’lon qilingan", RightAnswer: "announced", options: ["wooden", "technical", "technological"]},
@@ -10848,18 +10848,18 @@ const destinationQuestions = {
 { Question: "tinchlanmoq / uy qurib joylashmoq", RightAnswer: "settle down", options: ["put down", "pick on", "pass away"]},
 { Question: "himoya qilmoq", RightAnswer: "stand up for", options: ["settle down", "put down", "pick on"]},
 { Question: "hayratda qoldirmoq", RightAnswer: "take aback", options: ["stand up for", "settle down", "put down"]},
-{ Question: "ma’qullamoq", RightAnswer: "give approval of/for sth", options: ["keep watch", "watch (out) for ...", "watch ..."]},
-{ Question: "kimningdir roziligiga sazovor bo‘lmoq", RightAnswer: "meet with sb’s approval", options: ["give approval of/for sth", "keep watch", "watch (out) for ..."]},
+{ Question: "ma’qullamoq", RightAnswer: "give approval of/for sth", options: ["keep watch", "watch (out) for", "watch"]},
+{ Question: "kimningdir roziligiga sazovor bo‘lmoq", RightAnswer: "meet with sb’s approval", options: ["give approval of/for sth", "keep watch", "watch (out) for"]},
 { Question: "(kim bilandir) bahslashmoq", RightAnswer: "have an argument", options: ["meet with sb’s approval", "give approval of/for sth", "keep watch"]},
 { Question: "bahsni yutmoq/yutqazmoq", RightAnswer: "win/lose an argument", options: ["have an argument", "meet with sb’s approval", "give approval of/for sth"]},
 { Question: "(biror narsa/kishga) g‘amxo‘rlik qilmoq", RightAnswer: "take care", options: ["win/lose an argument", "have an argument", "meet with sb’s approval"]},
-{ Question: "...ga qiziqish/mehr qo‘ymoq", RightAnswer: "care for/about ...", options: ["take care", "win/lose an argument", "have an argument"]},
-{ Question: "qilishga jur’at qilmoq", RightAnswer: "have the courage to do", options: ["care for/about ...", "take care", "win/lose an argument"]},
+{ Question: "...ga qiziqish/mehr qo‘ymoq", RightAnswer: "care for/about", options: ["take care", "win/lose an argument", "have an argument"]},
+{ Question: "qilishga jur’at qilmoq", RightAnswer: "have the courage to do", options: ["care for/about", "take care", "win/lose an argument"]},
 { Question: "qilish uchun jasorat talab qilinadi ", RightAnswer: "it takes courage to do", options: ["take place", "worldwide", "responsibly"]},
 { Question: "niqoblangan", RightAnswer: "in disguise", options: ["in view of", "in my view", "in Question"]},
-{ Question: "niqob taqmoq", RightAnswer: "wear a disguise", options: ["have the courage to do", "care for/about ...", "take care"]},
-{ Question: "niqoblanmoq", RightAnswer: "disguise yourself", options: ["wear a disguise", "have the courage to do", "care for/about ..."]},
-{ Question: "... sifatida niqoblangan ", RightAnswer: "disguised as sb/sth", options: ["out of control", "popular with/among", "mad about ..."]},
+{ Question: "niqob taqmoq", RightAnswer: "wear a disguise", options: ["have the courage to do", "care for/about", "take care"]},
+{ Question: "niqoblanmoq", RightAnswer: "disguise yourself", options: ["wear a disguise", "have the courage to do", "care for/about"]},
+{ Question: "... sifatida niqoblangan ", RightAnswer: "disguised as", options: ["out of control", "popular with/among", "mad about"]},
 { Question: "oila qurmoq", RightAnswer: "start a family", options: ["disguise yourself", "wear a disguise", "have the courage to do"]},
 { Question: "kichik oila", RightAnswer: "nuclear family", options: ["view of sth", "Question mark", "newsflash"]},
 { Question: "katta oila", RightAnswer: "extended family", options: ["nuclear family", "view of sth", "Question mark"]},
@@ -10874,23 +10874,23 @@ const destinationQuestions = {
 { Question: "kimga achinmoq", RightAnswer: "pity sb", options: ["fall in love with sb", "make friends", "do a favour"]},
 { Question: "kimga rahmi kelmoq", RightAnswer: "take pity on sb", options: ["pity sb", "fall in love with sb", "make friends"]},
 { Question: "kimga achinish", RightAnswer: "feel pity for sb", options: ["take pity on sb", "pity sb", "fall in love with sb"]},
-{ Question: "afsuski ... ", RightAnswer: "it’s a pity (that)", options: ["it takes courage to do", "take place", "worldwide"]},
+{ Question: "afsuski ", RightAnswer: "it’s a pity (that)", options: ["it takes courage to do", "take place", "worldwide"]},
 { Question: "qilishga va’da bermoq", RightAnswer: "promise to do", options: ["feel pity for sb", "take pity on sb", "pity sb"]},
 { Question: "va’da bermoq", RightAnswer: "make sb a promise", options: ["promise to do", "feel pity for sb", "take pity on sb"]},
 { Question: "va’dasidan qaytmoq", RightAnswer: "break a promise", options: ["make sb a promise", "promise to do", "feel pity for sb"]},
-{ Question: "rozilik bildirmoq", RightAnswer: "agree with", options: ["tell sb (not) to do", "tell sb about sth...", "tell sb that"]},
-{ Question: "ruxsat bermoq", RightAnswer: "allow sb to do", options: ["agree with", "tell sb (not) to do", "tell sb about sth..."]},
-{ Question: "ma’qullamoq", RightAnswer: "approve of sth...", options: ["allow sb to do", "agree with", "tell sb (not) to do"]},
-{ Question: "kimdandir narsa so‘ramoq", RightAnswer: "ask sb sth", options: ["approve of sth...", "allow sb to do", "agree with"]},
-{ Question: "hujum qilmoq", RightAnswer: "attack", options: ["ask sb sth", "approve of sth...", "allow sb to do"]},
-{ Question: "taqiqlamoq", RightAnswer: "ban sb from sth...", options: ["attack", "ask sb sth", "approve of sth..."]},
-{ Question: "ishontirmoq", RightAnswer: "convince sb of sth", options: ["ban sb from sth...", "attack", "ask sb sth"]},
-{ Question: "majbur qilmoq", RightAnswer: "force sb to do sth", options: ["convince sb of sth", "ban sb from sth...", "attack"]},
-{ Question: "mustaqil", RightAnswer: "independent", options: ["force sb to do sth", "convince sb of sth", "ban sb from sth..."]},
+{ Question: "rozilik bildirmoq", RightAnswer: "agree with", options: ["tell sb (not) to do", "tell sb about st", "tell sb that"]},
+{ Question: "ruxsat bermoq", RightAnswer: "allow sb to do", options: ["agree with", "tell sb (not) to do", "tell sb about st"]},
+{ Question: "ma’qullamoq", RightAnswer: "approve of st", options: ["allow sb to do", "agree with", "tell sb (not) to do"]},
+{ Question: "kimdandir narsa so‘ramoq", RightAnswer: "ask sb sth", options: ["approve of st", "allow sb to do", "agree with"]},
+{ Question: "hujum qilmoq", RightAnswer: "attack", options: ["ask sb sth", "approve of st", "allow sb to do"]},
+{ Question: "taqiqlamoq", RightAnswer: "ban sb from st", options: ["attack", "ask sb sth", "approve of st"]},
+{ Question: "ishontirmoq", RightAnswer: "convince sb of sth", options: ["ban sb from st", "attack", "ask sb sth"]},
+{ Question: "majbur qilmoq", RightAnswer: "force sb to do sth", options: ["convince sb of sth", "ban sb from st", "attack"]},
+{ Question: "mustaqil", RightAnswer: "independent", options: ["force sb to do sth", "convince sb of sth", "ban sb from st"]},
 { Question: "imkon bermoq", RightAnswer: "let sb do sth", options: ["independent", "force sb to do sth", "convince sb of sth"]},
-{ Question: "e’tiroz bildirmoq", RightAnswer: "object to sth...", options: ["let sb do sth", "independent", "force sb to do sth"]},
-{ Question: "o‘zini ... qilib ko‘rsatmoq", RightAnswer: "pretend to do", options: ["object to sth...", "let sb do sth", "independent"]},
-{ Question: "ishonmoq", RightAnswer: "rely on ...", options: ["pretend to do", "object to sth...", "let sb do sth"]},
+{ Question: "e’tiroz bildirmoq", RightAnswer: "object to st", options: ["let sb do sth", "independent", "force sb to do sth"]},
+{ Question: "o‘zini qilib ko‘rsatmoq", RightAnswer: "pretend to do", options: ["object to st", "let sb do sth", "independent"]},
+{ Question: "ishonmoq", RightAnswer: "rely on", options: ["pretend to do", "object to st", "let sb do sth"]},
 { Question: "qodir", RightAnswer: "able", options: ["infamous", "unknown", "sensible"]},
 { Question: "qodir emas", RightAnswer: "unable", options: ["able", "infamous", "unknown"]},
 { Question: "qobiliyat", RightAnswer: "ability", options: ["audience", "crowd", "fault"]},
@@ -10991,18 +10991,18 @@ const destinationQuestions = {
 { Question: "hisobga olmoq", RightAnswer: "take into account", options: ["break a promise", "make sb a promise", "promise to do"]},
 { Question: "izoh bermoq", RightAnswer: "account for sth", options: ["take into account", "break a promise", "make sb a promise"]},
 { Question: "ustunlikka ega bo‘lmoq", RightAnswer: "have an advantage", options: ["account for sth", "take into account", "break a promise"]},
-{ Question: "...dan foydalanib qolmoq", RightAnswer: "take advantage of ...", options: ["have an advantage", "account for sth", "take into account"]},
+{ Question: "...dan foydalanib qolmoq", RightAnswer: "take advantage", options: ["have an advantage", "account for sth", "take into account"]},
 { Question: "ustun holatda", RightAnswer: "at an advantage", options: ["in the mood for sth", "in the right mood", "in a good mood"]},
-{ Question: "aybdor bo‘lmoq", RightAnswer: "be to blame", options: ["take advantage of ...", "have an advantage", "account for sth"]},
-{ Question: "aybni o‘z zimmasiga olmoq", RightAnswer: "take the blame", options: ["be to blame", "take advantage of ...", "have an advantage"]},
-{ Question: "ayblamoq", RightAnswer: "put the blame on sb", options: ["take the blame", "be to blame", "take advantage of ..."]},
+{ Question: "aybdor bo‘lmoq", RightAnswer: "be to blame", options: ["take advantage", "have an advantage", "account for sth"]},
+{ Question: "aybni o‘z zimmasiga olmoq", RightAnswer: "take the blame", options: ["be to blame", "take advantage", "have an advantage"]},
+{ Question: "ayblamoq", RightAnswer: "put the blame on sb", options: ["take the blame", "be to blame", "take advantage"]},
 { Question: "(biror narsaga) zarar yetkazmoq", RightAnswer: "cause damage (to sth)", options: ["put the blame on sb", "take the blame", "be to blame"]},
 { Question: "aybdor", RightAnswer: "at fault", options: ["at an advantage", "in the mood for sth", "in the right mood"]},
-{ Question: "kamchilik qidirmoq", RightAnswer: "find fault with ...", options: ["cause damage (to sth)", "put the blame on sb", "take the blame"]},
-{ Question: "qilish niyati yo'q ", RightAnswer: "have no intention of doing", options: ["find fault with ...", "cause damage (to sth)", "put the blame on sb"]},
-{ Question: "xato qilmoq", RightAnswer: "make a mistake", options: ["have no intention of doing", "find fault with ...", "cause damage (to sth)"]},
+{ Question: "kamchilik qidirmoq", RightAnswer: "find fault with", options: ["cause damage (to sth)", "put the blame on sb", "take the blame"]},
+{ Question: "qilish niyati yo'q ", RightAnswer: "have no intention of doing", options: ["find fault with", "cause damage (to sth)", "put the blame on sb"]},
+{ Question: "xato qilmoq", RightAnswer: "make a mistake", options: ["have no intention of doing", "find fault with", "cause damage (to sth)"]},
 { Question: "xato qilish", RightAnswer: "a mistake", options: ["corporal punishment", "capital punishment", "best friend"]},
-{ Question: "kimnidir boshqa birov deb adashmoq", RightAnswer: "mistake sb for sb", options: ["make a mistake", "have no intention of doing", "find fault with ..."]},
+{ Question: "kimnidir boshqa birov deb adashmoq", RightAnswer: "mistake sb for sb", options: ["make a mistake", "have no intention of doing", "find fault with"]},
 { Question: "kim uchun kerak bo‘lmoq ", RightAnswer: "necessary (for sb) to do", options: ["workable", "irresponsible", "responsible"]},
 { Question: "tartibda", RightAnswer: "in order", options: ["at fault", "at an advantage", "in the mood for sth"]},
 { Question: "tartibga keltirmoq", RightAnswer: "put sth in order", options: ["mistake sb for sb", "make a mistake", "have no intention of doing"]},
@@ -11021,20 +11021,20 @@ const destinationQuestions = {
 { Question: "noto‘g‘ri ish", RightAnswer: "the wrong thing to do", options: ["reason for sth", "purpose of sth", "a mistake"]},
 { Question: "xato qilmoq", RightAnswer: "go wrong", options: ["do wrong", "reason with sb", "do sth on purpose"]},
 { Question: "noto‘g‘ri joylashtirilgan", RightAnswer: "the wrong way up", options: ["under orders", "in order to do", "in order"]},
-{ Question: "ayblamoq", RightAnswer: "accuse sb of sth...", options: ["rely on ...", "pretend to do", "object to sth..."]},
-{ Question: "hibsga olmoq", RightAnswer: "arrest sb for sth...", options: ["accuse sb of sth...", "rely on ...", "pretend to do"]},
-{ Question: "ayblamoq", RightAnswer: "charge sb with sth", options: ["arrest sb for sth...", "accuse sb of sth...", "rely on ..."]},
-{ Question: "da’vo qilmoq", RightAnswer: "claim to be/do", options: ["charge sb with sth", "arrest sb for sth...", "accuse sb of sth..."]},
-{ Question: "inkor qilmoq", RightAnswer: "deny sth...", options: ["claim to be/do", "charge sb with sth", "arrest sb for sth..."]},
-{ Question: "shubhalanmoq", RightAnswer: "doubt sth", options: ["deny sth...", "claim to be/do", "charge sb with sth"]},
-{ Question: "kechirmoq", RightAnswer: "forgive sb for sth...", options: ["doubt sth", "deny sth...", "claim to be/do"]},
-{ Question: "ko‘z yugurtirmoq", RightAnswer: "glimpse sth", options: ["forgive sb for sth...", "doubt sth", "deny sth..."]},
-{ Question: "aybdor", RightAnswer: "guilty of sth...", options: ["glimpse sth", "forgive sb for sth...", "doubt sth"]},
-{ Question: "qonuniy", RightAnswer: "legal (for sb) to do", options: ["guilty of sth...", "glimpse sth", "forgive sb for sth..."]},
-{ Question: "kimnidir majbur qilmoq", RightAnswer: "make sb do", options: ["legal (for sb) to do", "guilty of sth...", "glimpse sth"]},
-{ Question: "rad etmoq", RightAnswer: "refuse to do sth", options: ["make sb do", "legal (for sb) to do", "guilty of sth..."]},
-{ Question: "hurmat qilmoq", RightAnswer: "respect sth; respect sb for sth...", options: ["refuse to do sth", "make sb do", "legal (for sb) to do"]},
-{ Question: "tahdid qilmoq", RightAnswer: "threaten to do; threaten sb with sth", options: ["respect sth; respect sb for sth...", "refuse to do sth", "make sb do"]},
+{ Question: "ayblamoq", RightAnswer: "accuse sb of st", options: ["rely on", "pretend to do", "object to st"]},
+{ Question: "hibsga olmoq", RightAnswer: "arrest sb for st", options: ["accuse sb of st", "rely on", "pretend to do"]},
+{ Question: "ayblamoq", RightAnswer: "charge sb with sth", options: ["arrest sb for st", "accuse sb of st", "rely on"]},
+{ Question: "da’vo qilmoq", RightAnswer: "claim to be/do", options: ["charge sb with sth", "arrest sb for st", "accuse sb of st"]},
+{ Question: "inkor qilmoq", RightAnswer: "deny st", options: ["claim to be/do", "charge sb with sth", "arrest sb for st"]},
+{ Question: "shubhalanmoq", RightAnswer: "doubt sth", options: ["deny st", "claim to be/do", "charge sb with sth"]},
+{ Question: "kechirmoq", RightAnswer: "forgive sb for st", options: ["doubt sth", "deny st", "claim to be/do"]},
+{ Question: "ko‘z yugurtirmoq", RightAnswer: "glimpse sth", options: ["forgive sb for st", "doubt sth", "deny st"]},
+{ Question: "aybdor", RightAnswer: "guilty of st", options: ["glimpse sth", "forgive sb for st", "doubt sth"]},
+{ Question: "qonuniy", RightAnswer: "legal (for sb) to do", options: ["guilty of st", "glimpse sth", "forgive sb for st"]},
+{ Question: "kimnidir majbur qilmoq", RightAnswer: "make sb do", options: ["legal (for sb) to do", "guilty of st", "glimpse sth"]},
+{ Question: "rad etmoq", RightAnswer: "refuse to do sth", options: ["make sb do", "legal (for sb) to do", "guilty of st"]},
+{ Question: "hurmat qilmoq", RightAnswer: "respect sth; respect sb for st", options: ["refuse to do sth", "make sb do", "legal (for sb) to do"]},
+{ Question: "tahdid qilmoq", RightAnswer: "threaten to do; threaten sb with sth", options: ["respect sth; respect sb for st", "refuse to do sth", "make sb do"]},
 { Question: "ayblamoq", RightAnswer: "accuse", options: ["imprison", "sentence", "persecute"]},
 { Question: "ayblanuvchi", RightAnswer: "accused", options: ["solicitor", "lawyer", "bystander"]},
 { Question: "ayblov", RightAnswer: "accusation", options: ["accused", "solicitor", "lawyer"]},
@@ -11141,14 +11141,14 @@ const destinationQuestions = {
 { Question: "urinmoq", RightAnswer: "attempt to do", options: ["make an attempt", "make an appointment", "have an alternative"]},
 { Question: "...dan foyda ko‘rmoq", RightAnswer: "benefit from sth", options: ["attempt to do", "make an attempt", "make an appointment"]},
 { Question: "...ning foydasi", RightAnswer: "a benefit of sth", options: ["alternative medicine", "the wrong thing to do", "reason for sth"]},
-{ Question: "shikoyat qilmoq", RightAnswer: "complain (about ... doing)", options: ["benefit from sth", "attempt to do", "make an attempt"]},
-{ Question: "(biror narsadan) shikoyat qilmoq", RightAnswer: "complain of sth", options: ["complain (about ... doing)", "benefit from sth", "attempt to do"]},
-{ Question: "mashq qilmoq", RightAnswer: "get exercise", options: ["complain of sth", "complain (about ... doing)", "benefit from sth"]},
-{ Question: "mashq bajarmoq", RightAnswer: "do exercise", options: ["get exercise", "complain of sth", "complain (about ... doing)"]},
+{ Question: "shikoyat qilmoq", RightAnswer: "complain (about doing)", options: ["benefit from sth", "attempt to do", "make an attempt"]},
+{ Question: "(biror narsadan) shikoyat qilmoq", RightAnswer: "complain of sth", options: ["complain (about doing)", "benefit from sth", "attempt to do"]},
+{ Question: "mashq qilmoq", RightAnswer: "get exercise", options: ["complain of sth", "complain (about doing)", "benefit from sth"]},
+{ Question: "mashq bajarmoq", RightAnswer: "do exercise", options: ["get exercise", "complain of sth", "complain (about doing)"]},
 { Question: "sog‘lom bo‘lmoq", RightAnswer: "get fit", options: ["do exercise", "get exercise", "complain of sth"]},
-{ Question: "(kim uchun) foydali ", RightAnswer: "good for sb", options: ["disguised as sb/sth", "out of control", "popular with/among"]},
-{ Question: "...da yaxshi bo‘lmoq ", RightAnswer: "good at sth...", options: ["good for sb", "disguised as sb/sth", "out of control"]},
-{ Question: "(kimga) mehribon ", RightAnswer: "good to sb", options: ["good at sth...", "good for sb", "disguised as sb/sth"]},
+{ Question: "(kim uchun) foydali ", RightAnswer: "good for sb", options: ["disguised as", "out of control", "popular with/among"]},
+{ Question: "...da yaxshi bo‘lmoq ", RightAnswer: "good at st", options: ["good for sb", "disguised as", "out of control"]},
+{ Question: "(kimga) mehribon ", RightAnswer: "good to sb", options: ["good at st", "good for sb", "disguised as"]},
 { Question: "sog‘lig'i yaxshi ", RightAnswer: "in good health", options: ["the wrong way up", "under orders", "in order to do"]},
 { Question: "sog‘liq markazi", RightAnswer: "health centre", options: ["a benefit of sth", "alternative medicine", "the wrong thing to do"]},
 { Question: "sog‘liqni saqlash", RightAnswer: "health care", options: ["health centre", "a benefit of sth", "alternative medicine"]},
@@ -11163,29 +11163,29 @@ const destinationQuestions = {
 { Question: "... shaklida", RightAnswer: "in the shape of", options: ["in good health", "the wrong way up", "under orders"]},
 { Question: "narsa yoymoq", RightAnswer: "spread sth", options: ["stay in shape", "get in shape", "practise medicine"]},
 { Question: "(joyga) tarqalmoq", RightAnswer: "spread to a place", options: ["spread sth", "stay in shape", "get in shape"]},
-{ Question: "qaram", RightAnswer: "addicted to sth", options: ["threaten to do; threaten sb with sth", "respect sth; respect sb for sth...", "refuse to do sth"]},
-{ Question: "harakat qilmoq", RightAnswer: "attempt to do", options: ["addicted to sth", "threaten to do; threaten sb with sth", "respect sth; respect sb for sth..."]},
+{ Question: "qaram", RightAnswer: "addicted to sth", options: ["threaten to do; threaten sb with sth", "respect sth; respect sb for st", "refuse to do sth"]},
+{ Question: "harakat qilmoq", RightAnswer: "attempt to do", options: ["addicted to sth", "threaten to do; threaten sb with sth", "respect sth; respect sb for st"]},
 { Question: "foyda olmoq", RightAnswer: "benefit from sth", options: ["attempt to do", "addicted to sth", "threaten to do; threaten sb with sth"]},
 { Question: "...ning foydasi", RightAnswer: "a benefit of sth", options: ["benefit from sth", "attempt to do", "addicted to sth"]},
-{ Question: "shikoyat qilmoq", RightAnswer: "complain (about ... doing)", options: ["a benefit of sth", "benefit from sth", "attempt to do"]},
-{ Question: "shikoyat qilmoq", RightAnswer: "complain of sth", options: ["complain (about ... doing)", "a benefit of sth", "benefit from sth"]},
-{ Question: "uddalamoq", RightAnswer: "cope with sth...", options: ["complain of sth", "complain (about ... doing)", "a benefit of sth"]},
-{ Question: "ukol qilmoq", RightAnswer: "inject sth into ...", options: ["cope with sth...", "complain of sth", "complain (about ... doing)"]},
-{ Question: "olib kelmoq", RightAnswer: "lead to sth", options: ["inject sth into ...", "cope with sth...", "complain of sth"]},
-{ Question: "ehtimol", RightAnswer: "likely to do", options: ["lead to sth", "inject sth into ...", "cope with sth..."]},
-{ Question: "(no)ehtimolki", RightAnswer: "it is (un)likely that", options: ["likely to do", "lead to sth", "inject sth into ..."]},
+{ Question: "shikoyat qilmoq", RightAnswer: "complain (about doing)", options: ["a benefit of sth", "benefit from sth", "attempt to do"]},
+{ Question: "shikoyat qilmoq", RightAnswer: "complain of sth", options: ["complain (about doing)", "a benefit of sth", "benefit from sth"]},
+{ Question: "uddalamoq", RightAnswer: "cope with st", options: ["complain of sth", "complain (about doing)", "a benefit of sth"]},
+{ Question: "ukol qilmoq", RightAnswer: "inject sth into", options: ["cope with st", "complain of sth", "complain (about doing)"]},
+{ Question: "olib kelmoq", RightAnswer: "lead to sth", options: ["inject sth into", "cope with st", "complain of sth"]},
+{ Question: "ehtimol", RightAnswer: "likely to do", options: ["lead to sth", "inject sth into", "cope with st"]},
+{ Question: "(no)ehtimolki", RightAnswer: "it is (un)likely that", options: ["likely to do", "lead to sth", "inject sth into"]},
 { Question: "qilish kerak", RightAnswer: "need to do", options: ["it is (un)likely that", "likely to do", "lead to sth"]},
 { Question: "qilinishi kerak", RightAnswer: "need doing", options: ["need to do", "it is (un)likely that", "likely to do"]},
 { Question: "muhtoj", RightAnswer: "in need of", options: ["need doing", "need to do", "it is (un)likely that"]},
 { Question: "kerak emas", RightAnswer: "no need for", options: ["in need of", "need doing", "need to do"]},
 { Question: "operatsiya qilmoq", RightAnswer: "operate on", options: ["no need for", "in need of", "need doing"]},
 { Question: "azob chekmoq", RightAnswer: "suffer from sth", options: ["operate on", "no need for", "in need of"]},
-{ Question: "charchagan", RightAnswer: "tired of sth...", options: ["suffer from sth", "operate on", "no need for"]},
-{ Question: "harakat qilmoq", RightAnswer: "try to do", options: ["tired of sth...", "suffer from sth", "operate on"]},
-{ Question: "sinab ko‘rmoq", RightAnswer: "try ...", options: ["try to do", "tired of sth...", "suffer from sth"]},
-{ Question: "xavotirlanmoq", RightAnswer: "worry about ... doing", options: ["try ...", "try to do", "tired of sth..."]},
-{ Question: "xavotirga tushgan", RightAnswer: "worried about", options: ["worry about ... doing", "try ...", "try to do"]},
-{ Question: "arziydi", RightAnswer: "worth sth...", options: ["worried about", "worry about ... doing", "try ..."]},
+{ Question: "charchagan", RightAnswer: "tired of st", options: ["suffer from sth", "operate on", "no need for"]},
+{ Question: "harakat qilmoq", RightAnswer: "try to do", options: ["tired of st", "suffer from sth", "operate on"]},
+{ Question: "sinab ko‘rmoq", RightAnswer: "try", options: ["try to do", "tired of st", "suffer from sth"]},
+{ Question: "xavotirlanmoq", RightAnswer: "worry about doing", options: ["try", "try to do", "tired of st"]},
+{ Question: "xavotirga tushgan", RightAnswer: "worried about", options: ["worry about doing", "try", "try to do"]},
+{ Question: "arziydi", RightAnswer: "worth st", options: ["worried about", "worry about doing", "try"]},
 { Question: "allergiya", RightAnswer: "allergy", options: ["rash", "fever", "fix"]},
 { Question: "allergiyali", RightAnswer: "allergic", options: ["damaged", "injured", "fit"]},
 { Question: "xabardor", RightAnswer: "aware", options: ["allergic", "damaged", "injured"]},
@@ -11293,12 +11293,12 @@ const destinationQuestions = {
 { Question: "(kimningdir sharafiga) ichmoq", RightAnswer: "drink to sb", options: ["drink (sth)", "have a drink", "prepare food"]},
 { Question: "(kimningdir sog‘lig‘iga) ichmoq", RightAnswer: "drink to sb’s health", options: ["drink to sb", "drink (sth)", "have a drink"]},
 { Question: "kimga tost ko‘tarmoq", RightAnswer: "drink a toast to sb", options: ["drink to sb’s health", "drink to sb", "drink (sth)"]},
-{ Question: "ovqatlantirmoq", RightAnswer: "feed sb/sth", options: ["drink a toast to sb", "drink to sb’s health", "drink to sb"]},
-{ Question: "... bilan oziqlanmoq", RightAnswer: "feed on sth", options: ["feed sb/sth", "drink a toast to sb", "drink to sb’s health"]},
-{ Question: "(biror narsani) to‘ldirmoq", RightAnswer: "fill sth (up)", options: ["feed on sth", "feed sb/sth", "drink a toast to sb"]},
-{ Question: "... bilan to‘ldirmoq", RightAnswer: "fill sth with", options: ["fill sth (up)", "feed on sth", "feed sb/sth"]},
-{ Question: "...ga to‘la ", RightAnswer: "filled with sth", options: ["good to sb", "good at sth...", "good for sb"]},
-{ Question: "...ga to‘la ", RightAnswer: "full of sth", options: ["filled with sth", "good to sb", "good at sth..."]},
+{ Question: "ovqatlantirmoq", RightAnswer: "feed", options: ["drink a toast to sb", "drink to sb’s health", "drink to sb"]},
+{ Question: "... bilan oziqlanmoq", RightAnswer: "feed on sth", options: ["feed", "drink a toast to sb", "drink to sb’s health"]},
+{ Question: "(biror narsani) to‘ldirmoq", RightAnswer: "fill sth (up)", options: ["feed on sth", "feed", "drink a toast to sb"]},
+{ Question: "... bilan to‘ldirmoq", RightAnswer: "fill sth with", options: ["fill sth (up)", "feed on sth", "feed"]},
+{ Question: "...ga to‘la ", RightAnswer: "filled with sth", options: ["good to sb", "good at st", "good for sb"]},
+{ Question: "...ga to‘la ", RightAnswer: "full of sth", options: ["filled with sth", "good to sb", "good at st"]},
 { Question: "pishirmoq", RightAnswer: "cook a meal", options: ["fill sth with", "fill sth (up)", "feed on sth"]},
 { Question: "ovqat tayyorlamoq", RightAnswer: "prepare food", options: ["cook a meal", "fill sth with", "fill sth (up)"]},
 { Question: "tez tayyor ovqat", RightAnswer: "fast food", options: ["fizzy drink", "soft drink", "takeaway"]},
@@ -11319,18 +11319,18 @@ const destinationQuestions = {
 { Question: "idishlarni yuvmoq", RightAnswer: "wash the dishes", options: ["reserve a table", "lay the table", "follow a recipe"]},
 { Question: "qo‘lini yuvmoq", RightAnswer: "wash one’s hands", options: ["wash the dishes", "reserve a table", "lay the table"]},
 { Question: "idish yuvish mashinasi", RightAnswer: "dishwasher", options: ["recipe for disaster", "recipe book", "special occasion"]},
-{ Question: "bog‘lamoq", RightAnswer: "associate ... with ...", options: ["worth sth...", "worried about", "worry about ... doing"]},
-{ Question: "ehtiyot bo‘lmoq", RightAnswer: "careful with sth", options: ["associate ... with ...", "worth sth...", "worried about"]},
-{ Question: "tanlamoq", RightAnswer: "choose between; choose to do", options: ["careful with sth", "associate ... with ...", "worth sth..."]},
-{ Question: "maqtamoq", RightAnswer: "compliment sb on sth", options: ["choose between; choose to do", "careful with sth", "associate ... with ..."]},
+{ Question: "bog‘lamoq", RightAnswer: "associate with", options: ["worth st", "worried about", "worry about doing"]},
+{ Question: "ehtiyot bo‘lmoq", RightAnswer: "careful with sth", options: ["associate with", "worth st", "worried about"]},
+{ Question: "tanlamoq", RightAnswer: "choose between; choose to do", options: ["careful with sth", "associate with", "worth st"]},
+{ Question: "maqtamoq", RightAnswer: "compliment sb on sth", options: ["choose between; choose to do", "careful with sth", "associate with"]},
 { Question: "...ga to‘la", RightAnswer: "full of sth", options: ["compliment sb on sth", "choose between; choose to do", "careful with sth"]},
 { Question: "yetishmovchilik", RightAnswer: "lack sth; lacking in sth", options: ["full of sth", "compliment sb on sth", "choose between; choose to do"]},
 { Question: "taklif qilmoq", RightAnswer: "offer sb sth; offer to do", options: ["lack sth; lacking in sth", "full of sth", "compliment sb on sth"]},
 { Question: "hisoblamoq", RightAnswer: "regard sb as (being) sth", options: ["offer sb sth; offer to do", "lack sth; lacking in sth", "full of sth"]},
-{ Question: "eslamoq", RightAnswer: "remember to do; remember sb/sth...", options: ["regard sb as (being) sth", "offer sb sth; offer to do", "lack sth; lacking in sth"]},
-{ Question: "tavsiya qilmoq", RightAnswer: "suggest sth...; suggest that", options: ["remember to do; remember sb/sth...", "regard sb as (being) sth", "offer sb sth; offer to do"]},
-{ Question: "moyil bo‘lmoq", RightAnswer: "tend to do", options: ["suggest sth...; suggest that", "remember to do; remember sb/sth...", "regard sb as (being) sth"]},
-{ Question: "kutmoq", RightAnswer: "wait for ...; wait and see", options: ["tend to do", "suggest sth...; suggest that", "remember to do; remember sb/sth..."]},
+{ Question: "eslamoq", RightAnswer: "remember to do; remember sb/st", options: ["regard sb as (being) sth", "offer sb sth; offer to do", "lack sth; lacking in sth"]},
+{ Question: "tavsiya qilmoq", RightAnswer: "suggest sth...; suggest that", options: ["remember to do; remember sb/st", "regard sb as (being) sth", "offer sb sth; offer to do"]},
+{ Question: "moyil bo‘lmoq", RightAnswer: "tend to do", options: ["suggest sth...; suggest that", "remember to do; remember sb/st", "regard sb as (being) sth"]},
+{ Question: "kutmoq", RightAnswer: "wait for ...; wait and see", options: ["tend to do", "suggest sth...; suggest that", "remember to do; remember sb/st"]},
 { Question: "tayyor bo‘lmoq", RightAnswer: "willing to do", options: ["wait for ...; wait and see", "tend to do", "suggest sth...; suggest that"]},
 { Question: "xavotirlangan", RightAnswer: "anxious", options: ["freezing", "frozen", "surgical"]},
 { Question: "xavotir bilan", RightAnswer: "anxiously", options: ["strongly", "comfortably", "honestly"]},
@@ -11340,12 +11340,12 @@ const destinationQuestions = {
 { Question: "minnatdorchilik", RightAnswer: "appreciation", options: ["anxiety", "catalogue", "menu"]},
 { Question: "o‘z ichiga olmoq", RightAnswer: "contain", options: ["appreciate", "whisk", "stir"]},
 { Question: "idish", RightAnswer: "container", options: ["appreciation", "anxiety", "catalogue"]},
-{ Question: "mazmun, ichidagi narsa", RightAnswer: "content(s)", options: ["container", "appreciation", "anxiety"]},
+{ Question: "mazmun, ichidagi narsa", RightAnswer: "content", options: ["container", "appreciation", "anxiety"]},
 { Question: "yaratmoq", RightAnswer: "create", options: ["contain", "appreciate", "whisk"]},
 { Question: "ijodkor(ona)", RightAnswer: "creative", options: ["appreciative", "anxious", "freezing"]},
-{ Question: "yaratuv", RightAnswer: "creation", options: ["content(s)", "container", "appreciation"]},
-{ Question: "ijodkorlik", RightAnswer: "creativity", options: ["creation", "content(s)", "container"]},
-{ Question: "yaratuvchi", RightAnswer: "creator", options: ["creativity", "creation", "content(s)"]},
+{ Question: "yaratuv", RightAnswer: "creation", options: ["content", "container", "appreciation"]},
+{ Question: "ijodkorlik", RightAnswer: "creativity", options: ["creation", "content", "container"]},
+{ Question: "yaratuvchi", RightAnswer: "creator", options: ["creativity", "creation", "content"]},
 { Question: "jirkanmoq", RightAnswer: "disgust", options: ["create", "contain", "appreciate"]},
 { Question: "jirkanch", RightAnswer: "disgusting", options: ["creative", "appreciative", "anxious"]},
 { Question: "jirkanayotgan", RightAnswer: "disgusted", options: ["disgusting", "creative", "appreciative"]},
@@ -11418,10 +11418,10 @@ const destinationQuestions = {
 { Question: "chizib tashlamoq", RightAnswer: "cross out", options: ["come around (to)", "catch on", "turn up"]},
 { Question: "tushunib yetmoq", RightAnswer: "dawn on", options: ["cross out", "come around (to)", "catch on"]},
 { Question: "hal qilmoq, boshqarish", RightAnswer: "deal with", options: ["dawn on", "cross out", "come around (to)"]},
-{ Question: "maktabni tashlamoq", RightAnswer: "drop out (of)", options: ["deal with", "dawn on", "cross out"]},
-{ Question: "anglatmoq", RightAnswer: "get at", options: ["drop out (of)", "deal with", "dawn on"]},
-{ Question: "davom ettirmoq", RightAnswer: "get on with", options: ["get at", "drop out (of)", "deal with"]},
-{ Question: "taslim bo‘lmoq", RightAnswer: "give in", options: ["get on with", "get at", "drop out (of)"]},
+{ Question: "maktabni tashlamoq", RightAnswer: "drop out", options: ["deal with", "dawn on", "cross out"]},
+{ Question: "anglatmoq", RightAnswer: "get at", options: ["drop out", "deal with", "dawn on"]},
+{ Question: "davom ettirmoq", RightAnswer: "get on with", options: ["get at", "drop out", "deal with"]},
+{ Question: "taslim bo‘lmoq", RightAnswer: "give in", options: ["get on with", "get at", "drop out"]},
 { Question: "yetib bormoq", RightAnswer: "keep up with", options: ["give in", "get on with", "get at"]},
 { Question: "osongina uddalamoq", RightAnswer: "sail through", options: ["keep up with", "give in", "get on with"]},
 { Question: "tushuntirib bermoq", RightAnswer: "set out", options: ["sail through", "keep up with", "give in"]},
@@ -11433,57 +11433,57 @@ const destinationQuestions = {
 { Question: "tushlik tanaffusi", RightAnswer: "lunch break", options: ["dishwasher", "recipe for disaster", "recipe book"]},
 { Question: "kimga tanaffus bermoq", RightAnswer: "give sb a break", options: ["take a break", "draw (sb’s) attention to sth", "attract (sb’s) attention"]},
 { Question: "muhokama qilmoq", RightAnswer: "have a discussion", options: ["give sb a break", "take a break", "draw (sb’s) attention to sth"]},
-{ Question: "(kim bilan) (biror narsa haqida) muhokama qilmoq", RightAnswer: "discuss sth...", options: ["have a discussion", "give sb a break", "take a break"]},
-{ Question: "imtihon topshirmoq", RightAnswer: "take an exam", options: ["discuss sth...", "have a discussion", "give sb a break"]},
-{ Question: "imtihonga kirish", RightAnswer: "sit (for) an exam", options: ["take an exam", "discuss sth...", "have a discussion"]},
-{ Question: "uy vazifasini bajarish", RightAnswer: "do your homework", options: ["sit (for) an exam", "take an exam", "discuss sth..."]},
-{ Question: "uy vazifasi bo‘lmoq", RightAnswer: "have homework", options: ["do your homework", "sit (for) an exam", "take an exam"]},
-{ Question: "g‘oyani so‘roq qilmoq", RightAnswer: "Question an idea", options: ["have homework", "do your homework", "sit (for) an exam"]},
+{ Question: "(kim bilan) (biror narsa haqida) muhokama qilmoq", RightAnswer: "discuss st", options: ["have a discussion", "give sb a break", "take a break"]},
+{ Question: "imtihon topshirmoq", RightAnswer: "take an exam", options: ["discuss st", "have a discussion", "give sb a break"]},
+{ Question: "imtihonga kirish", RightAnswer: "sit an exam", options: ["take an exam", "discuss st", "have a discussion"]},
+{ Question: "uy vazifasini bajarish", RightAnswer: "do your homework", options: ["sit an exam", "take an exam", "discuss st"]},
+{ Question: "uy vazifasi bo‘lmoq", RightAnswer: "have homework", options: ["do your homework", "sit an exam", "take an exam"]},
+{ Question: "g‘oyani so‘roq qilmoq", RightAnswer: "Question an idea", options: ["have homework", "do your homework", "sit an exam"]},
 { Question: "g‘oya bo‘lmoq", RightAnswer: "have an idea", options: ["Question an idea", "have homework", "do your homework"]},
 { Question: "g‘oyalarni muhokama qilish", RightAnswer: "brainstorm ideas", options: ["have an idea", "Question an idea", "have homework"]},
 { Question: "zo‘r g‘oya", RightAnswer: "bright idea", options: ["lunch break", "dishwasher", "recipe for disaster"]},
 { Question: "hech qanday tasavvurga ega emas", RightAnswer: "have no idea (about)", options: ["brainstorm ideas", "have an idea", "Question an idea"]},
 { Question: "nimadir haqida ko‘p narsani bilish kerak", RightAnswer: "have a lot to learn about sth", options: ["have no idea (about)", "brainstorm ideas", "have an idea"]},
-{ Question: "qanday qilishni o‘rganmoq", RightAnswer: "learn (how) to do", options: ["have a lot to learn about sth", "have no idea (about)", "brainstorm ideas"]},
-{ Question: "amaliyot orqali o‘rganmoq", RightAnswer: "learn by doing", options: ["learn (how) to do", "have a lot to learn about sth", "have no idea (about)"]},
-{ Question: "darsga bormoq", RightAnswer: "have a lesson", options: ["learn by doing", "learn (how) to do", "have a lot to learn about sth"]},
-{ Question: "saboq olmoq", RightAnswer: "learn a lesson", options: ["have a lesson", "learn by doing", "learn (how) to do"]},
+{ Question: "qanday qilishni o‘rganmoq", RightAnswer: "learn to do", options: ["have a lot to learn about sth", "have no idea (about)", "brainstorm ideas"]},
+{ Question: "amaliyot orqali o‘rganmoq", RightAnswer: "learn by doing", options: ["learn to do", "have a lot to learn about sth", "have no idea (about)"]},
+{ Question: "darsga bormoq", RightAnswer: "have a lesson", options: ["learn by doing", "learn to do", "have a lot to learn about sth"]},
+{ Question: "saboq olmoq", RightAnswer: "learn a lesson", options: ["have a lesson", "learn by doing", "learn to do"]},
 { Question: "kimgadir saboq bermoq", RightAnswer: "teach sb a lesson", options: ["learn a lesson", "have a lesson", "learn by doing"]},
 { Question: "ikki soatlik dars", RightAnswer: "double lesson", options: ["bright idea", "lunch break", "dishwasher"]},
 { Question: "qaror qabul qilmoq", RightAnswer: "make up your mind", options: ["teach sb a lesson", "learn a lesson", "have a lesson"]},
-{ Question: "yodda tutmoq", RightAnswer: "bear (sth) in mind", options: ["make up your mind", "teach sb a lesson", "learn a lesson"]},
-{ Question: "ikkilanmoq", RightAnswer: "in two minds about sth...", options: ["the fact is ", "as a matter of fact", "in turn"]},
-{ Question: "fikrini o‘zgartirmoq", RightAnswer: "change your mind", options: ["bear (sth) in mind", "make up your mind", "teach sb a lesson"]},
-{ Question: "xayolga kelmoq", RightAnswer: "cross your mind", options: ["change your mind", "bear (sth) in mind", "make up your mind"]},
+{ Question: "yodda tutmoq", RightAnswer: "bear in mind", options: ["make up your mind", "teach sb a lesson", "learn a lesson"]},
+{ Question: "ikkilanmoq", RightAnswer: "in two minds about st", options: ["the fact is ", "as a matter of fact", "in turn"]},
+{ Question: "fikrini o‘zgartirmoq", RightAnswer: "change your mind", options: ["bear in mind", "make up your mind", "teach sb a lesson"]},
+{ Question: "xayolga kelmoq", RightAnswer: "cross your mind", options: ["change your mind", "bear in mind", "make up your mind"]},
 { Question: "mening fikrimcha", RightAnswer: "to my mind", options: ["on occasion", "on this occasion", "in the shape of"]},
-{ Question: "fikr bildirmoq", RightAnswer: "give your opinion", options: ["cross your mind", "change your mind", "bear (sth) in mind"]},
+{ Question: "fikr bildirmoq", RightAnswer: "give your opinion", options: ["cross your mind", "change your mind", "bear in mind"]},
 { Question: "fikrga ega bo‘lmoq", RightAnswer: "hold an opinion", options: ["give your opinion", "cross your mind", "change your mind"]},
-{ Question: "haqidagi fikr", RightAnswer: "opinion about ...", options: ["double lesson", "bright idea", "lunch break"]},
+{ Question: "haqidagi fikr", RightAnswer: "opinion about", options: ["double lesson", "bright idea", "lunch break"]},
 { Question: "imtihondan o‘tmoq", RightAnswer: "pass an exam", options: ["hold an opinion", "give your opinion", "cross your mind"]},
-{ Question: "binodan o‘tib ketmoq", RightAnswer: "pass a building/etc", options: ["pass an exam", "hold an opinion", "give your opinion"]},
-{ Question: "fikrini tushunmoq", RightAnswer: "see sb’s point", options: ["pass a building/etc", "pass an exam", "hold an opinion"]},
-{ Question: "ma’nosini tushunmoq", RightAnswer: "see the point in sth...", options: ["see sb’s point", "pass a building/etc", "pass an exam"]},
-{ Question: "ahamiyat bermoq", RightAnswer: "make a point of doing", options: ["see the point in sth...", "see sb’s point", "pass a building/etc"]},
-{ Question: "tushunmoq", RightAnswer: "make sense of sth", options: ["make a point of doing", "see the point in sth...", "see sb’s point"]},
+{ Question: "binodan o‘tib ketmoq", RightAnswer: "pass a building", options: ["pass an exam", "hold an opinion", "give your opinion"]},
+{ Question: "fikrini tushunmoq", RightAnswer: "see sb’s point", options: ["pass a building", "pass an exam", "hold an opinion"]},
+{ Question: "ma’nosini tushunmoq", RightAnswer: "see the point in st", options: ["see sb’s point", "pass a building", "pass an exam"]},
+{ Question: "ahamiyat bermoq", RightAnswer: "make a point of doing", options: ["see the point in st", "see sb’s point", "pass a building"]},
+{ Question: "tushunmoq", RightAnswer: "make sense of sth", options: ["make a point of doing", "see the point in st", "see sb’s point"]},
 { Question: "bu mantiqan to‘g‘ri ", RightAnswer: "it makes sense", options: ["it’s a pity (that)", "it takes courage to do", "take place"]},
-{ Question: "hazil tuyg‘usi", RightAnswer: "sense of humour", options: ["opinion about ...", "double lesson", "bright idea"]},
-{ Question: "taklifni qabul qilmoq", RightAnswer: "accept a suggestion", options: ["make sense of sth", "make a point of doing", "see the point in sth..."]},
+{ Question: "hazil tuyg‘usi", RightAnswer: "sense of humour", options: ["opinion about", "double lesson", "bright idea"]},
+{ Question: "taklifni qabul qilmoq", RightAnswer: "accept a suggestion", options: ["make sense of sth", "make a point of doing", "see the point in st"]},
 { Question: "taklif bermoq", RightAnswer: "make a suggestion", options: ["accept a suggestion", "make sense of sth", "make a point of doing"]},
 { Question: "qila olmoq", RightAnswer: "able to do", options: ["willing to do", "wait for ...; wait and see", "tend to do"]},
 { Question: "qoyil qolmoq", RightAnswer: "admire sb", options: ["able to do", "willing to do", "wait for ...; wait and see"]},
-{ Question: "maqtanmoq", RightAnswer: "boast of/about sth...", options: ["admire sb", "able to do", "willing to do"]},
-{ Question: "qobiliyatli", RightAnswer: "capable of doing", options: ["boast of/about sth...", "admire sb", "able to do"]},
-{ Question: "tabriklamoq", RightAnswer: "congratulate sb on sth...", options: ["capable of doing", "boast of/about sth...", "admire sb"]},
-{ Question: "uddalay olmaslik", RightAnswer: "fail to do", options: ["congratulate sb on sth...", "capable of doing", "boast of/about sth..."]},
-{ Question: "umid qilmoq", RightAnswer: "hope to do; hope that", options: ["fail to do", "congratulate sb on sth...", "capable of doing"]},
-{ Question: "o‘rganmoq", RightAnswer: "learn about sth...", options: ["hope to do; hope that", "fail to do", "congratulate sb on sth..."]},
-{ Question: "qilishni o‘rganmoq", RightAnswer: "learn to do", options: ["learn about sth...", "hope to do; hope that", "fail to do"]},
-{ Question: "amalda o‘rganmoq", RightAnswer: "learn by doing", options: ["learn to do", "learn about sth...", "hope to do; hope that"]},
-{ Question: "rozi bo‘lmoq", RightAnswer: "settle for/on sth", options: ["learn by doing", "learn to do", "learn about sth..."]},
-{ Question: "o‘xshash", RightAnswer: "similar to ...", options: ["settle for/on sth", "learn by doing", "learn to do"]},
-{ Question: "o‘qimoq", RightAnswer: "study sth; for sth", options: ["similar to ...", "settle for/on sth", "learn by doing"]},
-{ Question: "muvaffaqiyatga erishmoq", RightAnswer: "succeed in sth...", options: ["study sth; for sth", "similar to ...", "settle for/on sth"]},
-{ Question: "mos keladigan", RightAnswer: "suitable for sth...", options: ["succeed in sth...", "study sth; for sth", "similar to ..."]},
+{ Question: "maqtanmoq", RightAnswer: "boast of/about st", options: ["admire sb", "able to do", "willing to do"]},
+{ Question: "qobiliyatli", RightAnswer: "capable of doing", options: ["boast of/about st", "admire sb", "able to do"]},
+{ Question: "tabriklamoq", RightAnswer: "congratulate sb on st", options: ["capable of doing", "boast of/about st", "admire sb"]},
+{ Question: "uddalay olmaslik", RightAnswer: "fail to do", options: ["congratulate sb on st", "capable of doing", "boast of/about st"]},
+{ Question: "umid qilmoq", RightAnswer: "hope to do; hope that", options: ["fail to do", "congratulate sb on st", "capable of doing"]},
+{ Question: "o‘rganmoq", RightAnswer: "learn about st", options: ["hope to do; hope that", "fail to do", "congratulate sb on st"]},
+{ Question: "qilishni o‘rganmoq", RightAnswer: "learn to do", options: ["learn about st", "hope to do; hope that", "fail to do"]},
+{ Question: "amalda o‘rganmoq", RightAnswer: "learn by doing", options: ["learn to do", "learn about st", "hope to do; hope that"]},
+{ Question: "rozi bo‘lmoq", RightAnswer: "settle for sth", options: ["learn by doing", "learn to do", "learn about st"]},
+{ Question: "o‘xshash", RightAnswer: "similar to", options: ["settle for sth", "learn by doing", "learn to do"]},
+{ Question: "o‘qimoq", RightAnswer: "study sth; for sth", options: ["similar to", "settle for sth", "learn by doing"]},
+{ Question: "muvaffaqiyatga erishmoq", RightAnswer: "succeed in st", options: ["study sth; for sth", "similar to", "settle for sth"]},
+{ Question: "mos keladigan", RightAnswer: "suitable for st", options: ["succeed in st", "study sth; for sth", "similar to"]},
 { Question: "akademiya", RightAnswer: "academy", options: ["effort", "task", "subject"]},
 { Question: "akademik", RightAnswer: "academic", options: ["high", "secondary", "primary"]},
 { Question: "akademik tarzda", RightAnswer: "academically", options: ["thoroughly", "sweetly", "safely"]},
@@ -11610,42 +11610,42 @@ const destinationQuestions = {
 { Question: "...ning oxirida", RightAnswer: "at the end", options: ["in the end", "in control", "to my mind"]},
 { Question: "yerda", RightAnswer: "on the floor", options: ["at the end", "in the end", "in control"]},
 { Question: "yerda", RightAnswer: "on the ground", options: ["on the floor", "at the end", "in the end"]},
-{ Question: "birinchi qavat", RightAnswer: "first floor", options: ["sense of humour", "opinion about ...", "double lesson"]},
+{ Question: "birinchi qavat", RightAnswer: "first floor", options: ["sense of humour", "opinion about", "double lesson"]},
 { Question: "shovqin-suron qilmoq", RightAnswer: "make a fuss", options: ["come to the end of sth", "take effect", "have an effect"]},
 { Question: "qachongacha", RightAnswer: " as long as", options: ["on the ground", "on the floor", "at the end"]},
 { Question: "ko‘p vaqt olmoq", RightAnswer: "take a long time", options: ["make a fuss", "come to the end of sth", "take effect"]},
 { Question: "juda xohlamoq", RightAnswer: "long to do", options: ["take a long time", "make a fuss", "come to the end of sth"]},
 { Question: "nimanidir juda xohlamoq", RightAnswer: "long for sth", options: ["long to do", "take a long time", "make a fuss"]},
-{ Question: "ko‘z tashlamoq", RightAnswer: "take a look at ...", options: ["long for sth", "long to do", "take a long time"]},
-{ Question: "o‘xshamoq", RightAnswer: "look like sb/sth", options: ["take a look at ...", "long for sth", "long to do"]},
-{ Question: "qaramoq/qidirmoq", RightAnswer: "look at...", options: ["look like sb/sth", "take a look at ...", "long for sth"]},
-{ Question: "tartibsizlik qilmoq", RightAnswer: "make a mess", options: ["look at...", "look like sb/sth", "take a look at ..."]},
+{ Question: "ko‘z tashlamoq", RightAnswer: "take a look at", options: ["long for sth", "long to do", "take a long time"]},
+{ Question: "o‘xshamoq", RightAnswer: "look like", options: ["take a look at", "long for sth", "long to do"]},
+{ Question: "qaramoq/qidirmoq", RightAnswer: "look a", options: ["look like", "take a look at", "long for sth"]},
+{ Question: "tartibsizlik qilmoq", RightAnswer: "make a mess", options: ["look a", "look like", "take a look at"]},
 { Question: "tartibsizlikda", RightAnswer: "in a mess", options: [" as long as", "on the ground", "on the floor"]},
-{ Question: "javobgarlikni bo'yniga olmoq", RightAnswer: "take responsibility for sth...", options: ["make a mess", "look at...", "look like sb/sth"]},
-{ Question: "dush qabul qilmoq", RightAnswer: "take a shower", options: ["take responsibility for sth...", "make a mess", "look at..."]},
-{ Question: "qisqa yomg‘ir", RightAnswer: "a rain shower", options: ["first floor", "sense of humour", "opinion about ..."]},
-{ Question: "ko‘rib qolmoq", RightAnswer: "catch sight of", options: ["take a shower", "take responsibility for sth...", "make a mess"]},
+{ Question: "javobgarlikni bo'yniga olmoq", RightAnswer: "take responsibility for st", options: ["make a mess", "look a", "look like"]},
+{ Question: "dush qabul qilmoq", RightAnswer: "take a shower", options: ["take responsibility for st", "make a mess", "look a"]},
+{ Question: "qisqa yomg‘ir", RightAnswer: "a rain shower", options: ["first floor", "sense of humour", "opinion about"]},
+{ Question: "ko‘rib qolmoq", RightAnswer: "catch sight of", options: ["take a shower", "take responsibility for st", "make a mess"]},
 { Question: "(nimanidir) ko‘rib turish", RightAnswer: "in sight of sth", options: ["in a mess", " as long as", "on the ground"]},
 { Question: "bir qarashda ", RightAnswer: "at first sight", options: ["it makes sense", "it’s a pity (that)", "it takes courage to do"]},
 { Question: "ko‘ngli qolgan ", RightAnswer: "disappointed by ", options: ["out of control", "full of sth", "filled with sth"]},
 { Question: "ob-havo prognozi", RightAnswer: "weather forecast", options: ["a rain shower", "first floor", "sense of humour"]},
-{ Question: "o‘zini yomon his qilmoq", RightAnswer: "under the weather", options: ["in two minds about sth...", "the fact is ", "as a matter of fact"]},
+{ Question: "o‘zini yomon his qilmoq", RightAnswer: "under the weather", options: ["in two minds about st", "the fact is ", "as a matter of fact"]},
 { Question: "butun dunyo bo‘ylab", RightAnswer: "all over the world", options: ["in sight of sth", "in a mess", " as long as"]},
 { Question: "butun dunyo bo‘ylab", RightAnswer: "around the world", options: ["all over the world", "in sight of sth", "in a mess"]},
 { Question: "butun dunyo bo‘ylab", RightAnswer: "throughout the world", options: ["around the world", "all over the world", "in sight of sth"]},
 { Question: "dunyo rekordi", RightAnswer: "world record", options: ["weather forecast", "a rain shower", "first floor"]},
-{ Question: "xabardor", RightAnswer: "aware of sth", options: ["suitable for sth...", "succeed in sth...", "study sth; for sth"]},
-{ Question: "qoplangan", RightAnswer: "covered in sth", options: ["aware of sth", "suitable for sth...", "succeed in sth..."]},
-{ Question: "ko‘ngli qolgan", RightAnswer: "disappointed with", options: ["covered in sth", "aware of sth", "suitable for sth..."]},
-{ Question: "bundan tashqari", RightAnswer: "except (for) sth...", options: ["disappointed with", "covered in sth", "aware of sth"]},
-{ Question: "kutmoq", RightAnswer: "expect ...", options: ["except (for) sth...", "disappointed with", "covered in sth"]},
-{ Question: "tanish", RightAnswer: "familiar with sth; familiar to sb", options: ["expect ...", "except (for) sth...", "disappointed with"]},
-{ Question: "mashhur", RightAnswer: "famous for sth...", options: ["familiar with sth; familiar to sb", "expect ...", "except (for) sth..."]},
-{ Question: "qaramoq", RightAnswer: "glance at ...", options: ["famous for sth...", "familiar with sth; familiar to sb", "expect ..."]},
-{ Question: "qiyin", RightAnswer: "hard to do", options: ["glance at ...", "famous for sth...", "familiar with sth; familiar to sb"]},
-{ Question: "oldini olmoq", RightAnswer: "prevent sth; prevent sb from doing", options: ["hard to do", "glance at ...", "famous for sth..."]},
-{ Question: "yetishmaslik", RightAnswer: "short of sth", options: ["prevent sth; prevent sb from doing", "hard to do", "glance at ..."]},
-{ Question: "ogohlantirmoq", RightAnswer: "warn sb about sth...", options: ["short of sth", "prevent sth; prevent sb from doing", "hard to do"]},
+{ Question: "xabardor", RightAnswer: "aware of sth", options: ["suitable for st", "succeed in st", "study sth; for sth"]},
+{ Question: "qoplangan", RightAnswer: "covered in sth", options: ["aware of sth", "suitable for st", "succeed in st"]},
+{ Question: "ko‘ngli qolgan", RightAnswer: "disappointed with", options: ["covered in sth", "aware of sth", "suitable for st"]},
+{ Question: "bundan tashqari", RightAnswer: "except st", options: ["disappointed with", "covered in sth", "aware of sth"]},
+{ Question: "kutmoq", RightAnswer: "expect", options: ["except st", "disappointed with", "covered in sth"]},
+{ Question: "tanish", RightAnswer: "familiar with sth; familiar to sb", options: ["expect", "except st", "disappointed with"]},
+{ Question: "mashhur", RightAnswer: "famous for st", options: ["familiar with sth; familiar to sb", "expect", "except st"]},
+{ Question: "qaramoq", RightAnswer: "glance at", options: ["famous for st", "familiar with sth; familiar to sb", "expect"]},
+{ Question: "qiyin", RightAnswer: "hard to do", options: ["glance at", "famous for st", "familiar with sth; familiar to sb"]},
+{ Question: "oldini olmoq", RightAnswer: "prevent sth; prevent sb from doing", options: ["hard to do", "glance at", "famous for st"]},
+{ Question: "yetishmaslik", RightAnswer: "short of sth", options: ["prevent sth; prevent sb from doing", "hard to do", "glance at"]},
+{ Question: "ogohlantirmoq", RightAnswer: "warn sb about st", options: ["short of sth", "prevent sth; prevent sb from doing", "hard to do"]},
 { Question: "aniq", RightAnswer: "accurate", options: ["endangered", "extinct", "worldwide"]},
 { Question: "aniqlik bilan", RightAnswer: "accurately", options: ["understandably", "reasonably", "intensely"]},
 { Question: "noto‘g‘rilik", RightAnswer: "inaccuracy", options: ["pond", "puddle", "lake"]},
@@ -11737,31 +11737,31 @@ const destinationQuestions = {
 { Question: "chekka yozib bermoq", RightAnswer: "make out", options: ["look round", "live on", "give away"]},
 { Question: "qoplamoq, kompensatsiya qilmoq", RightAnswer: "make up for", options: ["make out", "look round", "live on"]},
 { Question: "pul yig‘moq", RightAnswer: "put by", options: ["make up for", "make out", "look round"]},
-{ Question: "asta-sekin pul yig‘moq", RightAnswer: "save up (for)", options: ["put by", "make up for", "make out"]},
+{ Question: "asta-sekin pul yig‘moq", RightAnswer: "save up", options: ["put by", "make up for", "make out"]},
 { Question: "...ning miqdori", RightAnswer: "an amount of sth", options: ["checkout", "till", "world record"]},
 { Question: "katta miqdorda", RightAnswer: "in large amounts", options: ["throughout the world", "around the world", "all over the world"]},
-{ Question: "...ga teng bo‘lmoq", RightAnswer: "amount to", options: ["catch sight of", "take a shower", "take responsibility for sth..."]},
+{ Question: "...ga teng bo‘lmoq", RightAnswer: "amount to", options: ["catch sight of", "take a shower", "take responsibility for st"]},
 { Question: "(kimdandir) pul olish", RightAnswer: "charge sb (an amount of money)", options: ["amount to", "catch sight of", "take a shower"]},
 { Question: "to‘lov qilmoq", RightAnswer: "pay a charge", options: ["charge sb (an amount of money)", "amount to", "catch sight of"]},
 { Question: "javobgarlikni o‘z zimmasiga olmoq", RightAnswer: "take charge (of sth...)", options: ["pay a charge", "charge sb (an amount of money)", "amount to"]},
 { Question: "javobgar bo‘lmoq", RightAnswer: "in charge (of sth...)", options: ["in large amounts", "throughout the world", "around the world"]},
 { Question: "qarzda", RightAnswer: "in debt", options: ["in charge (of sth...)", "in large amounts", "throughout the world"]},
-{ Question: "qarzga kirib qolmoq", RightAnswer: "get in/into debt", options: ["take charge (of sth...)", "pay a charge", "charge sb (an amount of money)"]},
-{ Question: "qarzni to‘lamoq", RightAnswer: "clear a debt", options: ["get in/into debt", "take charge (of sth...)", "pay a charge"]},
-{ Question: "kimga minnatdor bo‘lmoq", RightAnswer: "owe sb a debt of gratitude", options: ["clear a debt", "get in/into debt", "take charge (of sth...)"]},
+{ Question: "qarzga kirib qolmoq", RightAnswer: "get in debt", options: ["take charge (of sth...)", "pay a charge", "charge sb (an amount of money)"]},
+{ Question: "qarzni to‘lamoq", RightAnswer: "clear a debt", options: ["get in debt", "take charge (of sth...)", "pay a charge"]},
+{ Question: "kimga minnatdor bo‘lmoq", RightAnswer: "owe sb a debt of gratitude", options: ["clear a debt", "get in debt", "take charge (of sth...)"]},
 { Question: "talab yuqori", RightAnswer: "in demand", options: ["in debt", "in charge (of sth...)", "in large amounts"]},
 { Question: "talabga binoan", RightAnswer: "on demand", options: ["in demand", "in debt", "in charge (of sth...)"]},
 { Question: "nimagadir talab", RightAnswer: "a demand for sth", options: ["an amount of sth", "checkout", "till"]},
-{ Question: "yetarli bo‘lmoq", RightAnswer: "have enough", options: ["owe sb a debt of gratitude", "clear a debt", "get in/into debt"]},
+{ Question: "yetarli bo‘lmoq", RightAnswer: "have enough", options: ["owe sb a debt of gratitude", "clear a debt", "get in debt"]},
 { Question: "qilishga yetarli (narsa) bo‘lmoq", RightAnswer: "have enough sth", options: ["have enough", "owe sb a debt of gratitude", "clear a debt"]},
 { Question: "yetarli, bas ", RightAnswer: "enough is enough", options: ["at first sight", "it makes sense", "it’s a pity (that)"]},
 { Question: "kimningdir o‘z hisobidan", RightAnswer: "at sb’s own expense", options: ["on demand", "in demand", "in debt"]},
-{ Question: "xarajat qilmoq", RightAnswer: "go to the expense (of)", options: ["have enough sth", "have enough", "owe sb a debt of gratitude"]},
+{ Question: "xarajat qilmoq", RightAnswer: "go to the expense", options: ["have enough sth", "have enough", "owe sb a debt of gratitude"]},
 { Question: "ish xarajati", RightAnswer: "business expense", options: ["a demand for sth", "an amount of sth", "checkout"]},
 { Question: "xizmat safari uchun hisob", RightAnswer: "expense account", options: ["business expense", "a demand for sth", "an amount of sth"]},
-{ Question: "katta boylik topmoq", RightAnswer: "make a fortune", options: ["go to the expense (of)", "have enough sth", "have enough"]},
-{ Question: "juda qimmatga tushmoq", RightAnswer: "cost (you) a fortune", options: ["make a fortune", "go to the expense (of)", "have enough sth"]},
-{ Question: "boyib ketmoq", RightAnswer: "make your fortune", options: ["cost (you) a fortune", "make a fortune", "go to the expense (of)"]},
+{ Question: "katta boylik topmoq", RightAnswer: "make a fortune", options: ["go to the expense", "have enough sth", "have enough"]},
+{ Question: "juda qimmatga tushmoq", RightAnswer: "cost (you) a fortune", options: ["make a fortune", "go to the expense", "have enough sth"]},
+{ Question: "boyib ketmoq", RightAnswer: "make your fortune", options: ["cost (you) a fortune", "make a fortune", "go to the expense"]},
 { Question: "...ning ko‘payishi", RightAnswer: "an increase in sth", options: ["expense account", "business expense", "a demand for sth"]},
 { Question: "ish haqi oshishi", RightAnswer: "a wage increase", options: ["an increase in sth", "expense account", "business expense"]},
 { Question: "hech bo‘lmasa", RightAnswer: "at least", options: ["at sb’s own expense", "on demand", "in demand"]},
@@ -11782,9 +11782,9 @@ const destinationQuestions = {
 { Question: "xaridga chiqmoq", RightAnswer: "go shopping", options: ["do the shopping", "save sth for later", "save money"]},
 { Question: "savdo markazi", RightAnswer: "shopping centre", options: ["a wage increase", "an increase in sth", "expense account"]},
 { Question: "faqat vitrina tomosha qilish", RightAnswer: "window shopping", options: ["shopping centre", "a wage increase", "an increase in sth"]},
-{ Question: "qurb qilmoq", RightAnswer: "afford to do", options: ["warn sb about sth...", "short of sth", "prevent sth; prevent sb from doing"]},
-{ Question: "tortishmoq", RightAnswer: "argue with sb", options: ["afford to do", "warn sb about sth...", "short of sth"]},
-{ Question: "yolvoroq", RightAnswer: "beg sb (for sth); beg sb to do", options: ["argue with sb", "afford to do", "warn sb about sth..."]},
+{ Question: "qurb qilmoq", RightAnswer: "afford to do", options: ["warn sb about st", "short of sth", "prevent sth; prevent sb from doing"]},
+{ Question: "tortishmoq", RightAnswer: "argue with sb", options: ["afford to do", "warn sb about st", "short of sth"]},
+{ Question: "yolvoroq", RightAnswer: "beg sb (for sth); beg sb to do", options: ["argue with sb", "afford to do", "warn sb about st"]},
 { Question: "tegishli bo‘lmoq", RightAnswer: "belong to", options: ["beg sb (for sth); beg sb to do", "argue with sb", "afford to do"]},
 { Question: "qarzga olmoq", RightAnswer: "borrow sth (from sb)", options: ["belong to", "beg sb (for sth); beg sb to do", "argue with sb"]},
 { Question: "haq olmoq", RightAnswer: "charge sb", options: ["borrow sth (from sb)", "belong to", "beg sb (for sth); beg sb to do"]},
@@ -11792,9 +11792,9 @@ const destinationQuestions = {
 { Question: "unutmoq", RightAnswer: "forget to do; forget doing", options: ["demand sth (from sb); demand that", "charge sb", "borrow sth (from sb)"]},
 { Question: "qarzga bermoq", RightAnswer: "lend sth to sb; lend sb sth", options: ["forget to do; forget doing", "demand sth (from sb); demand that", "charge sb"]},
 { Question: "to‘lamoq", RightAnswer: "pay sb; pay sth", options: ["lend sth to sb; lend sb sth", "forget to do; forget doing", "demand sth (from sb); demand that"]},
-{ Question: "foyda ko‘rmoq", RightAnswer: "profit from sth...", options: ["pay sb; pay sth", "lend sth to sb; lend sb sth", "forget to do; forget doing"]},
-{ Question: "qutqarmoq, tejab qo‘ymoq", RightAnswer: "save sb from sth...; save sth (for sb/sth)", options: ["profit from sth...", "pay sb; pay sth", "lend sth to sb; lend sb sth"]},
-{ Question: "sarflamoq", RightAnswer: "spend sth (on ...)", options: ["save sb from sth...; save sth (for sb/sth)", "profit from sth...", "pay sb; pay sth"]},
+{ Question: "foyda ko‘rmoq", RightAnswer: "profit from st", options: ["pay sb; pay sth", "lend sth to sb; lend sb sth", "forget to do; forget doing"]},
+{ Question: "qutqarmoq, tejab qo‘ymoq", RightAnswer: "save sb from sth...; save sth", options: ["profit from st", "pay sb; pay sth", "lend sth to sb; lend sb sth"]},
+{ Question: "sarflamoq", RightAnswer: "spend sth", options: ["save sb from sth...; save sth", "profit from st", "pay sb; pay sth"]},
 { Question: "qabul qilmoq", RightAnswer: "accept", options: ["make", "reside", "pollute"]},
 { Question: "qabul qilish", RightAnswer: "acceptance", options: ["fortune", "wealth", "sale"]},
 { Question: "qabul qilinadigan", RightAnswer: "acceptable", options: ["plastic", "fake", "economical"]},
@@ -11871,9 +11871,9 @@ const destinationQuestions = {
 { Question: "to‘lov", RightAnswer: "fee", options: ["ticket", "criticism", "review"]},
 { Question: "tinglamoq", RightAnswer: "listen", options: ["practise", "rehearse", "look"]},
 { Question: "eshitmoq", RightAnswer: "hear", options: ["listen", "practise", "rehearse"]},
-{ Question: "qaytadan sodir bo‘lmoq", RightAnswer: "come (a)round", options: ["save up (for)", "put by", "make up for"]},
-{ Question: "ishonmoq", RightAnswer: "count on", options: ["come (a)round", "save up (for)", "put by"]},
-{ Question: "uxlab qolmoq", RightAnswer: "drop off", options: ["count on", "come (a)round", "save up (for)"]},
+{ Question: "qaytadan sodir bo‘lmoq", RightAnswer: "come (a)round", options: ["save up", "put by", "make up for"]},
+{ Question: "ishonmoq", RightAnswer: "count on", options: ["come (a)round", "save up", "put by"]},
+{ Question: "uxlab qolmoq", RightAnswer: "drop off", options: ["count on", "come (a)round", "save up"]},
 { Question: "ovozni bostirmoq", RightAnswer: "drown out", options: ["drop off", "count on", "come (a)round"]},
 { Question: "ishonib qolmoq (aldovga)", RightAnswer: "fall for", options: ["drown out", "drop off", "count on"]},
 { Question: "yaxshi munosabatda bo‘lmoq", RightAnswer: "get along (with)", options: ["fall for", "drown out", "drop off"]},
@@ -11888,58 +11888,58 @@ const destinationQuestions = {
 { Question: "kimnidir masxara qilmoq", RightAnswer: "make fun of sb", options: ["go shopping", "do the shopping", "save sth for later"]},
 { Question: "quvnoq vaqt o‘tkazmoq", RightAnswer: "have fun", options: ["make fun of sb", "go shopping", "do the shopping"]},
 { Question: "hazil aytmoq", RightAnswer: "tell a joke", options: ["have fun", "make fun of sb", "go shopping"]},
-{ Question: "(biror narsa/qilish haqida) hazillashmoq", RightAnswer: "joke about sth...", options: ["tell a joke", "have fun", "make fun of sb"]},
-{ Question: "kim bilan hazillashmoq", RightAnswer: "joke with sb", options: ["joke about sth...", "tell a joke", "have fun"]},
-{ Question: "...ga kulmoq", RightAnswer: "laugh at/about ...", options: ["joke with sb", "joke about sth...", "tell a joke"]},
-{ Question: "qattiq kulmoq", RightAnswer: "laugh out loud", options: ["laugh at/about ...", "joke with sb", "joke about sth..."]},
-{ Question: "kuchli kulmoq", RightAnswer: "roar with laughter", options: ["laugh out loud", "laugh at/about ...", "joke with sb"]},
-{ Question: "kulmoq", RightAnswer: "have a laugh", options: ["roar with laughter", "laugh out loud", "laugh at/about ..."]},
-{ Question: "qatnashmoq", RightAnswer: "take part in sth...", options: ["have a laugh", "roar with laughter", "laugh out loud"]},
-{ Question: "bir qismi bo‘lmoq", RightAnswer: "be a part of sth", options: ["take part in sth...", "have a laugh", "roar with laughter"]},
-{ Question: "biror narsani bermoq / ajratmoq", RightAnswer: "part with sth", options: ["be a part of sth", "take part in sth...", "have a laugh"]},
-{ Question: "rolda chiqmoq", RightAnswer: "have a part", options: ["part with sth", "be a part of sth", "take part in sth..."]},
+{ Question: "(biror narsa haqida) hazillashmoq", RightAnswer: "joke about st", options: ["tell a joke", "have fun", "make fun of sb"]},
+{ Question: "kim bilan hazillashmoq", RightAnswer: "joke with sb", options: ["joke about st", "tell a joke", "have fun"]},
+{ Question: "...ga kulmoq", RightAnswer: "laugh at/about", options: ["joke with sb", "joke about st", "tell a joke"]},
+{ Question: "qattiq kulmoq", RightAnswer: "laugh out loud", options: ["laugh at/about", "joke with sb", "joke about st"]},
+{ Question: "kuchli kulmoq", RightAnswer: "roar with laughter", options: ["laugh out loud", "laugh at/about", "joke with sb"]},
+{ Question: "kulmoq", RightAnswer: "have a laugh", options: ["roar with laughter", "laugh out loud", "laugh at/about"]},
+{ Question: "qatnashmoq", RightAnswer: "take part in st", options: ["have a laugh", "roar with laughter", "laugh out loud"]},
+{ Question: "bir qismi bo‘lmoq", RightAnswer: "be a part of sth", options: ["take part in st", "have a laugh", "roar with laughter"]},
+{ Question: "biror narsani bermoq / ajratmoq", RightAnswer: "part with sth", options: ["be a part of sth", "take part in st", "have a laugh"]},
+{ Question: "rolda chiqmoq", RightAnswer: "have a part", options: ["part with sth", "be a part of sth", "take part in st"]},
 { Question: "rol o‘ynamoq", RightAnswer: "play a role", options: ["have a part", "part with sth", "be a part of sth"]},
 { Question: "bilan o‘ynamoq", RightAnswer: "play with", options: ["play a role", "have a part", "part with sth"]},
 { Question: "chalmoq / o‘ynamoq", RightAnswer: "play sth", options: ["play with", "play a role", "have a part"]},
 { Question: "roli bo‘lmoq", RightAnswer: "have a role to play", options: ["play sth", "play with", "play a role"]},
 { Question: "spektaklda chiqmoq", RightAnswer: "act in a play", options: ["have a role to play", "play sth", "play with"]},
-{ Question: "spektakl tomosha qilmoq", RightAnswer: "watch/see a play", options: ["act in a play", "have a role to play", "play sth"]},
-{ Question: "navbatga turmoq", RightAnswer: "join a queue", options: ["watch/see a play", "act in a play", "have a role to play"]},
+{ Question: "spektakl tomosha qilmoq", RightAnswer: "watch a play", options: ["act in a play", "have a role to play", "play sth"]},
+{ Question: "navbatga turmoq", RightAnswer: "join a queue", options: ["watch a play", "act in a play", "have a role to play"]},
 { Question: "navbatda", RightAnswer: "in a queue", options: ["at short notice", "at the very least", "at least"]},
-{ Question: "navbatga turmoq", RightAnswer: "queue up", options: ["join a queue", "watch/see a play", "act in a play"]},
-{ Question: "navbat kutmoq", RightAnswer: "stand/wait in a queue", options: ["queue up", "join a queue", "watch/see a play"]},
+{ Question: "navbatga turmoq", RightAnswer: "queue up", options: ["join a queue", "watch a play", "act in a play"]},
+{ Question: "navbat kutmoq", RightAnswer: "stand/wait in a queue", options: ["queue up", "join a queue", "watch a play"]},
 { Question: "ko‘rsatmoq (spektakl, dastur)", RightAnswer: "put on a show", options: ["stand/wait in a queue", "queue up", "join a queue"]},
 { Question: "minnatdorchilik bildirmoq", RightAnswer: "show appreciation (for ...)", options: ["put on a show", "stand/wait in a queue", "queue up"]},
 { Question: "nimanidir ko‘rsatmoq", RightAnswer: "show sth to sb", options: ["show appreciation (for ...)", "put on a show", "stand/wait in a queue"]},
 { Question: "kimga nimanidir ko‘rsatmoq", RightAnswer: "show sb sth", options: ["show sth to sb", "show appreciation (for ...)", "put on a show"]},
 { Question: "namoyishda", RightAnswer: "on show", options: ["in a queue", "at short notice", "at the very least"]},
-{ Question: "diqqat markazida bo‘lmoq", RightAnswer: "steal the show", options: ["under the weather", "in two minds about sth...", "the fact is "]},
+{ Question: "diqqat markazida bo‘lmoq", RightAnswer: "steal the show", options: ["under the weather", "in two minds about st", "the fact is "]},
 { Question: "televizion dastur", RightAnswer: "TV show", options: ["window shopping", "shopping centre", "a wage increase"]},
 { Question: "shou biznes", RightAnswer: "show business", options: ["TV show", "window shopping", "shopping centre"]},
 { Question: "chuqur ovozda", RightAnswer: "in a deep voice", options: ["on show", "in a queue", "at short notice"]},
-{ Question: "yaxshi/yomon ovozga ega bo‘lmoq", RightAnswer: "have a good/bad voice", options: ["show sb sth", "show sth to sb", "show appreciation (for ...)"]},
-{ Question: "fikr bildirmoq", RightAnswer: "voice an opinion (about sth)", options: ["have a good/bad voice", "show sb sth", "show sth to sb"]},
-{ Question: "o‘zingizni uyda his qiling", RightAnswer: "make yourself at home", options: ["steal the show", "under the weather", "in two minds about sth..."]},
-{ Question: "uyda bo‘lmoq", RightAnswer: "stay at home", options: ["voice an opinion (about sth)", "have a good/bad voice", "show sb sth"]},
-{ Question: "uyga bormoq", RightAnswer: "go home", options: ["stay at home", "voice an opinion (about sth)", "have a good/bad voice"]},
+{ Question: "yaxshi ovozga ega bo‘lmoq", RightAnswer: "have a good voice", options: ["show sb sth", "show sth to sb", "show appreciation (for ...)"]},
+{ Question: "fikr bildirmoq", RightAnswer: "voice an opinion (about sth)", options: ["have a good voice", "show sb sth", "show sth to sb"]},
+{ Question: "o‘zingizni uyda his qiling", RightAnswer: "make yourself at home", options: ["steal the show", "under the weather", "in two minds about st"]},
+{ Question: "uyda bo‘lmoq", RightAnswer: "stay at home", options: ["voice an opinion (about sth)", "have a good voice", "show sb sth"]},
+{ Question: "uyga bormoq", RightAnswer: "go home", options: ["stay at home", "voice an opinion (about sth)", "have a good voice"]},
 { Question: "uyga yo‘l olmoq", RightAnswer: "make your way home", options: ["go home", "stay at home", "voice an opinion (about sth)"]},
 { Question: "taassurot qoldirmoq", RightAnswer: "give sb the impression", options: ["make your way home", "go home", "stay at home"]},
 { Question: "taqlid qilmoq", RightAnswer: "do an impression of sb", options: ["give sb the impression", "make your way home", "go home"]},
 { Question: "taassurotga ega bo‘lmoq", RightAnswer: "have the impression", options: ["do an impression of sb", "give sb the impression", "make your way home"]},
 { Question: "taassurot qoldirmoq", RightAnswer: "make an impression (on sb)", options: ["have the impression", "do an impression of sb", "give sb the impression"]},
-{ Question: "uzr so‘ramoq", RightAnswer: "apologise for sth...", options: ["spend sth (on ...)", "save sb from sth...; save sth (for sb/sth)", "profit from sth..."]},
-{ Question: "chetlab o‘tmoq", RightAnswer: "avoid ...", options: ["apologise for sth...", "spend sth (on ...)", "save sb from sth...; save sth (for sb/sth)"]},
-{ Question: "albatta qilmoq", RightAnswer: "bound to do", options: ["avoid ...", "apologise for sth...", "spend sth (on ...)"]},
-{ Question: "loyiq bo‘lmoq", RightAnswer: "deserve sth/to do", options: ["bound to do", "avoid ...", "apologise for sth..."]},
-{ Question: "zavqlanmoq", RightAnswer: "enjoy yourself; enjoy sth...", options: ["deserve sth/to do", "bound to do", "avoid ..."]},
-{ Question: "xursand bo‘lmoq", RightAnswer: "happy to do; happy for sb (to do sth); happy about sth...", options: ["enjoy yourself; enjoy sth...", "deserve sth/to do", "bound to do"]},
-{ Question: "o‘rniga", RightAnswer: "instead of sth...", options: ["happy to do; happy for sb (to do sth); happy about sth...", "enjoy yourself; enjoy sth...", "deserve sth/to do"]},
-{ Question: "yoqtirmoq", RightAnswer: "like sth...", options: ["instead of sth...", "happy to do; happy for sb (to do sth); happy about sth...", "enjoy yourself; enjoy sth..."]},
-{ Question: "va’da bermoq", RightAnswer: "promise to do; promise sb (sth); promise that", options: ["like sth...", "instead of sth...", "happy to do; happy for sb (to do sth); happy about sth..."]},
-{ Question: "isbotlamoq", RightAnswer: "prove to do; prove sth", options: ["promise to do; promise sb (sth); promise that", "like sth...", "instead of sth..."]},
-{ Question: "aytmoq", RightAnswer: "say sth", options: ["prove to do; prove sth", "promise to do; promise sb (sth); promise that", "like sth..."]},
+{ Question: "uzr so‘ramoq", RightAnswer: "apologise for st", options: ["spend sth", "save sb from sth...; save sth", "profit from st"]},
+{ Question: "chetlab o‘tmoq", RightAnswer: "avoid", options: ["apologise for st", "spend sth", "save sb from sth...; save sth"]},
+{ Question: "albatta qilmoq", RightAnswer: "bound to do", options: ["avoid", "apologise for st", "spend sth"]},
+{ Question: "loyiq bo‘lmoq", RightAnswer: "deserve", options: ["bound to do", "avoid", "apologise for st"]},
+{ Question: "zavqlanmoq", RightAnswer: "enjoy yourself; enjoy st", options: ["deserve", "bound to do", "avoid"]},
+{ Question: "xursand bo‘lmoq", RightAnswer: "happy to do; happy for sb; happy about st", options: ["enjoy yourself; enjoy st", "deserve", "bound to do"]},
+{ Question: "o‘rniga", RightAnswer: "instead of st", options: ["happy to do; happy for sb; happy about st", "enjoy yourself; enjoy st", "deserve"]},
+{ Question: "yoqtirmoq", RightAnswer: "like st", options: ["instead of st", "happy to do; happy for sb; happy about st", "enjoy yourself; enjoy st"]},
+{ Question: "va’da bermoq", RightAnswer: "promise to do; promise sb (sth); promise that", options: ["like st", "instead of st", "happy to do; happy for sb; happy about st"]},
+{ Question: "isbotlamoq", RightAnswer: "prove to do; prove sth", options: ["promise to do; promise sb (sth); promise that", "like st", "instead of st"]},
+{ Question: "aytmoq", RightAnswer: "say sth", options: ["prove to do; prove sth", "promise to do; promise sb (sth); promise that", "like st"]},
 { Question: "kerak bo‘lmoq", RightAnswer: "supposed to do", options: ["say sth", "prove to do; prove sth", "promise to do; promise sb (sth); promise that"]},
-{ Question: "iste’dodli", RightAnswer: "talented at sth...", options: ["supposed to do", "say sth", "prove to do; prove sth"]},
+{ Question: "iste’dodli", RightAnswer: "talented at st", options: ["supposed to do", "say sth", "prove to do; prove sth"]},
 { Question: "harakat qilmoq", RightAnswer: "act", options: ["hear", "listen", "practise"]},
 { Question: "faol", RightAnswer: "active", options: ["wealthy", "realistic", "unreal"]},
 { Question: "aktyorlik", RightAnswer: "acting", options: ["fee", "ticket", "criticism"]},
@@ -12068,18 +12068,18 @@ const destinationQuestions = {
 { Question: "yo‘nalish belgilamoq", RightAnswer: "set a trend", options: ["follow a trend", "have style", "wear make-up"]},
 { Question: "yaxshi didga ega bo‘lmoq", RightAnswer: "have good taste", options: ["set a trend", "follow a trend", "have style"]},
 { Question: "yaxshi did bilan", RightAnswer: "in good taste", options: ["out of style", "in style", "in fashion"]},
-{ Question: "maslahat bermoq", RightAnswer: "advise sb to do", options: ["talented at sth...", "supposed to do", "say sth"]},
-{ Question: "xavotirda bo‘lmoq", RightAnswer: "anxious about sth...; anxious to do", options: ["advise sb to do", "talented at sth...", "supposed to do"]},
-{ Question: "tanqid qilmoq", RightAnswer: "criticise sb", options: ["anxious about sth...; anxious to do", "advise sb to do", "advise against sth...", "talented at sth..."]},
+{ Question: "maslahat bermoq", RightAnswer: "advise sb to do", options: ["talented at st", "supposed to do", "say sth"]},
+{ Question: "xavotirda bo‘lmoq", RightAnswer: "anxious about sth...; anxious to do", options: ["advise sb to do", "talented at st", "supposed to do"]},
+{ Question: "tanqid qilmoq", RightAnswer: "criticise sb", options: ["anxious about sth...; anxious to do", "advise sb to do", "advise against st", "talented at st"]},
 { Question: "talab qilmoq", RightAnswer: "insist on sth...; insist that", options: ["criticise sb", "anxious about sth...; anxious to do", "advise sb to do"]},
 { Question: "ko‘p miqdorda", RightAnswer: "plenty of sth; plenty more sth", options: ["insist on sth...; insist that", "criticise sb", "anxious about sth...; anxious to do"]},
 { Question: "tayyorlamoq", RightAnswer: "prepare for sth; prepare to do", options: ["plenty of sth; plenty more sth", "insist on sth...; insist that", "criticise sb"]},
-{ Question: "faxr qilmoq", RightAnswer: "proud of ...; proud to do", options: ["prepare for sth; prepare to do", "plenty of sth; plenty more sth", "insist on sth...; insist that"]},
-{ Question: "tilga olmoq", RightAnswer: "refer to sth; refer sb to sth", options: ["proud of ...; proud to do", "prepare for sth; prepare to do", "plenty of sth; plenty more sth"]},
-{ Question: "ko‘rinmoq", RightAnswer: "seem to be; it seems that", options: ["refer to sth; refer sb to sth", "proud of ...; proud to do", "prepare for sth; prepare to do"]},
-{ Question: "tikilib qaramoq", RightAnswer: "stare at sb/sth", options: ["seem to be; it seems that", "refer to sth; refer sb to sth", "proud of ...; proud to do"]},
-{ Question: "foydalanmoq", RightAnswer: "use sth; use sth to do", options: ["stare at sb/sth", "seem to be; it seems that", "refer to sth; refer sb to sth"]},
-{ Question: "foydali", RightAnswer: "useful for sth...; useful to sb", options: ["use sth; use sth to do", "stare at sb/sth", "seem to be; it seems that"]},
+{ Question: "faxr qilmoq", RightAnswer: "proud; proud to do", options: ["prepare for sth; prepare to do", "plenty of sth; plenty more sth", "insist on sth...; insist that"]},
+{ Question: "tilga olmoq", RightAnswer: "refer to sth; refer sb to sth", options: ["proud; proud to do", "prepare for sth; prepare to do", "plenty of sth; plenty more sth"]},
+{ Question: "ko‘rinmoq", RightAnswer: "seem to be; it seems that", options: ["refer to sth; refer sb to sth", "proud; proud to do", "prepare for sth; prepare to do"]},
+{ Question: "tikilib qaramoq", RightAnswer: "stare at", options: ["seem to be; it seems that", "refer to sth; refer sb to sth", "proud; proud to do"]},
+{ Question: "foydalanmoq", RightAnswer: "use sth; use sth to do", options: ["stare at", "seem to be; it seems that", "refer to sth; refer sb to sth"]},
+{ Question: "foydali", RightAnswer: "useful for sth...; useful to sb", options: ["use sth; use sth to do", "stare at", "seem to be; it seems that"]},
 { Question: "reklama qilmoq", RightAnswer: "advertise", options: ["match", "suit", "fit"]},
 { Question: "reklama", RightAnswer: "ad(vert)", options: ["glance", "glimpse", "manufacture"]},
 { Question: "reklama qilish", RightAnswer: "advertising", options: ["ad(vert)", "glance", "glimpse"]},
@@ -12138,11 +12138,11 @@ const destinationQuestions = {
 { Question: "ish beruvchi", RightAnswer: "employer", options: ["user", "usage", "success"]},
 { Question: "ishchi", RightAnswer: "employee", options: ["employer", "user", "usage"]},
 { Question: "xodimlar", RightAnswer: "staff", options: ["a trend in sth", "a checked pattern", "fashion show"]},
-{ Question: "ish haqi (kunlik/haftalik)", RightAnswer: "wage(s)", options: ["employee", "employer", "user"]},
-{ Question: "maosh (oylik)", RightAnswer: "salary", options: ["wage(s)", "employee", "employer"]},
+{ Question: "ish haqi (kunlik/haftalik)", RightAnswer: "wage", options: ["employee", "employer", "user"]},
+{ Question: "maosh (oylik)", RightAnswer: "salary", options: ["wage", "employee", "employer"]},
 { Question: "haq to‘lash", RightAnswer: "pay", options: ["hurt", "murder", "blame"]},
-{ Question: "qo‘shimcha ish vaqti", RightAnswer: "overtime", options: ["salary", "wage(s)", "employee"]},
-{ Question: "lavozim ko‘tarilishi", RightAnswer: "promotion", options: ["overtime", "salary", "wage(s)"]},
+{ Question: "qo‘shimcha ish vaqti", RightAnswer: "overtime", options: ["salary", "wage", "employee"]},
+{ Question: "lavozim ko‘tarilishi", RightAnswer: "promotion", options: ["overtime", "salary", "wage"]},
 { Question: "nafaqa", RightAnswer: "pension", options: ["promotion", "overtime", "salary"]},
 { Question: "ish", RightAnswer: "job", options: ["pension", "promotion", "overtime"]},
 { Question: "ish (umuman)", RightAnswer: "work", options: ["pay", "hurt", "murder"]},
@@ -12179,13 +12179,13 @@ const destinationQuestions = {
 { Question: "boshqaruvni qo‘lga olmoq", RightAnswer: "take over", options: ["take on", "stand in for", "speed up"]},
 { Question: "rad qilmoq", RightAnswer: "turn down", options: ["take over", "take on", "stand in for"]},
 { Question: "kelishuvga erishmoq", RightAnswer: "come to/reach (an) agreement (on/about sth)", options: ["have good taste", "set a trend", "follow a trend"]},
-{ Question: "kelishuvga ko‘ra", RightAnswer: "in agreement (on/about/with sth)", options: ["in good taste", "out of style", "in style"]},
+{ Question: "kelishuvga ko‘ra", RightAnswer: "in agreement (on/about sth)", options: ["in good taste", "out of style", "in style"]},
 { Question: "kelishuv tuzmoq", RightAnswer: "make an arrangement", options: ["come to/reach (an) agreement (on/about sth)", "have good taste", "set a trend"]},
 { Question: "kelishuvga ega bo‘lmoq", RightAnswer: "have an arrangement", options: ["make an arrangement", "come to/reach (an) agreement (on/about sth)", "have good taste"]},
 { Question: "(biror narsa uchun) kelishuv", RightAnswer: "arrangement for sth", options: ["staff", "a trend in sth", "a checked pattern"]},
-{ Question: "kim bilan kelishilgan", RightAnswer: "in agreement with sb", options: ["in agreement (on/about/with sth)", "in good taste", "out of style"]},
+{ Question: "kim bilan kelishilgan", RightAnswer: "in agreement with sb", options: ["in agreement (on/about sth)", "in good taste", "out of style"]},
 { Question: "(kim bilandir) ish qilmoq", RightAnswer: "do business", options: ["have an arrangement", "make an arrangement", "come to/reach (an) agreement (on/about sth)"]},
-{ Question: "ishda", RightAnswer: "in business", options: ["in agreement with sb", "in agreement (on/about/with sth)", "in good taste"]},
+{ Question: "ishda", RightAnswer: "in business", options: ["in agreement with sb", "in agreement (on/about sth)", "in good taste"]},
 { Question: "xizmat safari bilan bormoq", RightAnswer: "go somewhere on business", options: ["do business", "have an arrangement", "make an arrangement"]},
 { Question: "xizmat safari", RightAnswer: "business trip", options: ["arrangement for sth", "staff", "a trend in sth"]},
 { Question: "kichik biznes", RightAnswer: "small business", options: ["business trip", "arrangement for sth", "staff"]},
@@ -12199,16 +12199,16 @@ const destinationQuestions = {
 { Question: "qaror qabul qilmoq", RightAnswer: "reach a decision (about sth)", options: ["make a decision ", "take a day off", "make a complaint"]},
 { Question: "burchga ega bo‘lmoq", RightAnswer: "have a duty", options: ["reach a decision (about sth)", "make a decision ", "take a day off"]},
 { Question: "burch hissi", RightAnswer: "a sense of duty", options: ["day shift", "day job", "letter of complaint"]},
-{ Question: "navbatchilikda", RightAnswer: "on duty", options: ["in business", "in agreement with sb", "in agreement (on/about/with sth)"]},
+{ Question: "navbatchilikda", RightAnswer: "on duty", options: ["in business", "in agreement with sb", "in agreement (on/about sth)"]},
 { Question: "harakat qilmoq", RightAnswer: "make an effort", options: ["have a duty", "reach a decision (about sth)", "make a decision "]},
-{ Question: "(biror ishga) kuch sarflash", RightAnswer: "put effort into sth...", options: ["make an effort", "have a duty", "reach a decision (about sth)"]},
-{ Question: "tajribaga ega bo‘lmoq", RightAnswer: "gain experience", options: ["put effort into sth...", "make an effort", "have a duty"]},
-{ Question: "(biror narsa/ishda) tajribali ", RightAnswer: "experienced in/at sth...", options: ["short of money", "disappointed by ", "out of control"]},
-{ Question: "qiziqish bildirmoq", RightAnswer: "take an interest in sth...", options: ["gain experience", "put effort into sth...", "make an effort"]},
+{ Question: "(biror ishga) kuch sarflash", RightAnswer: "put effort into st", options: ["make an effort", "have a duty", "reach a decision (about sth)"]},
+{ Question: "tajribaga ega bo‘lmoq", RightAnswer: "gain experience", options: ["put effort into st", "make an effort", "have a duty"]},
+{ Question: "(biror narsa/ishda) tajribali ", RightAnswer: "experienced in st", options: ["short of money", "disappointed by ", "out of control"]},
+{ Question: "qiziqish bildirmoq", RightAnswer: "take an interest in st", options: ["gain experience", "put effort into st", "make an effort"]},
 { Question: "qilish sizga foydali ", RightAnswer: "in your interest to do", options: ["last but not least", "enough is enough", "at first sight"]},
-{ Question: "ish qilmoq", RightAnswer: "do a job", options: ["take an interest in sth...", "gain experience", "put effort into sth..."]},
-{ Question: "ishga ega bo‘lmoq", RightAnswer: "have a job", options: ["do a job", "take an interest in sth...", "gain experience"]},
-{ Question: "ishga murojaat qilmoq", RightAnswer: "apply for a job", options: ["have a job", "do a job", "take an interest in sth..."]},
+{ Question: "ish qilmoq", RightAnswer: "do a job", options: ["take an interest in st", "gain experience", "put effort into st"]},
+{ Question: "ishga ega bo‘lmoq", RightAnswer: "have a job", options: ["do a job", "take an interest in st", "gain experience"]},
+{ Question: "ishga murojaat qilmoq", RightAnswer: "apply for a job", options: ["have a job", "do a job", "take an interest in st"]},
 { Question: "ishga joylashmoq", RightAnswer: "take a job", options: ["apply for a job", "have a job", "do a job"]},
 { Question: "ish suhbat", RightAnswer: "job interview", options: ["a sense of duty", "day shift", "day job"]},
 { Question: "ish taklifi", RightAnswer: "job offer", options: ["job interview", "a sense of duty", "day shift"]},
@@ -12221,22 +12221,22 @@ const destinationQuestions = {
 { Question: "ish qilmoq", RightAnswer: "do some work", options: ["take responsibility", "get good pay", "pay sb a compliment"]},
 { Question: "bajaradigan ish bo‘lmoq", RightAnswer: "have work to do", options: ["do some work", "take responsibility", "get good pay"]},
 { Question: "mehnat qilmoq", RightAnswer: "work hard", options: ["have work to do", "do some work", "take responsibility"]},
-{ Question: "ishga sho‘ng‘igan ", RightAnswer: "hard at work", options: ["experienced in/at sth...", "short of money", "disappointed by "]},
+{ Question: "ishga sho‘ng‘igan ", RightAnswer: "hard at work", options: ["experienced in st", "short of money", "disappointed by "]},
 { Question: "ishsiz", RightAnswer: "out of work", options: ["on duty", "in business", "in agreement with sb"]},
 { Question: "ish joyi", RightAnswer: "place of work", options: ["job advert", "job offer", "job interview"]},
 { Question: "uydan ishlamoq", RightAnswer: "work from home", options: ["work hard", "have work to do", "do some work"]},
-{ Question: "...dan yo‘q bo‘lmoq", RightAnswer: "absent from sth", options: ["useful for sth...; useful to sb", "use sth; use sth to do", "stare at sb/sth"]},
+{ Question: "...dan yo‘q bo‘lmoq", RightAnswer: "absent from sth", options: ["useful for sth...; useful to sb", "use sth; use sth to do", "stare at"]},
 { Question: "...ga hujjat topshirmoq", RightAnswer: "apply for sth", options: ["absent from sth", "useful for sth...; useful to sb", "use sth; use sth to do"]},
 { Question: "...ga biriktirmoq", RightAnswer: "attach sth to sth", options: ["apply for sth", "absent from sth", "useful for sth...; useful to sb"]},
-{ Question: "boshlamoq", RightAnswer: "begin doing/to do sth", options: ["attach sth to sth", "apply for sth", "absent from sth"]},
-{ Question: "...ga tayanmoq", RightAnswer: "depend on ...", options: ["begin doing/to do sth", "attach sth to sth", "apply for sth"]},
-{ Question: "...da tajribali bo‘lmoq", RightAnswer: "experienced in/at", options: ["depend on ...", "begin doing/to do sth", "attach sth to sth"]},
-{ Question: "foydali bo‘lmoq", RightAnswer: "good for sb (to do sth)", options: ["experienced in/at", "depend on ...", "begin doing/to do sth"]},
-{ Question: "malaka olmoq", RightAnswer: "qualify as sth", options: ["good for sb (to do sth)", "experienced in/at", "depend on ..."]},
-{ Question: "mas’ul bo‘lmoq", RightAnswer: "responsible for sth...", options: ["qualify as sth", "good for sb (to do sth)", "experienced in/at"]},
-{ Question: "ixtisoslashmoq", RightAnswer: "specialise in sth...", options: ["responsible for sth...", "qualify as sth", "good for sb (to do sth)"]},
-{ Question: "tayyorlanmoq", RightAnswer: "train to do", options: ["specialise in sth...", "responsible for sth...", "qualify as sth"]},
-{ Question: "... sifatida ishlamoq", RightAnswer: "work as", options: ["train to do", "specialise in sth...", "responsible for sth..."]},
+{ Question: "boshlamoq", RightAnswer: "begin doing sth", options: ["attach sth to sth", "apply for sth", "absent from sth"]},
+{ Question: "...ga tayanmoq", RightAnswer: "depend on", options: ["begin doing/to do sth", "attach sth to sth", "apply for sth"]},
+{ Question: "...da tajribali bo‘lmoq", RightAnswer: "experienced in", options: ["depend on", "begin doing/to do sth", "attach sth to sth"]},
+{ Question: "foydali bo‘lmoq", RightAnswer: "good for sb", options: ["experienced in", "depend on", "begin doing/to do sth"]},
+{ Question: "malaka olmoq", RightAnswer: "qualify as sth", options: ["good for sb", "experienced in", "depend on"]},
+{ Question: "mas’ul bo‘lmoq", RightAnswer: "responsible for st", options: ["qualify as sth", "good for sb", "experienced in"]},
+{ Question: "ixtisoslashmoq", RightAnswer: "specialise in st", options: ["responsible for st", "qualify as sth", "good for sb"]},
+{ Question: "tayyorlanmoq", RightAnswer: "train to do", options: ["specialise in st", "responsible for st", "qualify as sth"]},
+{ Question: "... sifatida ishlamoq", RightAnswer: "work as", options: ["train to do", "specialise in st", "responsible for st"]},
 { Question: "qo‘shmoq", RightAnswer: "add", options: ["sack", "fire", "resign"]},
 { Question: "qo‘shish", RightAnswer: "addition", options: ["charity", "union", "business"]},
 { Question: "qo‘shimcha", RightAnswer: "additional", options: ["usable", "useful", "successful"]},
@@ -12292,3 +12292,4 @@ const destinationQuestions = {
 { Question: "ishchi", RightAnswer: "worker", options: ["work", "supervisor", "supervision"]},
 { Question: "zavod/fabrika", RightAnswer: "works", options: ["worker", "work", "supervisor"]}]
 }
+    
