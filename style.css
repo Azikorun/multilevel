@@ -26,6 +26,11 @@ h1, h2 {
 #home-button {
     z-index: 999;
 }
+#page-title {
+  margin-top: 70px; /* ⬅️ Increase this value as needed */
+  text-align: center;
+  font-size: 32px;
+}
 
 #diamond-bar {
   position: fixed;
@@ -33,7 +38,7 @@ h1, h2 {
   left: 50%;                        /* Center horizontally */
   transform: translateX(-50%);      /* Shift back half of its own width */
   height: 30px;
-  background-color: #fefefe00;
+  background-color: #fefefec1;
   border: 2px solid #313132;
   color: rgb(53, 43, 43);
   padding: 0 0 0 10px;  
@@ -250,7 +255,7 @@ body.dark-mode #diamond-bar {
 
 #slider-container {
     width: 100%;
-    overflow: hidden;  /* 🚨 disable native scrolling */
+    overflow: hidden; 
 }
 
 #slider-container::-webkit-scrollbar {
@@ -386,7 +391,7 @@ body.dark-mode #diamond-bar {
 }
 .set-group h3 {
     margin-top: 20px;
-    margin-bottom: 20;
+    margin-bottom: 20px;
     font-size: 20px;
     color: #555;
     text-align: center;   /* ✅ centers the text */
@@ -682,11 +687,12 @@ body.dark-mode .typing-submit-btn:disabled {
 }
 
 .correct-answer-hint {
-    font-size: 24px;
+    font-size: 16px;
     color: #28a745;
-    font-weight: bold;
-    margin-top: 20px;   /* Top spacing only */
-    text-align: left;
+    font-weight: initial;
+    margin-top: 10px;   /* Top spacing only */
+    margin-right: 10px;
+    text-align: left; 
 }
 
 
@@ -784,7 +790,6 @@ body.dark-mode #next-btn:hover {
     box-shadow: 0 0 10px #ffffffaa;
 }
 
-body.dark-mode .set-group,
 body.dark-mode .question-box,
 body.dark-mode .answer-slot,
 body.dark-mode .match-draggable,
