@@ -398,6 +398,8 @@ function showMatchingQuizSets() {
     setupSwipe();
     updateNavButtons();
     document.getElementById('nav-buttons').style.display = 'block';
+    document.getElementById('submit-matching').disabled = false;
+
 }
 
 function setupSwipe() {
@@ -444,6 +446,7 @@ function updateNavButtons() {
     prevBtn.style.display = currentSlide === 0 ? 'none' : 'inline-block';
     nextBtn.style.display = currentSlide === (totalSets - 1) ? 'none' : 'inline-block';
     submitBtn.style.display = currentSlide === (totalSets - 1) ? 'inline-block' : 'none';
+    submitBtn.disabled = false;
 }
 
 function handleDrop(e, slot) {
